@@ -1,0 +1,702 @@
+[
+  {
+    "id": "asplenium_nidus",
+    "scientific_name": "Asplenium nidus",
+    "common_names": { "zh-TW": "山蘇（鳥巢蕨）", "en": "Bird's Nest Fern" },
+    "category": "edible",
+    "edible_parts": ["嫩捲葉（中心尚未展開的幼葉）"],
+    "morphology": {
+      "leaf_shape": "大型單葉，長披針形，長 50-120cm，寬 10-15cm",
+      "leaf_arrangement": "叢生，從中心向外輻射展開，形成鳥巢狀（關鍵特徵）",
+      "leaf_surface": "光滑，革質，全緣（無鋸齒），鮮綠色",
+      "midrib": "明顯的黑褐色中肋",
+      "sori": "葉背有線狀孢子囊群，沿側脈排列",
+      "growth_pattern": "附生在樹幹上或岩石上"
+    },
+    "habitat": "中低海拔潮濕森林，附生於大樹幹或岩壁，海拔 200-1500m",
+    "harvesting": {
+      "target": "只採中心尚未完全展開的嫩捲葉",
+      "method": "用手或刀從基部折斷嫩芽，保留成熟葉確保植物持續生長",
+      "season": "全年可採，春夏嫩芽最多",
+      "sustainability": "每株最多採 1-2 支嫩芽，勿過度採集"
+    },
+    "preparation": {
+      "method": "川燙後即可食用，也可快炒",
+      "cooking_time": "川燙 1-2 分鐘",
+      "taste": "口感滑嫩，微帶黏性",
+      "notes": "可加薑絲、蒜末調味，是台灣原住民傳統野菜"
+    },
+    "nutrition": "富含維生素A、鈣、鐵、膳食纖維",
+    "caution": "確認是山蘇而非其他蕨類。只食用嫩捲葉，成熟葉較硬不適合食用。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [200, 1500],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "diplazium_esculentum",
+    "scientific_name": "Diplazium esculentum",
+    "common_names": { "zh-TW": "過貓（過溝菜蕨）", "en": "Vegetable Fern" },
+    "category": "edible",
+    "edible_parts": ["嫩莖", "幼葉（捲曲的拳頭狀嫩芽）"],
+    "morphology": {
+      "leaf_shape": "二回羽狀複葉，成熟株高可達 1-2m",
+      "leaf_arrangement": "叢生",
+      "young_shoot": "頂端捲曲呈拳頭狀（蕨類典型特徵）——可食部位",
+      "leaf_surface": "嫩葉綠色帶微紅，有細毛",
+      "stem": "莖部黑褐色，有鱗片"
+    },
+    "habitat": "溪邊、潮濕地、水田旁，海拔 0-1000m",
+    "harvesting": {
+      "target": "嫩莖頂端捲曲處（約 15-20cm）",
+      "method": "用手從柔軟處折斷",
+      "season": "全年可採，春夏最嫩",
+      "sustainability": "只採嫩芽，保留根部和成熟植株"
+    },
+    "preparation": {
+      "method": "川燙或快炒，務必煮熟",
+      "cooking_time": "川燙 2-3 分鐘",
+      "taste": "口感滑嫩，微帶黏液感",
+      "notes": "不建議生食。可涼拌（川燙後）或炒肉絲。"
+    },
+    "nutrition": "蛋白質、鐵質、維生素C",
+    "caution": "避免採食不認識的蕨類。部分蕨類含致癌物質，過貓需煮熟食用。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [0, 1000],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "hedychium_coronarium",
+    "scientific_name": "Hedychium coronarium",
+    "common_names": { "zh-TW": "野薑花", "en": "White Ginger Lily" },
+    "category": "edible_and_medicinal",
+    "edible_parts": ["花瓣", "嫩莖", "根莖（調味用）"],
+    "morphology": {
+      "leaf_shape": "長橢圓形披針狀，長 20-40cm，互生排列",
+      "leaf_surface": "綠色，光滑，葉背微被毛",
+      "flower": "白色蝴蝶形花朵，香氣濃郁（關鍵辨識特徵）",
+      "stem": "直立草本，高 100-200cm",
+      "rhizome": "根莖塊狀，有薑味"
+    },
+    "habitat": "溪邊、水田旁、潮濕地，海拔 0-800m",
+    "harvesting": {
+      "target": "花朵（盛開時最佳）、嫩莖心",
+      "method": "花朵用手摘取。嫩莖從基部折斷。",
+      "season": "花期 6-10 月",
+      "sustainability": "採花不影響植株生長"
+    },
+    "preparation": {
+      "method": "花瓣可直接食用或入菜。嫩莖可炒食。根莖可當薑使用。",
+      "cooking_time": "嫩莖快炒 3-5 分鐘",
+      "taste": "花瓣清香，嫩莖清脆，根莖辛辣如薑",
+      "notes": "野薑花粽是台灣知名料理。花朵可泡茶。"
+    },
+    "nutrition": "維生素C、礦物質",
+    "medicinal_uses": ["根莖：去寒、消腫"],
+    "caution": "確認花朵為純白蝴蝶形且有濃郁香氣。勿與其他薑科植物混淆。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [0, 800],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "plantago_major",
+    "scientific_name": "Plantago major",
+    "common_names": { "zh-TW": "車前草", "en": "Broadleaf Plantain" },
+    "category": "edible_and_medicinal",
+    "edible_parts": ["嫩葉"],
+    "morphology": {
+      "leaf_shape": "橢圓形至卵形，長 5-20cm，寬 3-10cm",
+      "leaf_arrangement": "基生蓮座狀（所有葉從基部長出，貼地展開）",
+      "leaf_surface": "綠色，葉面有明顯的 3-7 條平行脈（關鍵特徵）",
+      "leaf_margin": "全緣或微波狀",
+      "flower": "穗狀花序，直立花莖，長 5-20cm，小花密集",
+      "stem": "無明顯莖，僅有花莖直立"
+    },
+    "habitat": "路邊、荒地、草地、林緣、步道旁，海拔 0-2500m，極常見",
+    "harvesting": {
+      "target": "嫩葉（春季最嫩）",
+      "method": "從基部摘取嫩葉",
+      "season": "春夏最佳",
+      "sustainability": "保留根部，會持續長出新葉"
+    },
+    "preparation": {
+      "method": "可生食或煮食。嫩葉川燙後涼拌。",
+      "cooking_time": "川燙 1-2 分鐘",
+      "taste": "略帶苦味，嫩葉較甜",
+      "notes": "老葉纖維多，較適合煮湯。"
+    },
+    "nutrition": "維生素A、C、K、鈣、鐵",
+    "medicinal_uses": ["消炎", "抗菌", "止血", "利尿", "搗碎鮮葉敷傷口可止血消炎"],
+    "caution": "確認平行脈特徵。避免採集路邊受農藥或汽車廢氣污染的植株。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [0, 2500],
+      "climate_zones": ["亞熱帶", "溫帶", "熱帶"]
+    }
+  },
+  {
+    "id": "solanum_nigrum",
+    "scientific_name": "Solanum nigrum",
+    "common_names": { "zh-TW": "龍葵（黑籽仔菜）", "en": "Black Nightshade" },
+    "category": "edible",
+    "edible_parts": ["嫩莖葉", "成熟果實（全黑時）"],
+    "morphology": {
+      "leaf_shape": "卵形至橢圓形，長 3-10cm，葉緣全緣或微波狀",
+      "leaf_surface": "綠色，薄紙質",
+      "flower": "白色小花，5 瓣，花心黃色，2-8 朵成聚繖花序",
+      "fruit": "球形漿果，直徑 6-8mm，未熟時綠色，成熟後全黑（關鍵）",
+      "stem": "草本，高 30-100cm，莖多分枝"
+    },
+    "habitat": "荒地、田邊、路旁、廢耕地，海拔 0-1500m，極常見",
+    "harvesting": {
+      "target": "嫩莖葉（全年）。果實僅採全黑成熟者。",
+      "method": "摘取嫩枝頂端 10-15cm",
+      "season": "全年可採",
+      "sustainability": "摘取嫩枝會促進分枝生長"
+    },
+    "preparation": {
+      "method": "嫩莖葉川燙或炒食。成熟黑果可直接食用。",
+      "cooking_time": "川燙 2-3 分鐘",
+      "taste": "嫩葉略帶苦味，黑果微甜",
+      "notes": "是台灣常見的野菜，常用蒜末快炒。"
+    },
+    "nutrition": "維生素C、蛋白質、鈣",
+    "caution": "⚠️ 未成熟的綠色果實含龍葵鹼（solanine），有毒！只能食用完全成熟的黑色果實。嫩莖葉需煮熟。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "溫帶", "熱帶"]
+    }
+  },
+  {
+    "id": "crassocephalum_crepidioides",
+    "scientific_name": "Crassocephalum crepidioides",
+    "common_names": { "zh-TW": "昭和草（飛機草）", "en": "Redflower Ragleaf" },
+    "category": "edible",
+    "edible_parts": ["嫩莖葉"],
+    "morphology": {
+      "leaf_shape": "長橢圓形，長 5-15cm，葉緣有不規則鋸齒或裂片",
+      "leaf_surface": "綠色，略帶紫暈，柔軟",
+      "flower": "頭狀花序，下垂，花冠橘紅色（關鍵特徵）",
+      "stem": "直立草本，高 20-80cm，莖中空，斷面有白色乳汁",
+      "fruit": "瘦果帶白色冠毛（似蒲公英），可隨風飄散"
+    },
+    "habitat": "荒地、路旁、農田邊、開闊地，海拔 0-2000m，非常常見",
+    "harvesting": {
+      "target": "嫩莖葉（開花前最嫩最甜）",
+      "method": "摘取頂端嫩莖 10-20cm",
+      "season": "全年可採，冬春最佳",
+      "sustainability": "生長快速，採集不影響族群"
+    },
+    "preparation": {
+      "method": "川燙後涼拌、炒食、煮湯皆可。",
+      "cooking_time": "川燙 1-2 分鐘",
+      "taste": "口感滑嫩，有特殊清香，略帶甘甜",
+      "notes": "味道類似茼蒿，是野外最容易取得的野菜之一。可煮味噌湯。"
+    },
+    "nutrition": "維生素A、C、鈣、鐵",
+    "caution": "辨識重點是橘紅色下垂花序和斷莖白色乳汁。避免與其他菊科植物混淆。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "colocasia_esculenta",
+    "scientific_name": "Colocasia esculenta",
+    "common_names": { "zh-TW": "芋頭", "en": "Taro" },
+    "category": "edible",
+    "edible_parts": ["塊莖（須煮熟）", "嫩莖（須煮熟）"],
+    "morphology": {
+      "leaf_shape": "心形，長 20-50cm",
+      "leaf_surface": "有天鵝絨般的微絨毛質感，不太光滑",
+      "water_droplet_test": "水珠在葉面呈圓珠狀滾動（荷葉效應）",
+      "leaf_tip": "通常朝下垂",
+      "petiole": "接在葉片邊緣內側（盾狀著生），綠色，較少紫暈",
+      "underground": "有圓形塊莖"
+    },
+    "habitat": "田間栽培、溪邊野生化，海拔 0-1000m",
+    "harvesting": {
+      "target": "塊莖（地下部分）",
+      "method": "挖掘地下塊莖",
+      "season": "全年可採，秋冬塊莖最大",
+      "sustainability": "保留部分塊莖可再生"
+    },
+    "preparation": {
+      "method": "必須完全煮熟！生芋頭含草酸鈣，食用會導致口腔麻痺。",
+      "cooking_time": "蒸煮 20-30 分鐘至熟透",
+      "taste": "鬆軟綿密，微甜",
+      "notes": "處理生芋頭時建議戴手套，汁液可能引起皮膚搔癢。"
+    },
+    "nutrition": "碳水化合物（能量來源）、膳食纖維、鉀",
+    "caution": "⚠️ 極易與有毒的姑婆芋混淆！必須做水珠測試和葉柄接合處確認。若無法確定，禁止食用。生芋頭不可食用。",
+    "confusion_risk": "critical",
+    "distribution": {
+      "altitude_range": [0, 1000],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "auricularia_auricula_judae",
+    "scientific_name": "Auricularia auricula-judae",
+    "common_names": { "zh-TW": "木耳", "en": "Wood Ear Mushroom" },
+    "category": "edible",
+    "edible_parts": ["子實體（整朵）"],
+    "morphology": {
+      "shape": "耳狀或碗狀，直徑 3-10cm",
+      "surface": "外面有細微絨毛，灰褐色。內面光滑，深褐色至黑色。",
+      "texture": "新鮮時膠質狀、半透明、有彈性。乾燥後硬縮，泡水恢復。",
+      "growth_pattern": "叢生於枯木或腐木表面（關鍵特徵）",
+      "color": "深褐色至黑色"
+    },
+    "habitat": "枯木、腐木表面，潮濕森林中，海拔 0-2000m",
+    "harvesting": {
+      "target": "新鮮、完整、無異味的子實體",
+      "method": "用手或刀從木頭上摘取",
+      "season": "雨後最多，春秋最佳",
+      "sustainability": "保留部分讓其釋放孢子繁殖"
+    },
+    "preparation": {
+      "method": "川燙或炒食。新鮮木耳可直接料理。",
+      "cooking_time": "川燙 2-3 分鐘或快炒 3-5 分鐘",
+      "taste": "口感脆嫩滑彈，幾乎無味，吸附湯汁佳",
+      "notes": "涼拌時建議先川燙殺菌。"
+    },
+    "nutrition": "鐵質、膳食纖維、多醣體",
+    "caution": "確認生長在枯木上（而非土壤）。避免採集已腐爛、發臭、或顏色異常的菇體。不確定時禁止食用。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶", "溫帶", "熱帶"]
+    }
+  },
+  {
+    "id": "nephrolepis_cordifolia",
+    "scientific_name": "Nephrolepis cordifolia",
+    "common_names": { "zh-TW": "腎蕨（山鳳梨）", "en": "Tuberous Sword Fern" },
+    "category": "edible_and_water",
+    "edible_parts": ["球形儲水塊莖（地下）"],
+    "morphology": {
+      "leaf_shape": "一回羽狀複葉，長 30-80cm，小葉互生，長 2-4cm",
+      "leaf_arrangement": "叢生，向外弧形展開",
+      "leaf_surface": "綠色，薄草質",
+      "underground": "根部有球形儲水塊莖，直徑 1-2cm（關鍵特徵，含水分）",
+      "growth_pattern": "地生或附生，常見於路旁岩壁"
+    },
+    "habitat": "低中海拔林緣、路旁、岩壁，海拔 0-1500m，極常見",
+    "harvesting": {
+      "target": "地下球形儲水塊莖",
+      "method": "挖掘根部，摘取球形塊莖，剝去外皮",
+      "season": "全年可採",
+      "sustainability": "保留根系，會再生塊莖"
+    },
+    "preparation": {
+      "method": "剝皮後可直接生食或煮食。塊莖含水分，可解渴。",
+      "cooking_time": "可生食，或煮 5-10 分鐘",
+      "taste": "微甜，含水分，口感像荸薺",
+      "notes": "在缺水情況下是重要的水分來源。台灣原住民稱為「山鳳梨」。"
+    },
+    "nutrition": "水分（主要價值）、碳水化合物",
+    "caution": "確認是腎蕨（一回羽狀複葉 + 地下球形塊莖）。其他蕨類無此塊莖。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "oenanthe_javanica",
+    "scientific_name": "Oenanthe javanica",
+    "common_names": { "zh-TW": "山芹菜（水芹菜）", "en": "Water Dropwort" },
+    "category": "edible",
+    "edible_parts": ["嫩莖葉"],
+    "morphology": {
+      "leaf_shape": "二至三回羽狀複葉，小葉卵形至菱形，長 1-3cm，葉緣鋸齒狀",
+      "leaf_surface": "綠色，光滑",
+      "flower": "複繖形花序，白色小花",
+      "stem": "中空，光滑，有節，匍匐莖可水生",
+      "smell": "有獨特的芹菜香味（關鍵辨識特徵）"
+    },
+    "habitat": "溪邊、水田、潮濕地、沼澤邊緣，海拔 0-1500m",
+    "harvesting": {
+      "target": "嫩莖葉（頂端 10-15cm）",
+      "method": "從節上方折取嫩莖",
+      "season": "全年可採，春季最嫩",
+      "sustainability": "匍匐莖會持續生長"
+    },
+    "preparation": {
+      "method": "川燙或快炒。香味濃郁，適合炒肉絲或煮湯。",
+      "cooking_time": "快炒 2-3 分鐘",
+      "taste": "芹菜香味濃郁，口感脆嫩",
+      "notes": "味道比一般芹菜更濃郁。"
+    },
+    "nutrition": "維生素A、C、鈣、鐵",
+    "caution": "⚠️ 注意！同屬的毒水芹（Oenanthe crocata）劇毒。確認有芹菜香味，且生長在乾淨水源旁。水質不佳的地方不建議採集（寄生蟲風險）。",
+    "confusion_risk": "high",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "bidens_pilosa_var_radiata",
+    "scientific_name": "Bidens pilosa var. radiata",
+    "common_names": { "zh-TW": "大花咸豐草（鬼針草）", "en": "Spanish Needle (Radiate Variety)" },
+    "category": "edible",
+    "edible_parts": ["嫩莖葉", "花（泡茶）"],
+    "morphology": {
+      "plant_habit": "一年生草本，株高 30-100cm，分枝多而蔓延或直立",
+      "stem": "莖具四稜或近似方形、有明顯稜線（便於手觸辨識）",
+      "leaves": "葉對生，三出複葉或羽狀複葉，小葉卵形、葉緣具鋸齒，質地薄而稍粗糙",
+      "inflorescence": "頭狀花序頂生或腋生；中央為黃色管狀花，周圍具 5-8 枚白色舌狀花（關鍵特徵，與無舌狀花變種區別）",
+      "fruit": "瘦果具 2-3 枚倒鉤刺狀芒，極易黏附衣物與動物毛髮（關鍵特徵）",
+      "overall": "台灣低海拔至中海拔最常見的可食野草之一，全年可見開花結果"
+    },
+    "habitat": "路旁、荒地、田邊、空屋旁與草坪邊緣，海拔 0-2500m，北臺與都會區極常見",
+    "harvesting": {
+      "target": "未木質化之嫩莖與幼葉；盛開或半開花朵採少量泡茶",
+      "method": "折取頂芽或側枝嫩段，避免採集開過多老莖；花以指尖摘頭狀花序",
+      "season": "全年可採，春夏秋嫩葉品質最佳",
+      "sustainability": "族群量大，採嫩梢不傷根即可持續萌蘗；勿連根拔光同一片群聚"
+    },
+    "preparation": {
+      "method": "嫩莖葉川燙後涼拌、快炒或煮湯；乾燥花朵可沖泡花草茶",
+      "cooking_time": "川燙 1-2 分鐘；花茶以熱水悶泡 3-5 分鐘",
+      "taste": "嫩葉略帶草本清香，微苦回甘；花茶清淡",
+      "notes": "老莖纖維粗硬；摘採後若衣物沾瘦果，應即時清除以免刺痛皮膚。"
+    },
+    "nutrition": "維生素C、類黃酮、膳食纖維",
+    "caution": "辨識舌狀花與鉤刺瘦果即可與多數菊科野菜區分。腸胃敏感者不宜大量生食。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [0, 2500],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "alpinia_zerumbet",
+    "scientific_name": "Alpinia zerumbet",
+    "common_names": { "zh-TW": "月桃", "en": "Shell Ginger" },
+    "category": "edible",
+    "edible_parts": ["嫩葉（包粽、裹食）", "花", "種子（傳統加工原料）"],
+    "morphology": {
+      "plant_habit": "多年生大型草本，株高 1-3m，具地下匍匐莖與明顯地上假莖",
+      "leaves": "葉互生，長橢圓狀披針形，長 40-70cm、寬 8-15cm，具平行脈、葉質厚而亮綠",
+      "aroma": "葉片搓揉或撕裂後散發濃郁芳香（關鍵辨識特徵），近似薑花與肉桂混合調性",
+      "inflorescence": "圓錐花序自葉腋抽出並下垂，披覆蠟質苞片；花白色至淡粉紅，唇瓣近黃底色並常見紅色或紫紅條紋",
+      "fruit": "球形蒴果，具縱稜，成熟時果皮纖維質；內含種子可供傳統「仁丹」類製品原料",
+      "habit_note": "常成片生長於林緣與溪谷，葉叢寬大呈「芭蕉類」外觀但具薑科典型鞘狀葉柄"
+    },
+    "habitat": "低海拔森林邊緣、溪邊與谷地灌叢，潮濕半遮蔭處，海拔 0-800m",
+    "harvesting": {
+      "target": "展開中幼嫩大葉（包粽）、盛開前後花朵、成熟蒴果內種子（加工用須知情與法規）",
+      "method": "葉自葉鞘上方整片截取；花連短梗剪下；果實待稍乾裂前後採收",
+      "season": "葉全年可用，盛花期多集中在春夏，果熟期視海拔略異",
+      "sustainability": "同一叢輪流採外圍葉片，保留中央生長點；勿砍除整株"
+    },
+    "preparation": {
+      "method": "嫩葉煮軟後可作「月桃粽」外皮；花可汆燙入菜或甜湯；種子僅建議使用市售合法加工品",
+      "cooking_time": "粽葉需與米糉同蒸煮 1h 以上至軟；花汆燙 30 秒至 1 分鐘",
+      "taste": "葉香濃郁略帶辛辣芳香；花清甜並帶薑科清香",
+      "notes": "自行採種子制僅供文化認識，食用前宜確認安全與法源；外觀近似山薑屬他種時以香氣比對。"
+    },
+    "nutrition": "芳香精油成分、膳食纖維（葉）、少量礦物質",
+    "caution": "與觀賞朱蕉等不同科屬植物葉形偶似，務必以搓葉香氣與花序結構複核。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [0, 800],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "broussonetia_papyrifera",
+    "scientific_name": "Broussonetia papyrifera",
+    "common_names": { "zh-TW": "構樹（構桃）", "en": "Paper Mulberry" },
+    "category": "edible",
+    "edible_parts": ["成熟聚合假果（俗稱構樹果）", "嫩葉與嫩芽（需煮熟）"],
+    "morphology": {
+      "plant_habit": "落葉喬木，高 10–20m，樹皮灰褐，樹冠開展，為先驅陽性樹種",
+      "leaves": "葉互生，卵形至心形，常見 3–5 裂之掌狀裂葉，長 6–18cm；幼葉密被毛",
+      "leaf_texture": "葉面極粗糙、如砂紙觸感（關鍵特徵），葉背密被柔毛呈淡灰綠",
+      "sexes": "雌雄異株；雄花序柔荑狀，雌株結球形聚合果",
+      "fruit": "雌株果序圓球形，由多數小核果集生；成熟時橙紅色，表面具肉質小突起（關鍵特徵）",
+      "twigs": "小枝密毛，嫩梢可食時選未木質化者",
+      "ecology": "都市空廢地、河岸、防火巷與坡地皆極常見"
+    },
+    "habitat": "陽性開闊地、河岸、路旁、廢耕地與都市綠地邊緣，海拔 0-1500m",
+    "harvesting": {
+      "target": "全熟橙紅之聚合果；春季幼嫩葉芽",
+      "method": "果實用手摘取果序；嫩梢折取 10-15cm 頂端",
+      "season": "果熟多夏秋，嫩葉以春季最佳",
+      "sustainability": "雌雄株分離，採果不須砍樹；避免剝皮式採葉傷樹幹"
+    },
+    "preparation": {
+      "method": "果實可生食或打成果汁；嫩葉務必川燙或久煮去草酸與單寧澀味",
+      "cooking_time": "嫩葉川燙 2-3 分鐘或滾煮 5 分以上",
+      "taste": "熟果多汁微甜帶地瓜果香；嫩葉煮熟後澀味下降，略似桑科葉菜",
+      "notes": "未熟綠果酸澀強；過敏體質首次少量試食。"
+    },
+    "nutrition": "糖類、水分、維生素C（果實）、膳食纖維",
+    "caution": "務必採完全著色之熟果；嫩皮層可能刺激口腔，宜煮熟。勿與桑科未確認種類之乳汁植物混淆。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "morus_australis",
+    "scientific_name": "Morus australis",
+    "common_names": { "zh-TW": "小葉桑（野生桑）", "en": "Chinese Mulberry / Small-leaf Mulberry" },
+    "category": "edible",
+    "edible_parts": ["成熟桑椹（聚合果）", "嫩葉（煮湯）"],
+    "morphology": {
+      "plant_habit": "落葉灌木至小喬木，高 3-10m，枝條柔韌，皮孔明顯",
+      "leaves": "葉互生，卵形至廣卵形，或不規則缺刻與淺裂，長寬變異大，葉緣具鈍鋸齒",
+      "leaf_surface": "表面深綠、質地紙質至薄革質；嫩葉有毛，老葉較光滑無光澤",
+      "fruit": "雌花結長圓筒形至略柱狀之聚合果（俗稱桑椹）；未熟紅色，完全成熟深紫至近黑（關鍵特徵）",
+      "latex": "幼枝斷裂或葉柄撕裂可見白色乳汁（桑科常見，輔助辨識）",
+      "seasonal": "春季發葉，夏秋果熟，冬季落葉",
+      "habitat_note": "低海拔道路邊坡、田埂與河床灌叢常見"
+    },
+    "habitat": "低海拔山區林緣、溪邊、路肩與農田灌叢，海拔 0-1500m",
+    "harvesting": {
+      "target": "易脫落、色深紫黑之完熟桑椹；未展開之幼嫩葉",
+      "method": "果實以容器承接抖落或手摘；嫩葉折梢端",
+      "season": "桑椹多春夏至初秋，嫩葉春季最佳",
+      "sustainability": "留樹上一部分果實供鳥類與播種；採葉勿去光單株所有葉片"
+    },
+    "preparation": {
+      "method": "桑椹可鮮食、做果醬或煮甜湯；嫩葉川燙煮蛋花湯或肉湯",
+      "cooking_time": "嫩葉川燙 1-2 分鐘後煮湯 5-10 分鐘",
+      "taste": "熟椹蜜甜微酸；嫩葉湯清新略澀",
+      "notes": "白椹或紅椹未轉黑前單寧與酸度較高；衣物沾染紫汁難洗。"
+    },
+    "nutrition": "花青素、維生素C、鐵、膳食纖維",
+    "caution": "與其他聚合漿果混淆時以樹形、葉形與乳汁確認。胃酸過多者少食大量酸椹。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "溫帶", "熱帶"]
+    }
+  },
+  {
+    "id": "amaranthus_viridis",
+    "scientific_name": "Amaranthus viridis",
+    "common_names": { "zh-TW": "野莧菜（綠莧）", "en": "Green Amaranth" },
+    "category": "edible",
+    "edible_parts": ["嫩莖葉"],
+    "morphology": {
+      "plant_habit": "一年生草本，高 20-80cm，具多數分枝，全株鮮綠或莖帶淡紅",
+      "stem": "莖直立或斜上，表面溝稜明顯；節間長度中等",
+      "leaves": "葉互生，卵形至菱形，長 3-8cm，先端漸尖，葉緣全緣，葉柄長",
+      "inflorescence": "穗狀花序頂生與腋生，小花密集呈細長或圓錐狀，花被淡綠不顯眼",
+      "seeds": "胞果開裂釋出大量黑色、微小而光亮種子（關鍵於成熟植株辨識）",
+      "overall": "常見於耕作地旁與水泥縫隙，質地柔嫩，易與某些有毒双子葉幼株混淆"
+    },
+    "habitat": "荒地、田邊、菜園畦溝、公寓花台土，海拔 0-2000m，全年可見",
+    "harvesting": {
+      "target": "株高未抽長花序前之嫩梢與未老硬葉片",
+      "method": "折取頂芽 10-20cm；避免連根拔起以利土壤保持",
+      "season": "全年可採，冬春溫暖時仍見幼株",
+      "sustainability": "多利用暫時裸地，採後常由自播小苗補位"
+    },
+    "preparation": {
+      "method": "嫩莖葉川燙後炒食、煮粥或煮羹；亦可切碎煎蛋",
+      "cooking_time": "川燙 1 分鐘後快炒 2-3 分鐘",
+      "taste": "清淡略帶土香，口感柔滑似栽培莧菜",
+      "notes": "老莖易木質化；水田邊採集應留意農藥與寄生蟲。"
+    },
+    "nutrition": "鈣、鐵、β-胡蘿蔔素、膳食纖維",
+    "caution": "⚠️ 幼株易與美洲商陸（Phytolacca americana）等有毒植物混淆！商陸常具紫紅莖、互生大葉與下垂總狀紫黑漿果；無把握切勿採食。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶", "熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "houttuynia_cordata",
+    "scientific_name": "Houttuynia cordata",
+    "common_names": { "zh-TW": "魚腥草（折耳根）", "en": "Fish Mint / Chameleon Plant" },
+    "category": "edible_and_medicinal",
+    "edible_parts": ["嫩莖葉", "地下匍匐莖（節上生根者）"],
+    "morphology": {
+      "plant_habit": "多年生草本，高 15-40cm，具匍匐地下莖，常成片蔓生",
+      "stem": "地上莖直立或斜升，紅紫至綠紫色縱向條紋明顯（關鍵特徵）",
+      "leaves": "葉互生，心形至卵狀心形，長 4-8cm，基部心形抱莖或近截形，背面常帶紫紅",
+      "inflorescence": "穗狀花序頂生，花序下方具 4 枚白色花瓣狀總苞片，展排呈十字（視覺上似四出白花）",
+      "smell": "全株搓揉具強烈魚腥與特殊草腥味（關鍵辨識特徵），喜惡感受因人而異",
+      "habitat_hint": "耐濕耐陰，常見於排水不良之溪溝、溝邊水泥旁與大樹下裸地"
+    },
+    "habitat": "溪流邊緣、潮濕林緣、田埂溝渠與都市陰濕角落地被，海拔 0-2000m",
+    "harvesting": {
+      "target": "未开花或初開花之幼嫩葉與近地表嫩匐莖",
+      "method": "以剪刀剪取或手指掐尖；地下莖淺掘挑節間嫩段",
+      "season": "全年可採，春夏最脆嫩",
+      "sustainability": "保留匍匐莖節點與根，切段式採收勿掏空整片群落"
+    },
+    "preparation": {
+      "method": "涼拌（重辣醋蒜）、川燙沾醬或煮湯；熟食腥味略降",
+      "cooking_time": "川燙 30 秒至 1 分鐘可保脆；久煮味散入湯",
+      "taste": "生食腥香濃烈、略帶辛辣與金屬感尾韻；熟後轉清甜草本",
+      "notes": "初次品嚐建議少量；與薄荷、水芹菜等氣味植物勿僅憑葉形辨識。"
+    },
+    "nutrition": "多醣體、鉀、類黃酮",
+    "medicinal_uses": ["清熱解毒", "抗菌、抗發炎（民俗與部分研究）", "利尿、消腫（傳統配方的宣稱，需遵醫囑）"],
+    "caution": "孕婦、腎功能異常與長期服藥者大量药食應諮詢醫師。臭椿幼葉等不具十字苞片。",
+    "confusion_risk": "low",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "miscanthus_floridulus",
+    "scientific_name": "Miscanthus floridulus",
+    "common_names": { "zh-TW": "五節芒（嫩筍）", "en": "Giant Chinese Silver Grass" },
+    "category": "edible",
+    "edible_parts": ["春季幼嫩筍狀萌蘗（剝除外葉鞘後之嫩芽）"],
+    "morphology": {
+      "plant_habit": "多年生大型禾草，成株高 2-4m，常形成廣闊叢聚",
+      "culm": "稈粗直，節部常被白粉，質硬；基部宿存葉鞘包被",
+      "leaves": "葉線形，長 40-80cm，葉身與葉舌邊緣鋒利，易割傷皮膚（操作須戴手套）",
+      "inflorescence": "秋季抽出大型羽狀銀白色至淡紫色髮狀花序，開展如羽扇",
+      "young_shoot": "春季自地面或舊稈腋抽出，外形似小竹筍，外被層層革質葉鞘，內層色淡可食（關鍵可食期指標）",
+      "rhizome": "地下根莖橫走，叢株可逐年擴張",
+      "ecology": "陽性坡地、路堤、河床與廢耕地先鋒，北臺低海拔極常見"
+    },
+    "habitat": "山坡草原、產業道邊坡、河岸高灘與開闊處，海拔 0-1500m",
+    "harvesting": {
+      "target": "尚未高於膝蓋、鞘緊包且指壓仍脆之幼筍",
+      "method": "斜刀切離基部後層層剝除外鞘至不再現纖維硬髯處截斷",
+      "season": "春季為主，冷暖年節氣可略前後移",
+      "sustainability": "同一叢輪採外圍萌蘗，保留內側母株；勿整叢挖除"
+    },
+    "preparation": {
+      "method": "如竹筍處理：冷水或米泔水煮去苦澀，再涼拌、滷煮或炒肉絲",
+      "cooking_time": "去澀煮 15-25 分鐘視粗細；再料理 3-8 分鐘",
+      "taste": "質地介於竹筍與蘆筍之間，清甜帶淡淡草青味",
+      "notes": "老筍木質化極快，採後應儘速處理；誤採其他不確認禾本科幼芽有風險。"
+    },
+    "nutrition": "水分、少量蛋白質、膳食纖維、矽質",
+    "caution": "葉緣割手；須確認為芒屬大型叢生型態與春季筍期，勿與幼竹或有毒草本芽混淆。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "zanthoxylum_ailanthoides",
+    "scientific_name": "Zanthoxylum ailanthoides",
+    "common_names": { "zh-TW": "食茱萸（紅刺椒）", "en": "Ailanthus-leaf Prickly Ash" },
+    "category": "edible",
+    "edible_parts": ["春季嫩芽與幼嫩羽狀複葉（調味、拌食少量）"],
+    "morphology": {
+      "plant_habit": "落葉喬木，高 5-15m，樹冠廣卵形，樹皮粗糙縱裂至片狀剝落",
+      "trunk": "樹幹常具瘤狀突起與木質化瘤刺，枝條具直刺或彎刺（警戒：避免徒手攀折）",
+      "leaves": "奇數羽狀複葉互生，小葉 7-15 枚，卵狀披針形，長 6-12cm，葉緣細鋸齒",
+      "aroma": "小葉搗碎或搓揉釋放強烈花椒、檸檬烯類辛香（關鍵特徵），回味麻舌",
+      "fruit": "蓇葖果小，成熟時紅色，果皮具腺點與油胞，散發香辛料氣息",
+      "seasonal": "春季萌芽時葉序緊密芽鱗包被，採「椒芽」為地方風味食材"
+    },
+    "habitat": "中低海拔向陽林緣、次生林與丘陵坡地，海拔 300-1800m",
+    "harvesting": {
+      "target": "未完全展開之嫩芽或展開後仍柔軟的第一輪小葉",
+      "method": "使用剪刀避開枝刺剪梢；戴手套防刺",
+      "season": "春季 3-5 月為主，視海拔提前或延後",
+      "sustainability": "每株採少量頂芽，勿重複採光同一主枝"
+    },
+    "preparation": {
+      "method": "嫩芽汆燙數秒去青後涼拌、煎蛋或切碎配肉；亦乾燥研磨作辛香料",
+      "cooking_time": "汆燙 10-20 秒即可；久煮麻香易散失",
+      "taste": "辛香麻舌、柑橘類清芳，近似花椒而葉香更草綠",
+      "notes": "用量宜少；不耐麻味者可與醬油、糖平衡。避免誤採臭椿等羽狀複葉但無花椒嗅味樹種。"
+    },
+    "nutrition": "揮發油（以芳樟醇、檸烯類為主）、少量維生素C",
+    "caution": "花椒科有刺；過量生食刺激腸胃；對辛香料過敏者慎用。與苦楝、臭椿等區分之關鍵在於搓葉氣味與麻感。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [300, 1800],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "trema_orientalis",
+    "scientific_name": "Trema orientalis",
+    "common_names": { "zh-TW": "山黃麻", "en": "Indian Charcoal Tree" },
+    "category": "edible",
+    "edible_parts": ["嫩葉（煮熟）", "成熟小型漿果狀核果"],
+    "morphology": {
+      "plant_habit": "常綠小喬木至中喬木，高 5-15m，枝條細長，樹皮灰褐而稍光滑",
+      "leaves": "葉互生，兩列近於水平伸展，長卵形至卵狀披針形，長 6-14cm，先端漸尖，葉緣細鋸齒",
+      "leaf_surface": "葉面粗糙似砂布但較構樹細緻，背面色淡網脈明顯；脫落前可轉黃",
+      "fruit": "腋生小型核果，直徑約 3-4mm，熟時由橙紅變深紫至近黑（關鍵特徵），多肉質薄層",
+      "habitat_ecology": "先驅陽性樹種，都市荒廢地、坡坎、防火巷與河岸裸地最常見之一",
+      "bark": "幼樹皮平滑老樹略縱裂，易與其他榆科近緣種混淆，須靠果與葉質合判"
+    },
+    "habitat": "低海拔開闊地、河岸冲積地、道路邊坡與次生林窗口，海拔 0-1500m",
+    "harvesting": {
+      "target": "嫩梢葉或已轉色之成熟小果",
+      "method": "摘取未硬化之頂端 2-4 枚葉；果實以容器承接搖落",
+      "season": "嫩葉春夏；果熟多夏秋，因地域略異",
+      "sustainability": "輕度摘葉不影響先驅功能；留樹部分果實維持鳥類食源"
+    },
+    "preparation": {
+      "method": "嫩葉川燙後炒食或煮湯；熟果少量鮮食或煮甜湯",
+      "cooking_time": "嫩葉川燙 1-2 分鐘後炒 2-3 分鐘",
+      "taste": "葉煮熟後略有草本澀味與豆腥調性；果味淡甜微澀、汁液少",
+      "notes": "原住民與山區聚落傳統偶作救荒野菜；首次少量試食。與朴樹等近似時以果徑與葉質確認。"
+    },
+    "nutrition": "礦物質、少量維生素、膳食纖維",
+    "caution": "果實極小，誤採尚未由紅轉黑者澀味與單寧較高。污染環境植株勿採。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "pterocypsela_indica",
+    "scientific_name": "Pterocypsela indica",
+    "common_names": { "zh-TW": "鵝仔草（鵝菜、山萵苣）", "en": "Indian Lettuce" },
+    "category": "edible",
+    "edible_parts": ["嫩莖葉"],
+    "morphology": {
+      "plant_habit": "一年生草本，高 30-100cm，全株含乳汁，斷面明顯中空（關鍵特徵）",
+      "stem": "莖直立具縱稜，表面光滑或略被粉；節間長度中至長",
+      "basal_leaves": "基生葉大型，琴形羽裂至深羽狀分裂，長 10-25cm，裂片不等大",
+      "cauline_leaves": "莖生葉漸小，基部常抱莖或半抱莖，先端裂片變化大",
+      "inflorescence": "頭狀花序小型，多花排列成鬆散繖房或圓錐狀；花淡黃色舌狀花，無明顯大型舌瓣展示",
+      "pappus": "瘦果具白色冠毛，成熟時隨風飄散（似蒲公英，輔助與部分菊科區分）",
+      "latex": "任何創傷處滲出白色乳汁，與昭和草可比對但葉裂與花色不同"
+    },
+    "habitat": "荒廢菜園、路肩、河岸碎石地與都市空地，海拔 0-2500m，全年可見",
+    "harvesting": {
+      "target": "抽薹前之蓮座期嫩葉或抽薹初期之嫩莖梢",
+      "method": "折取未木質化梢段 15-25cm；戴手套防乳汁過敏",
+      "season": "全年可採，冬春基生葉肥厚",
+      "sustainability": "族群恢復快，採集以剪代拔，保留最低一株以維持自播"
+    },
+    "preparation": {
+      "method": "川燙去苦味後涼拌（麻油、蒜泥）、快炒或煮粥",
+      "cooking_time": "川燙 1-2 分鐘；快炒 2-3 分鐘",
+      "taste": "略苦回甘，口感清脆多汁，近似萵苣野菜",
+      "notes": "乳汁可能引起皮膚刺癢；易與苦苣菜屬混淆，應以頭狀花與葉裂模式交叉比對。"
+    },
+    "nutrition": "維生素A、C、乳汁中含萜類苦味物質、膳食纖維",
+    "caution": "乳汁過敏者戴手套；公路邊植株注意重金屬與灰塵。與有毒乳草類勿僅靠葉形判斷。",
+    "confusion_risk": "medium",
+    "distribution": {
+      "altitude_range": [0, 2500],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  }
+]

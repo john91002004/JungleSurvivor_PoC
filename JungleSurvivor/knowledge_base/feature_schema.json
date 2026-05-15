@@ -1,0 +1,252 @@
+{
+  "_version": "2.1",
+  "_description": "JungleSurvivor v2 完整特徵 schema — 定義每個屬性的 enum 候選值、類型、photo_observable",
+
+  "overall": {
+    "growth_form": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["herb", "shrub", "tree", "vine", "fern", "fungus", "grass", "succulent", "aquatic", "moss", "palm_like"]
+    },
+    "height_estimate": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["<30cm", "30-100cm", "1-2m", "2-5m", ">5m"]
+    },
+    "latex": {
+      "type": "single",
+      "photo_observable": false,
+      "values": ["none", "yes_white", "yes_yellow", "yes_red", "yes_clear"]
+    },
+    "smell": {
+      "type": "single",
+      "photo_observable": false,
+      "values": ["none", "aromatic", "pungent", "fishy", "minty", "spicy", "rotten", "sweet"]
+    },
+    "habitat": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["roadside", "forest_floor", "streamside", "cliff_rock", "open_field", "wetland", "epiphytic", "parasitic", "urban", "coastal"]
+    },
+    "water_droplet_test": {
+      "type": "single",
+      "photo_observable": false,
+      "values": ["beading", "flat"]
+    }
+  },
+
+  "leaf": {
+    "visible": {
+      "type": "boolean",
+      "photo_observable": true,
+      "values": [true, false]
+    },
+    "leaf_type": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["simple", "trifoliate", "pinnate_compound", "bipinnate_compound", "palmate_compound"]
+    },
+    "shape": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["heart", "arrow", "oval", "elliptic", "lanceolate", "linear", "needle", "scale", "round", "spatulate", "obovate", "rhombic", "fan", "kidney"]
+    },
+    "edge": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["entire", "serrated", "double_serrated", "crenate", "lobed", "deeply_lobed", "wavy", "spiny"]
+    },
+    "tip": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["acute", "acuminate", "rounded", "emarginate", "truncate"]
+    },
+    "base": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["cordate", "cuneate", "rounded", "truncate", "sagittate", "peltate"]
+    },
+    "colors": {
+      "type": "array",
+      "photo_observable": true,
+      "values": ["light_green", "green", "dark_green", "yellow_green", "red", "purple", "variegated", "silver", "brown", "red_underside"]
+    },
+    "color_pattern": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["solid", "gradient", "spotted", "striped", "bicolor"]
+    },
+    "surface_top": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["glossy", "matte", "hairy", "rough", "waxy", "velvety", "pubescent", "scaly", "sandpaper"]
+    },
+    "surface_bottom": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["glossy", "matte", "hairy", "rough", "waxy", "velvety", "pubescent", "scaly", "sandpaper"]
+    },
+    "arrangement": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["alternate", "opposite", "whorled", "rosette", "basal_rosette", "clustered", "spiral", "two_ranked", "bird_nest_radial"]
+    },
+    "size": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["tiny_<2cm", "small_2-5cm", "medium_5-15cm", "large_15-50cm", "very_large_>50cm"]
+    },
+    "venation": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["parallel", "pinnate", "palmate", "reticulate", "single_midrib"]
+    },
+    "texture": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["papery", "leathery", "fleshy", "membranous", "succulent"]
+    },
+    "petiole_attach": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["normal", "peltate_shield", "sheathing", "sessile"]
+    }
+  },
+
+  "stem": {
+    "visible": {
+      "type": "boolean",
+      "photo_observable": true,
+      "values": [true, false]
+    },
+    "type": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["erect", "creeping", "climbing", "twining", "prostrate", "rhizome", "pseudostem"]
+    },
+    "cross_section": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["round", "square", "triangular", "flattened", "ridged"]
+    },
+    "surface": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["smooth", "hairy", "thorny", "ridged", "waxy", "scaly", "bark_rough", "bark_smooth"]
+    },
+    "colors": {
+      "type": "array",
+      "photo_observable": true,
+      "values": ["green", "brown", "purple", "red", "gray", "white_powdery"]
+    },
+    "interior": {
+      "type": "single",
+      "photo_observable": false,
+      "values": ["solid", "hollow", "pithy"]
+    },
+    "has_thorns": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["yes", "no"]
+    }
+  },
+
+  "flower": {
+    "visible": {
+      "type": "boolean",
+      "photo_observable": true,
+      "values": [true, false]
+    },
+    "colors": {
+      "type": "array",
+      "photo_observable": true,
+      "values": ["white", "yellow", "orange", "red", "pink", "purple", "blue", "green", "brown"]
+    },
+    "color_pattern": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["solid", "gradient", "spotted", "striped", "center_different", "bicolor"]
+    },
+    "petal_count": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["0", "3", "4", "5", "6", "many", "fused_tubular"]
+    },
+    "symmetry": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["radial", "bilateral", "irregular"]
+    },
+    "size": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["tiny_<5mm", "small_5-15mm", "medium_15-30mm", "large_30-60mm", "very_large_>60mm"]
+    },
+    "arrangement": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["solitary", "raceme", "spike", "umbel", "head_composite", "panicle", "cyme", "catkin", "spathe_spadix"]
+    },
+    "position": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["terminal", "axillary", "basal", "cauliflorous"]
+    },
+    "orientation": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["upright", "horizontal", "drooping"]
+    },
+    "special_shape": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["none", "lip_labellum", "spur", "spathe", "butterfly_shape", "bell_tubular", "trumpet"]
+    },
+    "fragrant": {
+      "type": "single",
+      "photo_observable": false,
+      "values": ["yes", "no"]
+    }
+  },
+
+  "fruit": {
+    "visible": {
+      "type": "boolean",
+      "photo_observable": true,
+      "values": [true, false]
+    },
+    "type": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["berry", "drupe", "capsule", "pod_legume", "achene", "samara", "nut", "aggregate", "fig", "cone", "spore"]
+    },
+    "colors": {
+      "type": "array",
+      "photo_observable": true,
+      "values": ["green", "yellow", "orange", "red", "purple", "black", "brown", "white_waxy"]
+    },
+    "size": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["tiny_<5mm", "small_5-15mm", "medium_15-30mm", "large_>30mm"]
+    },
+    "surface": {
+      "type": "single",
+      "photo_observable": true,
+      "values": ["smooth", "hairy", "spiny", "warty", "waxy", "hooked_bristles"]
+    }
+  },
+
+  "root": {
+    "visible": {
+      "type": "boolean",
+      "photo_observable": true,
+      "values": [true, false]
+    },
+    "type": {
+      "type": "single",
+      "photo_observable": false,
+      "values": ["fibrous", "taproot", "tuberous", "rhizome", "bulb", "corm", "aerial_root", "storage_tuber"]
+    }
+  }
+}

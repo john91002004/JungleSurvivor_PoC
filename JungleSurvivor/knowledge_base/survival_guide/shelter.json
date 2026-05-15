@@ -1,0 +1,63 @@
+{
+  "category": "shelter",
+  "title_zh": "住",
+  "icon": "🏕️",
+  "pages": [
+    {
+      "id": "shelter/site_selection",
+      "title_zh": "庇護所選址原則",
+      "situation_zh": "需要在野外找到適合搭建庇護所或休息的地點",
+      "materials_zh": "無",
+      "steps": [
+        {"step": 1, "action_zh": "尋找高於周圍地面的位置", "detail_zh": "避免低窪處（積水、冷空氣下沉）"},
+        {"step": 2, "action_zh": "遠離水源至少 50 公尺", "detail_zh": "水邊蚊蟲多、有暴漲風險"},
+        {"step": 3, "action_zh": "避風但不要在風口或山稜線上", "detail_zh": "利用地形或大樹作為擋風"},
+        {"step": 4, "action_zh": "檢查頭頂：無枯枝（寡婦製造者）、無蜂巢、無落石風險", "detail_zh": "搖晃頭頂樹枝測試是否穩固"},
+        {"step": 5, "action_zh": "地面平坦、無尖石、無蟻丘", "detail_zh": "清除地面落葉雜物後檢查"},
+        {"step": 6, "action_zh": "附近有建材可取（樹枝、大葉、藤蔓）", "detail_zh": "減少搬運消耗體力"},
+        {"step": 7, "action_zh": "如需隱蔽：選擇自然遮蔽物旁（大石、倒木、密灌叢）", "detail_zh": "避免在開闊制高點（容易被發現）"}
+      ],
+      "warnings": ["暴風雨前不要在大樹正下方（雷擊）", "不要在乾涸河床搭帳（暴洪）", "熱帶地區注意蛇類棲息地（石縫、落葉堆）"]
+    },
+    {
+      "id": "shelter/types",
+      "title_zh": "庇護所類型與搭建",
+      "situation_zh": "選好地點後，需要搭建遮蔽處",
+      "materials_zh": "樹枝/大葉/藤蔓或繩索",
+      "methods": [
+        {"name_zh": "傾斜式（Lean-to）", "instruction_zh": "1. 找一根長橫木架在兩棵樹之間（或一端靠在樹幹上）\n2. 斜靠多根樹枝在橫木上，間隔 10-15cm\n3. 在斜面上鋪大量樹葉/大葉/樹皮（由下往上如屋瓦）\n4. 開口面背風", "time_zh": "30-60 分鐘", "pros_zh": "最快速、最簡單", "cons_zh": "只擋一面風雨"},
+        {"name_zh": "A 形架", "instruction_zh": "1. 長橫木一端架高（靠樹或三腳架支撐）\n2. 兩側都斜靠樹枝\n3. 覆蓋樹葉\n4. 形成三角形通道", "time_zh": "60-90 分鐘", "pros_zh": "兩面擋風、保暖好", "cons_zh": "空間狹小"},
+        {"name_zh": "天然庇護改造", "instruction_zh": "1. 尋找倒木、岩石凹處、樹根底部的天然空間\n2. 清除內部雜物和蟲\n3. 用樹枝和樹葉加固遮蔽不足處\n4. 入口掛布或樹葉簾", "time_zh": "15-30 分鐘", "pros_zh": "省力省時", "cons_zh": "需要運氣找到合適地點"}
+      ]
+    },
+    {
+      "id": "shelter/warmth",
+      "title_zh": "保暖方法",
+      "situation_zh": "夜間氣溫下降需要保暖",
+      "materials_zh": "落葉/乾草/火源",
+      "methods": [
+        {"name_zh": "隔熱層", "instruction_zh": "在地面和身體之間鋪至少 15cm 厚的乾燥落葉、乾草、或松針。地面散熱是最大熱量損失來源。", "priority": 1},
+        {"name_zh": "身體覆蓋層", "instruction_zh": "在身上堆疊大量乾燥落葉和草，像被子一樣覆蓋。越厚越保暖。", "priority": 2},
+        {"name_zh": "火牆反射", "instruction_zh": "在庇護所開口面升火，在火的另一側立一面木頭/石頭牆反射熱輻射回庇護所。", "priority": 3},
+        {"name_zh": "熱石頭", "instruction_zh": "將石頭放在火中加熱 30 分鐘，用布包裹後放在睡覺處。注意別燙傷。", "priority": 4},
+        {"name_zh": "蜷縮姿勢", "instruction_zh": "側臥蜷縮（胎兒姿勢），減少暴露面積。雙手夾在腋下。", "priority": 5}
+      ],
+      "warnings": ["地面隔熱比覆蓋更重要（地面散熱佔 80%）", "潮濕物質無法保暖（保持乾燥）", "火源需有人看守"]
+    },
+    {
+      "id": "shelter/insect_protection",
+      "title_zh": "防蟲防蛇措施",
+      "situation_zh": "在蟲蛇較多的地區休息",
+      "materials_zh": "火源/煙燻材料/長褲長袖",
+      "steps": [
+        {"step": 1, "action_zh": "清除庇護所周圍 2 公尺內的落葉和雜草", "detail_zh": "蛇類喜歡躲在落葉堆下"},
+        {"step": 2, "action_zh": "庇護所入口升火（小火即可），產生煙霧驅蟲", "detail_zh": "加入綠色葉子或苔蘚增加煙量"},
+        {"step": 3, "action_zh": "衣物褲管紮入襪子或靴子中", "detail_zh": "阻擋蜱蟲和螞蝗爬入"},
+        {"step": 4, "action_zh": "用煙燻過的布匹掛在入口處", "detail_zh": "煙味可驅趕蚊蟲"},
+        {"step": 5, "action_zh": "睡前檢查庇護所內部有無蛇蟲", "detail_zh": "用棍子翻動落葉和角落"},
+        {"step": 6, "action_zh": "睡覺時頭部用衣物覆蓋防蚊", "detail_zh": "蚊子主要叮咬暴露皮膚"}
+      ],
+      "warnings": ["半夜起來注意腳邊（蛇可能靠近溫暖的人體）", "不要用手伸入看不見的縫隙或洞穴", "早晨起來先抖落鞋子和衣物（蠍子、蜘蛛可能躲入）"]
+    }
+  ]
+}

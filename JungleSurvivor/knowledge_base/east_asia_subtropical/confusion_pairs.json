@@ -1,0 +1,251 @@
+{
+  "_description": "混淆物種對關係表 — 不儲存物種特徵，只記錄哪些物種容易混淆及區分方法",
+  "confusion_pairs": [
+    {
+      "id": "taro_vs_alocasia",
+      "species_a": "alocasia_odora",
+      "species_b": "colocasia_esculenta",
+      "lethality": "high",
+      "key_differences": [
+        {
+          "feature": "leaf.surface_top",
+          "species_a_value": "glossy",
+          "species_b_value": "velvety",
+          "test": "用手指摸葉面：光滑發亮像打蠟 = 姑婆芋（有毒），有天鵝絨般絨毛 = 芋頭（可食）"
+        },
+        {
+          "feature": "overall.water_droplet_test",
+          "species_a_value": "flat",
+          "species_b_value": "beading",
+          "test": "在葉面滴水：水珠攤平 = 姑婆芋（有毒），水珠成珠滾動 = 芋頭（可食）"
+        },
+        {
+          "feature": "leaf.petiole_attach",
+          "species_a_value": "normal",
+          "species_b_value": "peltate_shield",
+          "test": "觀察葉柄接合處：接在葉片邊緣 = 姑婆芋，接在葉片內側（盾狀）= 芋頭"
+        }
+      ]
+    },
+    {
+      "id": "parasol_vs_green_spored",
+      "species_a": "chlorophyllum_molybdites",
+      "species_b": "macrolepiota_procera",
+      "lethality": "medium",
+      "key_differences": [
+        {
+          "feature": "spore_print_color",
+          "species_a_value": "gray_green",
+          "species_b_value": "white",
+          "test": "取孢子印：灰綠色 = 綠褶菇（有毒），白色 = 高大環柄菇（可食）"
+        },
+        {
+          "feature": "gill_color_mature",
+          "species_a_value": "green",
+          "species_b_value": "white",
+          "test": "觀察成熟菌褶：成熟後變灰綠色 = 綠褶菇（有毒），始終白色 = 高大環柄菇（可食）"
+        }
+      ]
+    },
+    {
+      "id": "birds_nest_fern_vs_bracken",
+      "species_a": "pteridium_aquilinum",
+      "species_b": "asplenium_nidus",
+      "lethality": "low",
+      "key_differences": [
+        {
+          "feature": "leaf.leaf_type",
+          "species_a_value": "bipinnate_compound",
+          "species_b_value": "simple",
+          "test": "觀察葉片結構：細碎羽狀複葉 = 蕨（有害），大型單葉 = 山蘇（可食）"
+        },
+        {
+          "feature": "leaf.arrangement",
+          "species_a_value": "alternate",
+          "species_b_value": "bird_nest_radial",
+          "test": "觀察生長排列：從地面直立散開 = 蕨，從中心輻射呈鳥巢狀 = 山蘇"
+        }
+      ]
+    },
+    {
+      "id": "termite_mushroom_vs_white_toxic",
+      "species_a": "amanita_phalloides",
+      "species_b": "termitomyces_sp",
+      "lethality": "critical",
+      "key_differences": [
+        {
+          "feature": "volva_presence",
+          "species_a_value": "present",
+          "species_b_value": "absent",
+          "test": "檢查菌柄基部：有杯狀菌托（蛋殼狀包覆）= 毒鵝膏（致命！），無菌托 = 雞肉絲菇"
+        },
+        {
+          "feature": "habitat_association",
+          "species_a_value": "tree_root",
+          "species_b_value": "termite_mound",
+          "test": "觀察生長位置：生長在樹根附近 = 可能是毒鵝膏，生長在白蟻巢上 = 雞肉絲菇"
+        }
+      ]
+    },
+    {
+      "id": "bidens_vs_parthenium",
+      "species_a": "parthenium_hysterophorus",
+      "species_b": "bidens_pilosa_var_radiata",
+      "lethality": "low",
+      "key_differences": [
+        {
+          "feature": "flower.size",
+          "species_a_value": "tiny_<5mm",
+          "species_b_value": "medium_15-30mm",
+          "test": "觀察花朵大小：花極小且無明顯白色舌狀花 = 銀膠菊（有害），花較大有白色舌狀花 = 大花咸豐草（可食）"
+        },
+        {
+          "feature": "overall.smell",
+          "species_a_value": "pungent",
+          "species_b_value": "none",
+          "test": "搓揉莖葉聞氣味：有刺激性異味 = 銀膠菊（有害），無特殊氣味 = 大花咸豐草"
+        }
+      ]
+    },
+    {
+      "id": "pokeweed_vs_amaranth",
+      "species_a": "phytolacca_americana",
+      "species_b": "amaranthus_viridis",
+      "lethality": "high",
+      "key_differences": [
+        {
+          "feature": "stem.colors",
+          "species_a_value": ["purple"],
+          "species_b_value": ["green"],
+          "test": "觀察莖部：粗壯且帶紫紅色 = 美洲商陸（有毒），較細且綠色 = 野莧菜（可食）"
+        },
+        {
+          "feature": "fruit.type",
+          "species_a_value": "berry",
+          "species_b_value": "achene",
+          "test": "觀察果實：紫黑色漿果串 = 美洲商陸（有毒），乾燥小粒 = 野莧菜（可食）"
+        }
+      ]
+    },
+    {
+      "id": "calla_vs_taro",
+      "species_a": "zantedeschia_aethiopica",
+      "species_b": "colocasia_esculenta",
+      "lethality": "medium",
+      "key_differences": [
+        {
+          "feature": "flower.special_shape",
+          "species_a_value": "spathe",
+          "species_b_value": "spathe",
+          "test": "觀察佛焰苞：大型純白色佛焰苞 = 海芋（有毒），較不顯眼的黃綠色苞 = 芋頭"
+        },
+        {
+          "feature": "leaf.shape",
+          "species_a_value": "arrow",
+          "species_b_value": "heart",
+          "test": "觀察葉形：箭形較尖 = 海芋，心形較圓 = 芋頭"
+        }
+      ]
+    },
+    {
+      "id": "lantana_vs_mulberry",
+      "species_a": "lantana_camara",
+      "species_b": "morus_australis",
+      "lethality": "medium",
+      "key_differences": [
+        {
+          "feature": "fruit.type",
+          "species_a_value": "berry",
+          "species_b_value": "aggregate",
+          "test": "觀察果實形態：小球狀聚生 = 馬纓丹（有毒），長圓形聚合果 = 小葉桑（可食）"
+        },
+        {
+          "feature": "overall.smell",
+          "species_a_value": "pungent",
+          "species_b_value": "none",
+          "test": "搓葉片：有刺鼻臭味 = 馬纓丹（有毒），無特殊氣味 = 小葉桑"
+        }
+      ]
+    },
+    {
+      "id": "foxglove_vs_plantain",
+      "species_a": "digitalis_purpurea",
+      "species_b": "plantago_major",
+      "lethality": "critical",
+      "key_differences": [
+        {
+          "feature": "leaf.surface_top",
+          "species_a_value": "hairy",
+          "species_b_value": "matte",
+          "test": "觸摸葉面：有明顯絨毛 = 毛地黃（致命！），光滑或微粗 = 車前草（可食）"
+        },
+        {
+          "feature": "leaf.venation",
+          "species_a_value": "pinnate",
+          "species_b_value": "parallel",
+          "test": "觀察葉脈：羽狀脈 = 毛地黃（致命！），明顯平行脈 = 車前草（可食）"
+        }
+      ]
+    },
+    {
+      "id": "vegetable_fern_vs_bracken",
+      "species_a": "pteridium_aquilinum",
+      "species_b": "diplazium_esculentum",
+      "lethality": "low",
+      "key_differences": [
+        {
+          "feature": "leaf.shape",
+          "species_a_value": "oval",
+          "species_b_value": "lanceolate",
+          "test": "觀察整體葉形：三角形寬展 = 蕨（有害），披針形較窄 = 過貓（可食）"
+        },
+        {
+          "feature": "overall.habitat",
+          "species_a_value": "open_field",
+          "species_b_value": "streamside",
+          "test": "觀察生長環境：開闊山坡 = 蕨（有害），溪邊潮濕處 = 過貓（可食）"
+        }
+      ]
+    },
+    {
+      "id": "prickly_ash_vs_chinaberry",
+      "species_a": "melia_azedarach",
+      "species_b": "zanthoxylum_ailanthoides",
+      "lethality": "medium",
+      "key_differences": [
+        {
+          "feature": "overall.smell",
+          "species_a_value": "none",
+          "species_b_value": "spicy",
+          "test": "搓揉葉片聞味：無花椒味 = 苦楝（有毒），有濃烈花椒辛香味 = 食茱萸（可食）"
+        },
+        {
+          "feature": "stem.has_thorns",
+          "species_a_value": "no",
+          "species_b_value": "yes",
+          "test": "觀察枝幹：無刺 = 苦楝（有毒），有明顯尖刺 = 食茱萸（可食）"
+        }
+      ]
+    },
+    {
+      "id": "cudweed_vs_parthenium",
+      "species_a": "parthenium_hysterophorus",
+      "species_b": "pseudognaphalium_affine",
+      "lethality": "low",
+      "key_differences": [
+        {
+          "feature": "leaf.surface_top",
+          "species_a_value": "hairy",
+          "species_b_value": "hairy",
+          "test": "觀察絨毛：稀疏粗糙毛 = 銀膠菊（有害），全株密被白色綿毛 = 鼠麴草（可食）"
+        },
+        {
+          "feature": "flower.colors",
+          "species_a_value": ["white"],
+          "species_b_value": ["yellow"],
+          "test": "觀察花色：白色小花 = 銀膠菊（有害），黃色小花密集 = 鼠麴草（可食）"
+        }
+      ]
+    }
+  ]
+}

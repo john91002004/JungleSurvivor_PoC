@@ -1,0 +1,101 @@
+{
+  "category": "medical",
+  "title_zh": "醫",
+  "icon": "🏥",
+  "pages": [
+    {
+      "id": "medical/wound_general",
+      "title_zh": "傷口處理通則",
+      "situation_zh": "身體有開放性傷口（割傷、擦傷、刺傷等）",
+      "materials_zh": "清水/布匹或紗布/（如有）消毒劑",
+      "steps": [
+        {"step": 1, "action_zh": "止血：用乾淨布料直接壓迫傷口 10-15 分鐘", "detail_zh": "手臂抬高過心臟有助止血"},
+        {"step": 2, "action_zh": "清洗：用大量清水（煮沸冷卻後最佳）沖洗傷口", "detail_zh": "目的是沖掉汙染物和細菌，沖洗比消毒更重要"},
+        {"step": 3, "action_zh": "去除異物：可見的砂石碎片用乾淨工具夾出", "detail_zh": "深入的異物不要硬挖，避免加重傷害"},
+        {"step": 4, "action_zh": "敷藥（如有）：消毒藥水或辨識為消炎植物搗碎後敷上", "detail_zh": "→ 見「藥用植物敷用法」"},
+        {"step": 5, "action_zh": "包紮：用乾淨布料包覆傷口，適度加壓但不影響血液循環", "detail_zh": "檢查末端手指/腳趾是否發紫（太緊）"},
+        {"step": 6, "action_zh": "觀察：每 6-12 小時檢查傷口狀態", "detail_zh": "→ 見「傷口發炎判斷 Checklist」"}
+      ],
+      "warnings": ["大量出血（噴射狀）需要立即止血帶或壓迫止血", "動物咬傷需考慮狂犬病風險", "傷口超過 6 小時未處理感染風險大增"]
+    },
+    {
+      "id": "medical/inflammation_checklist",
+      "title_zh": "傷口發炎判斷 Checklist",
+      "situation_zh": "傷口已處理一段時間，需要判斷是否感染發炎",
+      "materials_zh": "無",
+      "checklist": [
+        {"item": "紅", "question_zh": "傷口周圍是否紅腫？紅腫範圍是否擴大？", "normal": "輕微紅腫（正常癒合反應）", "warning": "紅腫範圍擴大或出現紅色線條（向心臟方向）"},
+        {"item": "腫", "question_zh": "傷口周圍是否明顯腫脹？", "normal": "輕微腫脹", "warning": "嚴重腫脹且持續惡化"},
+        {"item": "熱", "question_zh": "用手背觸摸傷口周圍，是否明顯比其他皮膚燙？", "normal": "略溫", "warning": "明顯發燙"},
+        {"item": "痛", "question_zh": "疼痛是否加劇而非減輕？", "normal": "疼痛逐漸減輕", "warning": "疼痛加劇或出現跳動性疼痛"},
+        {"item": "膿", "question_zh": "是否有膿液（黃色/綠色黏稠液體）流出？", "normal": "透明或微黃血清液體", "warning": "黃色/綠色有臭味的膿液"},
+        {"item": "全身", "question_zh": "是否出現發燒、寒顫、全身無力？", "normal": "無全身症狀", "warning": "有 → 感染可能已擴散（嚴重）"}
+      ],
+      "conclusion_rules": [
+        {"condition": "全部 normal", "result": "傷口正常癒合中，持續保持清潔乾燥", "action_zh": "繼續每天換藥觀察", "severity": "normal"},
+        {"condition": "1-2 項 warning", "result": "輕度感染徵兆", "action_zh": "增加換藥頻率（每 4-6 小時）、使用消炎植物敷用、保持傷口引流通暢", "severity": "mild"},
+        {"condition": "3+ 項 warning", "result": "明顯感染", "action_zh": "積極清洗傷口、頻繁換藥、尋找更強效消炎植物、想辦法獲得醫療救助", "severity": "moderate"},
+        {"condition": "有全身症狀", "result": "嚴重感染（可能敗血症）", "action_zh": "⚠️ 生命危險！必須盡快獲得醫療救助。持續清潔傷口、大量飲水、保持體力", "severity": "severe"}
+      ]
+    },
+    {
+      "id": "medical/sprain",
+      "title_zh": "扭傷骨折處置",
+      "situation_zh": "肢體扭傷腫脹或疑似骨折",
+      "materials_zh": "冰水或冷水/布匹/直木棍（夾板用）",
+      "steps": [
+        {"step": 1, "action_zh": "R — Rest 休息：停止活動受傷部位", "detail_zh": "不要試圖「走走看」"},
+        {"step": 2, "action_zh": "I — Ice 冰敷：用冷水浸濕布匹敷在患處 15-20 分鐘", "detail_zh": "沒有冰塊時用溪水浸泡也有效，每小時一次"},
+        {"step": 3, "action_zh": "C — Compression 加壓：用布匹適度纏繞患處", "detail_zh": "不要太緊，檢查末端是否發紫"},
+        {"step": 4, "action_zh": "E — Elevation 抬高：將受傷部位抬高過心臟", "detail_zh": "減少腫脹"}
+      ],
+      "splint_zh": "如疑似骨折：\n1. 不要嘗試復位\n2. 取兩根直木棍放在傷處兩側\n3. 用布條在骨折處上下方各綁一道固定\n4. 木棍長度要超過上下兩個關節\n5. 固定後不要移動骨折部位",
+      "warnings": ["開放性骨折（骨頭外露）：先處理傷口再固定", "手指末端發白/發紫表示綁太緊", "骨折需要專業醫療，固定只是緊急處理"]
+    },
+    {
+      "id": "medical/poultice",
+      "title_zh": "藥用植物敷用法",
+      "situation_zh": "已辨識出藥用植物，需要正確處理後敷用在傷口",
+      "materials_zh": "辨識過的藥用植物/清水/乾淨石頭/大葉或布匹",
+      "steps": [
+        {"step": 1, "action_zh": "確認植物已經 AI 辨識確認為藥用", "detail_zh": "⚠️ 絕對不要使用未辨識的植物敷傷口"},
+        {"step": 2, "action_zh": "用清水徹底沖洗植物（去除泥土、蟲卵）", "detail_zh": "至少沖洗 30 秒"},
+        {"step": 3, "action_zh": "取乾淨平坦石頭作為研磨面", "detail_zh": "先用水沖洗石頭表面"},
+        {"step": 4, "action_zh": "將植物葉片/莖部放在石面上，用另一塊石頭反覆搗碎成泥狀", "detail_zh": "越碎越好，讓汁液充分釋出"},
+        {"step": 5, "action_zh": "先用清水清洗傷口", "detail_zh": "確保傷口表面乾淨"},
+        {"step": 6, "action_zh": "將植物泥均勻敷在傷口周圍（不要塞入深層傷口內）", "detail_zh": "敷用厚度約 3-5mm"},
+        {"step": 7, "action_zh": "用大葉（月桃葉等）或乾淨布匹覆蓋固定", "detail_zh": "固定但不加壓"},
+        {"step": 8, "action_zh": "每 4-6 小時更換新鮮植物泥", "detail_zh": "更換時觀察傷口變化"}
+      ],
+      "warnings": ["傷口如持續惡化（更紅更腫）→ 停止使用該植物", "深層傷口不適合敷用植物（感染風險）", "此為緊急措施，有機會獲得醫療時立即就醫"]
+    },
+    {
+      "id": "medical/burn",
+      "title_zh": "燒燙傷處理",
+      "situation_zh": "被火焰、熱水、熱石板燙傷",
+      "materials_zh": "大量清水/乾淨覆蓋物",
+      "steps": [
+        {"step": 1, "action_zh": "立即用大量清涼水沖洗患處至少 15-20 分鐘", "detail_zh": "這是最重要的步驟，越快越好"},
+        {"step": 2, "action_zh": "移除患處的飾品、衣物（如未沾黏）", "detail_zh": "腫脹前移除，否則之後無法取下"},
+        {"step": 3, "action_zh": "用乾淨濕布覆蓋患處", "detail_zh": "保持濕潤減少疼痛"},
+        {"step": 4, "action_zh": "不要刺破水泡", "detail_zh": "水泡是天然保護層"},
+        {"step": 5, "action_zh": "包紮時不要加壓", "detail_zh": "輕鬆覆蓋即可"}
+      ],
+      "warnings": ["❌ 勿塗抹牙膏、醬油、蛋白等偏方", "❌ 勿用冰塊直接接觸（會加重傷害）", "❌ 勿刺破水泡", "大面積燒傷（超過手掌大小）為嚴重傷害，需盡快就醫"]
+    },
+    {
+      "id": "medical/hemostatic_plants",
+      "title_zh": "止血植物使用法",
+      "situation_zh": "傷口出血需要輔助止血",
+      "materials_zh": "車前草或其他止血植物/壓迫用布匹",
+      "steps": [
+        {"step": 1, "action_zh": "先用手或布匹直接壓迫止血（這才是主要止血方式）", "detail_zh": "持續壓迫 10-15 分鐘不放開"},
+        {"step": 2, "action_zh": "同時取得止血植物（車前草、艾草）", "detail_zh": "必須是 AI 確認的種類"},
+        {"step": 3, "action_zh": "將植物葉片揉碎出汁", "detail_zh": "不需完全搗泥，揉出汁液即可"},
+        {"step": 4, "action_zh": "直接將揉碎的葉片壓在傷口上", "detail_zh": "植物汁液有輔助凝血作用"},
+        {"step": 5, "action_zh": "外層再用布匹加壓固定", "detail_zh": "壓力才是止血的主力"}
+      ],
+      "warnings": ["直接壓迫永遠是第一優先的止血方式", "植物只是輔助，不能替代壓迫", "噴射狀出血（動脈出血）需要止血帶"]
+    }
+  ]
+}

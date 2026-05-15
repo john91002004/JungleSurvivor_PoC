@@ -1,0 +1,503 @@
+[
+  {
+    "id": "alocasia_odora",
+    "scientific_name": "Alocasia odora",
+    "common_names": { "zh-TW": "姑婆芋", "en": "Giant Elephant Ear" },
+    "danger_level": "high",
+    "toxicity": "全株有毒，汁液含草酸鈣針晶，誤食致口腔灼傷、腹瀉、喉嚨腫脹",
+    "morphology": {
+      "leaf_shape": "大型心形或箭形，長 50-90cm，寬 40-60cm",
+      "leaf_surface": "光滑發亮，深綠色，水珠不成珠狀（會攤平）",
+      "leaf_venation": "明顯的羽狀脈，主脈粗壯突出",
+      "leaf_tip": "朝上或水平指向",
+      "petiole": "粗壯，長 50-100cm，綠色常帶紫暈，接在葉片邊緣",
+      "stem": "粗短直立莖，多汁",
+      "flower": "佛焰苞花序，黃綠色",
+      "fruit": "紅色漿果串"
+    },
+    "habitat": "林下、溪邊、潮濕陰暗處，海拔 0-1500m",
+    "confusion_with": ["colocasia_esculenta"],
+    "affected_parts": ["全株", "汁液"],
+    "symptoms": ["口腔灼傷", "舌頭麻痺", "腹瀉", "喉嚨腫脹", "嘔吐"],
+    "first_aid": "立即用大量清水漱口，勿催吐，儘速就醫。皮膚接觸汁液時以大量清水沖洗。",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "cerbera_manghas",
+    "scientific_name": "Cerbera manghas",
+    "common_names": { "zh-TW": "海檬果", "en": "Sea Mango" },
+    "danger_level": "critical",
+    "toxicity": "全株有毒，種子劇毒，含海檬果毒素（cerberin），誤食可致心臟麻痺死亡",
+    "morphology": {
+      "leaf_shape": "倒披針形或長橢圓形，長 15-30cm，寬 3-5cm，革質",
+      "leaf_surface": "光滑，深綠色，有光澤",
+      "leaf_venation": "側脈明顯，平行排列",
+      "leaf_tip": "漸尖",
+      "petiole": "短，長 1-3cm",
+      "stem": "直立喬木，高可達 8-15m，斷面有白色乳汁",
+      "flower": "白色五瓣花，中心粉紅色，有香味，聚繖花序",
+      "fruit": "卵圓形核果，直徑 5-7cm，青綠轉暗紅，內含劇毒種子"
+    },
+    "habitat": "海岸、河口、紅樹林邊緣、公園（常作景觀樹）",
+    "confusion_with": [],
+    "affected_parts": ["全株", "種子（劇毒）", "乳汁"],
+    "symptoms": ["嘔吐", "腹痛", "心律不整", "心臟麻痺", "可致死"],
+    "first_aid": "立即催吐（若意識清醒），儘速送醫，告知醫師疑似海檬果中毒。此為心臟毒性，需緊急處理。",
+    "distribution": {
+      "altitude_range": [0, 100],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "datura_stramonium",
+    "scientific_name": "Datura stramonium",
+    "common_names": { "zh-TW": "曼陀羅", "en": "Jimsonweed" },
+    "danger_level": "critical",
+    "toxicity": "全株劇毒，含莨菪鹼（scopolamine）、東莨菪鹼（atropine），誤食致譫妄、幻覺、死亡",
+    "morphology": {
+      "leaf_shape": "卵形，長 8-20cm，邊緣有粗鋸齒或不規則裂片",
+      "leaf_surface": "略粗糙，暗綠色，搓揉後有臭味",
+      "leaf_venation": "網狀脈",
+      "leaf_tip": "銳尖",
+      "petiole": "長 3-6cm",
+      "stem": "直立草本或亞灌木，高 50-150cm，莖綠色或紫色，光滑",
+      "flower": "白色或淡紫色喇叭形大花，長 6-10cm，單生於枝腋",
+      "fruit": "球形蒴果，直徑 3-5cm，外被硬刺（關鍵特徵）"
+    },
+    "habitat": "荒地、路旁、廢棄地、農田邊緣",
+    "confusion_with": [],
+    "affected_parts": ["全株", "種子（濃度最高）", "葉"],
+    "symptoms": ["瞳孔放大", "口乾", "心跳加速", "幻覺", "譫妄", "抽搐", "昏迷", "可致死"],
+    "first_aid": "立即催吐（若意識清醒且在 1 小時內），儘速送醫。注意維持呼吸道暢通。",
+    "distribution": {
+      "altitude_range": [0, 1000],
+      "climate_zones": ["亞熱帶", "溫帶", "熱帶"]
+    }
+  },
+  {
+    "id": "urtica_thunbergiana",
+    "scientific_name": "Urtica thunbergiana",
+    "common_names": { "zh-TW": "咬人貓", "en": "Stinging Nettle (Taiwan)" },
+    "danger_level": "medium",
+    "toxicity": "莖葉有透明焮刺毛，觸碰注入蟻酸等化學物質，引起劇烈灼痛，持續數小時",
+    "morphology": {
+      "leaf_shape": "闊卵形至心形，長 6-13cm，邊緣有粗鋸齒",
+      "leaf_surface": "兩面均有焮刺毛（透明針狀突起，肉眼可見）——關鍵特徵",
+      "leaf_venation": "網狀脈，3-5 條基出脈",
+      "leaf_tip": "銳尖",
+      "petiole": "長 3-8cm，有刺毛",
+      "stem": "直立草本，高 50-120cm，莖上也有刺毛，方形莖",
+      "flower": "穗狀花序，小型綠色花",
+      "fruit": "瘦果，微小"
+    },
+    "habitat": "中海拔山區林下，潮濕陰暗處，海拔 500-3000m",
+    "confusion_with": [],
+    "affected_parts": ["莖", "葉", "焮刺毛"],
+    "symptoms": ["劇烈灼痛", "皮膚紅腫", "丘疹", "疼痛持續數小時至一天"],
+    "first_aid": "用膠帶黏除皮膚上的刺毛。冷水沖洗患處。可塗抹含類固醇的止癢藥膏。避免搔抓。",
+    "distribution": {
+      "altitude_range": [500, 3000],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "dendrocnide_meyeniana",
+    "scientific_name": "Dendrocnide meyeniana",
+    "common_names": { "zh-TW": "咬人狗", "en": "Stinging Tree (Taiwan)" },
+    "danger_level": "high",
+    "toxicity": "焮刺毛含蟻酸等毒素，觸碰引起劇烈灼痛，疼痛可持續數週至數月",
+    "morphology": {
+      "leaf_shape": "大型卵形至圓形，長 15-30cm，寬 10-20cm，全緣或微波狀",
+      "leaf_surface": "正面光滑或疏被短毛，背面密生刺毛（關鍵特徵）",
+      "leaf_venation": "明顯的三出脈",
+      "leaf_tip": "鈍尖或銳尖",
+      "petiole": "長 5-15cm",
+      "stem": "灌木至小喬木，高 2-5m，莖上有刺毛",
+      "flower": "聚繖花序，小型淡綠色花",
+      "fruit": "小型核果"
+    },
+    "habitat": "低海拔闊葉林，林緣或開闊地，海拔 0-800m",
+    "confusion_with": [],
+    "affected_parts": ["全株表面（刺毛）"],
+    "symptoms": ["劇烈灼痛", "持續疼痛數週至數月", "皮膚紅腫", "嚴重者可能過敏性休克"],
+    "first_aid": "用膠帶反覆黏除刺毛。冷水沖洗。勿用手觸摸患處。疼痛持續超過一天應就醫。",
+    "distribution": {
+      "altitude_range": [0, 800],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "chlorophyllum_molybdites",
+    "scientific_name": "Chlorophyllum molybdites",
+    "common_names": { "zh-TW": "綠褶菇", "en": "Green-spored Parasol" },
+    "danger_level": "high",
+    "toxicity": "含多種毒素，誤食致嚴重腸胃炎，為台灣最常見的誤食毒菇",
+    "morphology": {
+      "cap": "傘蓋直徑 10-30cm，初球形後展平，白色至淡褐色，中央有褐色鱗片",
+      "gills": "初白色，成熟後轉為綠色（關鍵特徵）",
+      "stipe": "菌柄長 10-25cm，白色，基部膨大，有可移動的菌環",
+      "spore_print": "綠色（關鍵特徵）",
+      "flesh": "白色，受傷後不變色或微變褐色"
+    },
+    "habitat": "草地、公園、草坪上群生，雨後大量出現，海拔 0-500m",
+    "confusion_with": ["macrolepiota_procera"],
+    "affected_parts": ["子實體（全株）"],
+    "symptoms": ["嚴重嘔吐", "腹瀉", "腹痛", "脫水", "症狀在食後 1-3 小時出現"],
+    "first_aid": "催吐（若在食後 1 小時內），大量補充水分防止脫水，儘速就醫。保留殘餘菇體供醫師辨識。",
+    "distribution": {
+      "altitude_range": [0, 500],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "amanita_phalloides",
+    "scientific_name": "Amanita phalloides",
+    "common_names": { "zh-TW": "鱗柄白毒鵝膏（死帽蕈近似種）", "en": "Death Cap (related species)" },
+    "danger_level": "critical",
+    "toxicity": "含鵝膏毒素（amatoxin），致死量極低，誤食致肝腎衰竭，死亡率極高",
+    "morphology": {
+      "cap": "傘蓋直徑 5-15cm，白色至淡綠色或淡黃色，光滑，幼時半球形後展平",
+      "gills": "白色，離生，密集排列",
+      "stipe": "菌柄長 8-15cm，白色，基部有明顯的菌托（杯狀，關鍵特徵）",
+      "ring": "菌柄上部有白色薄膜狀菌環",
+      "spore_print": "白色",
+      "flesh": "白色，無特殊氣味（危險！易被認為無毒）"
+    },
+    "habitat": "闊葉林或針闊混合林下，常在樹根附近，海拔 500-2500m",
+    "confusion_with": [],
+    "affected_parts": ["子實體（全株）"],
+    "symptoms": ["潛伏期 6-24 小時（危險！初期無症狀）", "嘔吐腹瀉（假性恢復期後加重）", "肝腎衰竭", "黃疸", "多器官衰竭", "死亡"],
+    "first_aid": "立即送醫！告知疑似鵝膏毒素中毒。保留殘餘菇體。此毒素無特效解毒劑，需緊急支持性治療。時間是關鍵。",
+    "distribution": {
+      "altitude_range": [500, 2500],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "toxicodendron_vernicifluum",
+    "scientific_name": "Toxicodendron vernicifluum",
+    "common_names": { "zh-TW": "漆樹", "en": "Chinese Lacquer Tree" },
+    "danger_level": "medium",
+    "toxicity": "樹液含漆酚（urushiol），接觸致嚴重過敏性接觸性皮膚炎",
+    "morphology": {
+      "leaf_shape": "奇數羽狀複葉，小葉 7-13 枚，每枚長 7-15cm，卵形至橢圓形",
+      "leaf_surface": "幼葉微被毛，成熟葉近光滑，秋季轉紅（漂亮但危險）",
+      "leaf_venation": "羽狀脈",
+      "leaf_tip": "漸尖",
+      "petiole": "葉軸長 20-40cm",
+      "stem": "落葉喬木，高 10-20m，樹皮灰白色，切割後流出白色漆液（接觸即過敏）",
+      "flower": "圓錐花序，小型黃綠色花",
+      "fruit": "扁球形核果，淡黃色"
+    },
+    "habitat": "中低海拔闊葉林，山坡地，海拔 200-2500m",
+    "confusion_with": [],
+    "affected_parts": ["樹液（漆液）", "枝葉"],
+    "symptoms": ["嚴重皮膚紅腫", "水泡", "劇烈搔癢", "過敏者可能全身性反應"],
+    "first_aid": "立即用大量肥皂水清洗接觸部位（15分鐘內最有效）。勿搔抓水泡。塗抹含類固醇藥膏。嚴重者就醫。",
+    "distribution": {
+      "altitude_range": [200, 2500],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "nerium_oleander",
+    "scientific_name": "Nerium oleander",
+    "common_names": { "zh-TW": "夾竹桃", "en": "Oleander" },
+    "danger_level": "critical",
+    "toxicity": "全株劇毒，含強心苷（oleandrin），誤食極少量即可致心臟停跳死亡",
+    "morphology": {
+      "leaf_shape": "線狀披針形，長 10-20cm，寬 1-2.5cm，革質，葉緣全緣略反捲",
+      "leaf_surface": "深綠色，光滑，葉背有明顯中脈",
+      "leaf_venation": "羽狀側脈密集，近平行",
+      "leaf_arrangement": "三葉輪生（關鍵特徵）",
+      "petiole": "極短",
+      "stem": "常綠灌木，高 2-5m，分枝多，枝條灰綠色",
+      "flower": "粉紅、白或紅色，五瓣，漏斗形，聚繖花序，有芳香",
+      "fruit": "細長蓇葖果，長 10-20cm，成熟開裂露出帶毛種子"
+    },
+    "habitat": "公園、行道樹、庭園（常見觀賞植物），河岸，海拔 0-500m",
+    "confusion_with": [],
+    "affected_parts": ["全株（包括乾枯的葉和枝）", "花蜜", "燃燒煙霧也有毒"],
+    "symptoms": ["噁心嘔吐", "腹痛", "心律不整", "心跳過慢", "視覺異常", "心臟停跳", "可致死"],
+    "first_aid": "立即催吐（若意識清醒），儘速送醫。此為心臟毒性，需持續心電圖監測。勿用夾竹桃枝條烤食物。",
+    "distribution": {
+      "altitude_range": [0, 500],
+      "climate_zones": ["亞熱帶", "熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "cycas_revoluta",
+    "scientific_name": "Cycas revoluta",
+    "common_names": { "zh-TW": "蘇鐵（鐵樹）", "en": "Sago Palm" },
+    "danger_level": "high",
+    "toxicity": "種子和嫩葉含蘇鐵苷（cycasin），誤食致肝臟損害，有致癌性",
+    "morphology": {
+      "leaf_shape": "大型羽狀複葉，長 50-150cm，小葉線形，硬挺，邊緣反捲",
+      "leaf_surface": "深綠色，革質，有光澤",
+      "leaf_venation": "小葉僅一條中脈",
+      "leaf_arrangement": "叢生於莖頂，向外輻射展開（棕櫚狀）",
+      "petiole": "葉柄基部有刺",
+      "stem": "粗壯圓柱形樹幹，表面有葉痕，高 1-3m（生長極慢）",
+      "flower": "雌雄異株，雄花序圓柱形直立，雌花序扁球形",
+      "fruit": "種子球形，直徑 3-4cm，成熟時橙紅色"
+    },
+    "habitat": "公園、庭園（觀賞植物），山坡地，海拔 0-500m",
+    "confusion_with": [],
+    "affected_parts": ["種子（毒性最高）", "嫩葉", "根"],
+    "symptoms": ["嘔吐", "腹瀉", "肝臟損害（延遲性）", "黃疸", "長期接觸有致癌風險"],
+    "first_aid": "催吐（若在食後 1 小時內），儘速送醫。需追蹤肝功能指標。",
+    "distribution": {
+      "altitude_range": [0, 500],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "lantana_camara",
+    "scientific_name": "Lantana camara",
+    "common_names": { "zh-TW": "馬纓丹", "en": "Lantana" },
+    "danger_level": "high",
+    "toxicity": "全株具毒性，以未成熟綠色漿果毒性最顯著，含三萜類毒素 lantadene；誤食可引起嘔吐、腹瀉、肝損傷，嚴重可危及生命。成熟紫黑色果實仍存在風險，應一律避免採食。",
+    "morphology": {
+      "leaf_arrangement": "對生，兩兩相對於莖節上",
+      "leaf_shape": "卵形至闊卵形，長 3-8cm，先端鈍或銳尖，葉緣具粗鋸齒，鋸齒明顯易見",
+      "leaf_surface": "表面略粗糙，深綠色，常帶短柔毛；搓揉葉片會散出特殊刺鼻臭味（辨識線索）",
+      "leaf_venation": "羽狀網狀脈，側脈明顯向葉緣延伸",
+      "flower": "小型花密集組成頭狀或半球形繖房狀花序；花色隨開花進程變化，常見由黃轉橙再轉紅，亦有粉、橙紅等色，花期長",
+      "fruit": "球形漿果，未熟時鮮綠色、質地硬（毒性風險高），成熟轉深紫黑色；多顆聚生於花序軸上",
+      "stem": "木質化灌木狀分枝，莖方或略圓，幼莖常被短毛，易形成密生灌叢"
+    },
+    "habitat": "台北低海拔極常見：荒地、路旁、公園綠帶、山坡開闊地；耐旱耐貧瘠，海拔約 0-500m 皆可能大量出現。",
+    "confusion_with": [],
+    "affected_parts": ["全株", "未熟綠色漿果（高風險）", "成熟漿果", "葉"],
+    "symptoms": ["嘔吐", "腹瀉", "腹痛", "虛弱", "肝功能異常（嚴重時）", "呼吸困難（少見但嚴重）"],
+    "first_aid": "勿再進食；若剛誤食可於意識清醒且醫護指示下處理。儘速就醫並告知誤食馬纓丹漿果。保留樣本照片或枝條以利辨識。大量清水漱口。",
+    "distribution": {
+      "altitude_range": [0, 500],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "parthenium_hysterophorus",
+    "scientific_name": "Parthenium hysterophorus",
+    "common_names": { "zh-TW": "銀膠菊", "en": "Parthenium Weed" },
+    "danger_level": "medium",
+    "toxicity": "入侵種。花粉、碎裂植株與汁液可誘發嚴重過敏性皮膚炎（發紅、腫、水泡、劇癢），亦可加重或誘發氣喘與呼吸道過敏。長期或重複暴露風險高。",
+    "morphology": {
+      "habit": "一年生直立草本，株高通常 30-100cm，多分枝，整株呈疏鬆灌叢狀",
+      "leaf_arrangement": "葉互生，下位葉柄較長，向上漸短",
+      "leaf_shape": "葉羽狀深裂，裂片狹窄、線形至披針形，整體外觀繁複如萹苣類或茴蒿類切葉",
+      "leaf_surface": "表面疏被短毛或近光滑，灰綠至深綠色，揉碎有草本植物氣味",
+      "inflorescence": "花序為多數小型白色頭狀花密集排列於枝端或腋生圓錐狀分枝上，遠觀如小白菊或滿天星狀的白色花團",
+      "flower_detail": "單朵頭狀花序極小，總苞片數層，花冠白色，雌雄同株或異株狀排列於同一植株不同花序（族群內可見差異）",
+      "stem": "莖圓柱形，幼時常帶紫紅條紋，質地脆，易折斷並揚起花粉與碎片"
+    },
+    "habitat": "荒地、農田邊、路旁、河岸裸露地、建築空地；隨風傳播，在都會邊緣與低海拔開拓地快速定殖。",
+    "confusion_with": [],
+    "affected_parts": ["花粉", "葉與莖汁液", "揚起的植株碎屑"],
+    "symptoms": ["皮膚紅腫", "丘疹與水泡", "劇烈搔癢", "皮炎可久治不愈", "咳嗽", "喘鳴", "鼻癢噴嚏"],
+    "first_aid": "離開現場。以大量清水沖洗皮膚，更換衣物。皮膚炎可冷敷並依醫囑使用抗組織胺或類固醇藥膏；呼吸喘促或胸悶應立即就醫。從事清除工作應戴口罩、長袖與手套。",
+    "distribution": {
+      "altitude_range": [0, 800],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "brugmansia_suaveolens",
+    "scientific_name": "Brugmansia suaveolens",
+    "common_names": { "zh-TW": "大花曼陀羅", "en": "Angel's Trumpet" },
+    "danger_level": "critical",
+    "toxicity": "全株劇毒，富含莨菪鹼、東莨菪鹼等莨菪烷類生物鹼；誤食或誤用入藥可致譫妄、幻覺、瞳孔放大、心跳與體溫異常、抽搐、昏迷及呼吸抑制，致死風險高。",
+    "morphology": {
+      "habit": "灌木至小喬木，高常見 2-5m，庭園與公園常修剪成樹形",
+      "leaf_shape": "單葉大型，寬橢圓形至卵形，長可達 15-30cm，葉基常楔形或圓鈍，葉尖長漸尖，全緣或微波狀緣",
+      "leaf_surface": "葉面深綠、質地薄革質至草質，葉背色較淡；主脈粗，側脈弧形上舉",
+      "petiole": "葉柄長，略粗，支撐下垂的大葉",
+      "flower": "花極大，長筒狀喇叭形，長約 20-30cm，花冠先端開展；關鍵特徵為花朵明顯下垂（朝下懸掛），有濃郁甜香，花色以白或淡黃最為常見",
+      "fruit": "蒴果類，表面光滑無明顯硬刺（與曼陀羅 Datura 具刺蒴果不同，為重要區別）",
+      "comparison_note": "與一年生曼陀羅相較：本種喬木化、花下垂且更大、果實表面不具曼陀羅之球形刺蒴果特徵"
+    },
+    "habitat": "溫暖地區庭園、公園、寺廟周邊與私人綠地常作觀賞栽培；台北低海拔都市綠地可見。野生逸出個體偶見於溫暖避風處。",
+    "confusion_with": ["datura_stramonium"],
+    "affected_parts": ["全株", "花", "葉", "種子"],
+    "symptoms": ["口乾", "瞳孔放大", "視力模糊", "心悸", "譫妄", "幻覺", "躁動或嗜睡", "抽搐", "昏迷", "呼吸衰竭"],
+    "first_aid": "立即呼叫急救。勿自行催吐除非醫護指示。保持呼吸道暢通，側臥防嗆咳。儘速送醫並攜帶植株照片。醫院以支持療法為主，可能需鎮靜與監測。",
+    "distribution": {
+      "altitude_range": [0, 800],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "phytolacca_americana",
+    "scientific_name": "Phytolacca americana",
+    "common_names": { "zh-TW": "美洲商陸", "en": "American Pokeweed" },
+    "danger_level": "high",
+    "toxicity": "全株有毒，以根部毒性最強；含商陸皂苷、商陸毒素等。誤食可致嚴重嘔吐、腹瀉、電解質失衡，乃至中樞抑制與循環衰竭。採野菜者最易誤認。",
+    "morphology": {
+      "habit": "多年生直立草本，高可達 1-3m，莖粗壯，全株多汁",
+      "stem": "成熟莖常呈紅紫或紫紅色，幼莖綠色帶紫斑，易與某些可食莖葉植物混淆（危險）",
+      "leaf_shape": "大型互生葉，橢圓形至卵狀披針形，長 10-30cm，寬 5-15cm，先端漸尖，全緣",
+      "leaf_surface": "葉質薄至略厚，表面深綠，葉背較淡；葉柄長，著生於莖上呈螺旋互生",
+      "flower": "總狀花序腋生或頂生，小花白色，花梗與花軸隨發育伸長；花期長，花序直立或略下垂",
+      "fruit": "球形漿果，未熟綠色，成熟轉紫黑亮色；多果密集排列於延長之花序軸上呈下垂長穗狀（關鍵辨識組合：紫莖+長穗紫黑漿果）",
+      "root": "主根粗大成紡錘狀或肥厚，外皮淡黃至粉紅色，切片明顯同心環紋（野外勿試嚐）"
+    },
+    "habitat": "荒地、林緣、溪畔、開墾地與灌叢邊緣；低海拔至中海拔皆可偶遇，潮濕肥沃地生長尤旺。",
+    "confusion_with": ["amaranthus_viridis"],
+    "affected_parts": ["根（最高風險）", "莖", "葉", "漿果"],
+    "symptoms": ["噁心嘔吐", "腹痛腹瀉", "大量腹瀉致脫水", "頭暈", "心跳變化", "抽搐（嚴重）", "呼吸抑制"],
+    "first_aid": "禁止再進食。意識清楚時儘速就醫，勿自行催吐除非醫護建議。保留殘餘植物供辨識。注意補充水分與電解質需由醫療人員評估。",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶", "溫帶", "熱帶"]
+    }
+  },
+  {
+    "id": "zantedeschia_aethiopica",
+    "scientific_name": "Zantedeschia aethiopica",
+    "common_names": { "zh-TW": "海芋", "en": "Calla Lily" },
+    "danger_level": "medium",
+    "toxicity": "含草酸鈣針晶及溶蛋白酵素等刺激性成分；誤食致口腔、舌頭、咽喉灼痛、流涎、吞嚥困難，可伴嘔吐。汁液接觸黏膜或敏感皮膚亦可刺激。",
+    "morphology": {
+      "habit": "多年生草本，高約 40-100cm，具地下莖，常成群落栽培",
+      "leaf_shape": "葉大型箭形至戟形，長 15-45cm，葉基深心形裂片，先端漸尖，全緣光滑",
+      "leaf_surface": "深綠色，具蠟質光澤，質地厚；主脈於背面隆起明顯",
+      "petiole": "葉柄長而粗，淺綠色，具縱稜，支撐葉片挺立或略外展",
+      "flower": "關鍵特徵為純白色（或栽培變種其他色）大型佛焰苞，呈漏斗狀或喇叭狀包被中央之肉穗花序；肉穗花序黃色，粗短圓柱形，整體外觀優雅似「白花版本之芋類花序」",
+      "seasonality": "栽培於竹子湖、庭園時開花期集中，荒野逸出個體仍具相同典型白花佛焰苞",
+      "underground": "地下具塊莖狀根莖，肉眼不可見時仍與可食芋類概念混淆，唯地上花部形態差異大"
+    },
+    "habitat": "陽明山竹子湖及北台灣高冷菜園區大量作景觀與切花生產；溪邊濕地、庭園、公園花台亦常見栽培。喜濕潤排水良好土壤。",
+    "confusion_with": ["colocasia_esculenta", "alocasia_odora"],
+    "affected_parts": ["全株", "汁液", "地下莖", "佛焰苞與肉穗"],
+    "symptoms": ["口腔灼痛", "舌頭麻木", "流涎", "噁心嘔吐", "吞嚥困難", "皮膚紅癢（接觸性）"],
+    "first_aid": "清水漱口但不要吞嚥大量生水造成嗆咳；移除口中殘渣。皮膚以大量清水沖洗。咽喉腫脹或呼吸不順立即就醫。避免與食用油鹼偏方自行處理。",
+    "distribution": {
+      "altitude_range": [200, 1200],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "abrus_precatorius",
+    "scientific_name": "Abrus precatorius",
+    "common_names": { "zh-TW": "雞母珠（相思子）", "en": "Rosary Pea" },
+    "danger_level": "critical",
+    "toxicity": "種子劇毒，含雞母珠毒蛋白 abrin，毒性極強，咬碎或穿刺種皮後釋放；文獻記載極少量種子即可致命。全株其他部位亦不宜食用。",
+    "morphology": {
+      "habit": "木質攀緣藤本，捲鬚或纏繞他物上升，可覆蓋灌叢與籬笆",
+      "leaf_type": "偶數羽狀複葉，小葉 8-15 對，對生排列於葉軸",
+      "leaflet_shape": "小葉長橢圓形，長約 1-2cm，寬 0.5-1cm，先端圓或微凹，全緣，質地薄革質，表面深綠光澤",
+      "flower": "蝶形花冠，花冠淡粉至紫紅色，腋生總狀花序，外形似小型豇豆類野花",
+      "fruit": "莢果長圓形，成熟乾裂可見種子",
+      "seed": "種子橢圓或長卵形，關鍵特徵為鮮明雙色：典型為上半鮮紅、下半亮黑（似瓢蟲配色），表面光滑有光澤，常用於民俗飾品（極危險，勿製作刺破種皮的飾品）"
+    },
+    "habitat": "台灣低海拔林緣、灌叢、河岸邊坡、荒地；常與其他攀藤混生。台北市郊山區與河谷開闊地可能零星至局部常見。",
+    "confusion_with": [],
+    "affected_parts": ["種子（劇毒）", "莢果", "其他部位不宜食用"],
+    "symptoms": ["延遲性腸胃症狀", "嚴重脫水", "肝腎損傷", "抽搐", "休克", "可致死"],
+    "first_aid": "懷疑吞食種子視為急症，立即送醫。勿等待症狀。告知醫師時間與可能數量。避免催吐造成二次傷害；由醫療端處置。切勿把玩咬破種子。",
+    "distribution": {
+      "altitude_range": [0, 800],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "ricinus_communis",
+    "scientific_name": "Ricinus communis",
+    "common_names": { "zh-TW": "蓖麻", "en": "Castor Bean" },
+    "danger_level": "critical",
+    "toxicity": "種子含蓖麻毒蛋白 ricin 及蓖麻鹼等；嚼碎種子可致嚴重腸胃出血、器官衰竭，極少量即可致命。葉等亦可刺激。",
+    "morphology": {
+      "habit": "直立灌木或小喬木，高可達 2-5m，莖粗，髓疏鬆，幼莖常帶白粉或紫紅條紋",
+      "leaf_shape": "單葉掌狀深裂 5-11 裂，直徑 15-45cm，裂片狹披針形至卵狀，先端長尖，葉緣有鋸齒；整體如放射狀巨葉",
+      "petiole": "葉柄極長，連接於葉片中央近圓心處，支撐大型葉於莖頂輪生或互生排列",
+      "leaf_surface": "表面亮綠，背面較淡；主脈掌狀自中心放射",
+      "flower": "頂生總狀或圓錐狀花序，單性同株，雄花在上、雌花在下，花部不顯眼，綠黃色",
+      "fruit": "球形蒴果，直徑約 1.5-2.5cm，外果皮具軟刺或刺狀突起，成熟時可裂開",
+      "seed": "種子橢圓形，長約 1-1.5cm，種皮光滑具褐色大理石斑紋，種臍明顯（關鍵辨識）"
+    },
+    "habitat": "荒地、農田旁、河床沙洲、路旁與公園偶見栽培或逸出；耐旱，在全台低海拔可見。",
+    "confusion_with": [],
+    "affected_parts": ["種子（劇毒）", "幼苗與葉"],
+    "symptoms": ["噁心嘔吐", "腹痛血便", "脫水", "低血壓", "抽搐", "尿量減少", "多器官衰竭"],
+    "first_aid": "立即急救送醫。勿延遲。提供吞食時間與是否咀嚼。避免自行灌腸或偏方。醫院以支持療法與監測為主。",
+    "distribution": {
+      "altitude_range": [0, 1200],
+      "climate_zones": ["亞熱帶", "熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "triadica_sebifera",
+    "scientific_name": "Triadica sebifera",
+    "common_names": { "zh-TW": "烏桕", "en": "Chinese Tallow Tree" },
+    "danger_level": "medium",
+    "toxicity": "樹皮、葉柄、乳汁等含刺激性成分；汁液或乳汁接觸皮膚可致紅腫、水泡及過敏性皮膚炎。誤食部位可致腸胃不適。",
+    "morphology": {
+      "habit": "落葉喬木，高 8-15m 常見，冠幅開展，老樹樹皮灰褐縱裂",
+      "leaf_shape": "單葉互生，菱形至菱狀卵形，長 3-8cm，寬 3-9cm，先端尾狀尖，全緣；秋季葉色常轉紅或橙紅，為重要景觀辨識季相",
+      "leaf_surface": "幼葉可紅色，成葉薄革質，表面深綠，背面稍淡，乾燥時略呈紙質易透光",
+      "petiole": "葉柄頂端近葉片基部處常具兩個小型腺體（關鍵特徵），腺體黃綠色小突起，觀察角度需逆光或近看",
+      "inflorescence": "穗狀花序，雌雄同株，雄花序在上，雌花序在下，花黃綠色，風媒",
+      "fruit": "蒴果近球形，熟時黑色，三裂；種子被覆白色蠟質假種皮，整串掛枝上似小白點綴（採集白蠟用，非食物）"
+    },
+    "habitat": "台北都市行道樹、校園、河堤、低海拔丘陵次生林；喜陽光，廣泛栽培與歸化。",
+    "confusion_with": [],
+    "affected_parts": ["乳汁／汁液", "種子外蠟層", "葉及樹皮"],
+    "symptoms": ["皮膚紅腫", "搔癢", "水泡", "腸胃不適（誤食）"],
+    "first_aid": "皮膚接觸立即肥皂水徹底清洗。勿抓破水泡。腫痛明顯或擴大就醫。誤食少量亦建議諮詢毒物科或急診。",
+    "distribution": {
+      "altitude_range": [0, 1000],
+      "climate_zones": ["亞熱帶", "熱帶", "溫帶"]
+    }
+  },
+  {
+    "id": "epipremnum_aureum",
+    "scientific_name": "Epipremnum aureum",
+    "common_names": { "zh-TW": "黃金葛", "en": "Golden Pothos" },
+    "danger_level": "low",
+    "toxicity": "含草酸鈣針晶；咬食可致口腔刺痛、流涎、嘔吐；汁液接觸眼睛或傷口會劇烈刺激。居家與公園常見，兒童與寵物誤食風險需注意。",
+    "morphology": {
+      "habit": "常綠攀緣藤本，幼株蔓生或垂吊，成株節上可見發達氣生根附著樹幹或牆面",
+      "leaf_shape": "幼葉心形全緣，成株葉可變大型裂葉；一般觀賞型以心形葉為主，長 5-15cm 視齡期變化",
+      "leaf_surface": "革質光澤，深綠底色，表面有黃色至乳黃色縱向斑紋或塊斑（園藝品系眾多，斑紋密度不一）",
+      "leaf_venation": "兩基出脈自心形基部伸向葉尖兩側，側脈弧曲",
+      "stem": "莖節間明顯，蔓莖圓柱，常綠，營養充足時節間縮短呈密葉",
+      "aerial_roots": "氣根棕色，多條自節上伸出，可攀附粗糙表面"
+    },
+    "habitat": "室內盆栽、大樓綠牆、公園養護良好的綠籬與樹幹覆被；台北都會區極度常見。耐陰，亦見於半日照外牆。",
+    "confusion_with": [],
+    "affected_parts": ["葉", "莖", "汁液"],
+    "symptoms": ["口腔灼熱", "流涎", "噁心嘔吐", "皮膚刺激", "眼部劇痛（汁液誤入）"],
+    "first_aid": "清水漱口；眼睛以生理食鹽水或清水沖洗至少 15 分鐘並就醫。皮膚沖洗乾淨。多數症狀可漸緩，但腫脹影響呼吸需急診。",
+    "distribution": {
+      "altitude_range": [0, 500],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    }
+  },
+  {
+    "id": "digitalis_purpurea",
+    "scientific_name": "Digitalis purpurea",
+    "common_names": { "zh-TW": "毛地黃", "en": "Common Foxglove" },
+    "danger_level": "critical",
+    "toxicity": "全株劇毒，富含強心苷（cardiac glycosides）。誤食可致噁心嘔吐、視覺異常（黃視、綠視）、心律不整，嚴重心室頻脈或緩脈皆可致命；與體質及劑量相關。",
+    "morphology": {
+      "habit": "二年生草本，第一年常只生蓮座葉，第二年抽薹，高 60-150cm",
+      "basal_leaves": "基生葉叢生，長橢圓至卵形，葉基漸狹成柄，葉面密被短絨毛，觸感粗糙灰綠色",
+      "stem_leaves": "莖生葉互生，向上漸小，葉柄短或無柄，葉片仍密毛",
+      "inflorescence": "頂生總狀花序，花朵數量多，由下方依序向上開展",
+      "flower": "花冠鐘形或筒狀鐘形，略下垂；花色常紫紅色，冠筒內側有明顯深色斑點或網紋（關鍵園藝與野生辨識特徵）；花萼裂片短",
+      "stem": "莖粗壯直立，四角或圓柱，全株被毛，質脆易折"
+    },
+    "habitat": "冷涼濕潤山坡、林緣草地；陽明山及中高海拔涼冷區有原生或栽培逸出可能。都市花圃亦見園藝種植。",
+    "confusion_with": [],
+    "affected_parts": ["全株", "花", "葉", "種子"],
+    "symptoms": ["噁心嘔吐", "腹痛", "腹瀉", "頭暈", "視力異常（色覺改變）", "心率不整", "暈厥"],
+    "first_aid": "立即送醫監測心電圖；勿自行服用解藥。保留植株。若意識清醒可依指示處理，但強心苷中毒以醫院處置為主。避免咖啡與刺激物。",
+    "distribution": {
+      "altitude_range": [500, 2500],
+      "climate_zones": ["亞熱帶", "溫帶"]
+    }
+  }
+]

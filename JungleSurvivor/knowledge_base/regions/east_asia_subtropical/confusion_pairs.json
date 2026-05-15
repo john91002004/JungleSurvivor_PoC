@@ -1,0 +1,663 @@
+[
+  {
+    "id": "taro_vs_alocasia",
+    "safe_species": {
+      "id": "colocasia_esculenta",
+      "scientific_name": "Colocasia esculenta",
+      "common_name_zh": "芋頭",
+      "common_name_en": "Taro",
+      "key_features": {
+        "leaf_surface": "有天鵝絨般的微絨毛質感，不太光滑",
+        "water_droplet_test": "水珠在葉面呈圓珠狀滾動（荷葉效應）",
+        "leaf_tip": "通常朝下垂",
+        "petiole_attachment": "接在葉片邊緣內側（盾狀著生）",
+        "petiole_color": "綠色，較少紫暈",
+        "leaf_size": "較小，葉長 20-50cm",
+        "underground": "有圓形塊莖，可食用"
+      }
+    },
+    "dangerous_species": {
+      "id": "alocasia_odora",
+      "scientific_name": "Alocasia odora",
+      "common_name_zh": "姑婆芋",
+      "common_name_en": "Giant Elephant Ear",
+      "danger_level": "high",
+      "key_features": {
+        "leaf_surface": "光滑發亮，質地像打了蠟",
+        "water_droplet_test": "水珠攤平不成珠狀（不具荷葉效應）",
+        "leaf_tip": "朝上或水平指向",
+        "petiole_attachment": "接在葉片邊緣（非盾狀）",
+        "petiole_color": "綠色常帶紫暈",
+        "leaf_size": "較大，葉長 50-90cm",
+        "underground": "根莖粗短，有毒"
+      }
+    },
+    "lethality": "high",
+    "comparison_table": [
+      { "feature": "葉面質感", "safe": "微絨毛，不光滑", "danger": "光滑發亮，像打蠟" },
+      { "feature": "水珠測試", "safe": "水珠成圓珠狀滾動", "danger": "水珠攤平" },
+      { "feature": "葉尖方向", "safe": "朝下垂", "danger": "朝上或水平" },
+      { "feature": "葉柄接合", "safe": "葉片內側（盾狀）", "danger": "葉片邊緣" },
+      { "feature": "葉片大小", "safe": "較小（20-50cm）", "danger": "較大（50-90cm）" },
+      { "feature": "葉柄紫暈", "safe": "少", "danger": "常見" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "水珠測試",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "在葉面滴一滴水，觀察水珠的形狀",
+        "safe_result": "水珠呈圓珠狀，可以滾動 → 較可能是芋頭",
+        "danger_result": "水珠攤平，不成珠狀 → 較可能是姑婆芋"
+      },
+      {
+        "test_name": "葉柄接合處特寫",
+        "priority": 2,
+        "is_critical": true,
+        "instruction_zh": "拍攝葉柄與葉片的接合處特寫",
+        "safe_result": "葉柄接在葉片邊緣內側（盾狀著生）",
+        "danger_result": "葉柄接在葉片邊緣"
+      },
+      {
+        "test_name": "葉面質感特寫",
+        "priority": 3,
+        "is_critical": false,
+        "instruction_zh": "拍攝葉面特寫，觀察是否光滑如蠟，還是有微絨毛？",
+        "safe_result": "有微絨毛，不光滑",
+        "danger_result": "光滑發亮，像打了蠟"
+      }
+    ]
+  },
+  {
+    "id": "parasol_vs_green_spored",
+    "safe_species": {
+      "id": "macrolepiota_procera",
+      "scientific_name": "Macrolepiota procera",
+      "common_name_zh": "高大環柄菇",
+      "common_name_en": "Parasol Mushroom",
+      "key_features": {
+        "cap": "傘蓋直徑 10-30cm，表面有褐色鱗片，中央較深",
+        "gills": "白色，成熟後仍保持白色或淡奶油色",
+        "stipe": "菌柄細長，有蛇皮狀斑紋（關鍵特徵）",
+        "ring": "雙層菌環，可上下滑動",
+        "spore_print": "白色"
+      }
+    },
+    "dangerous_species": {
+      "id": "chlorophyllum_molybdites",
+      "scientific_name": "Chlorophyllum molybdites",
+      "common_name_zh": "綠褶菇",
+      "common_name_en": "Green-spored Parasol",
+      "danger_level": "high",
+      "key_features": {
+        "cap": "傘蓋直徑 10-30cm，外觀與高大環柄菇極似",
+        "gills": "初白色，成熟後轉為綠色（關鍵特徵）",
+        "stipe": "菌柄較粗，缺乏蛇皮狀斑紋",
+        "ring": "菌環較薄",
+        "spore_print": "綠色（關鍵特徵）"
+      }
+    },
+    "lethality": "medium",
+    "comparison_table": [
+      { "feature": "菌褶顏色", "safe": "始終白色或奶油色", "danger": "成熟後轉綠色" },
+      { "feature": "孢子印顏色", "safe": "白色", "danger": "綠色" },
+      { "feature": "菌柄紋路", "safe": "有蛇皮狀斑紋", "danger": "無蛇皮斑紋" },
+      { "feature": "菌環", "safe": "雙層，可移動", "danger": "較薄，單層" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "菌褶顏色檢查",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "小心翻開傘蓋，觀察菌褶（傘蓋下方的放射狀薄片）顏色",
+        "safe_result": "菌褶為白色或淡奶油色",
+        "danger_result": "菌褶帶有綠色或灰綠色"
+      },
+      {
+        "test_name": "孢子印測試",
+        "priority": 2,
+        "is_critical": true,
+        "instruction_zh": "將傘蓋放在白紙上靜置 2-4 小時，觀察掉落的孢子粉顏色",
+        "safe_result": "白色孢子粉",
+        "danger_result": "綠色或灰綠色孢子粉"
+      }
+    ]
+  },
+  {
+    "id": "birds_nest_fern_vs_toxic_fern",
+    "safe_species": {
+      "id": "asplenium_nidus",
+      "scientific_name": "Asplenium nidus",
+      "common_name_zh": "山蘇（鳥巢蕨）",
+      "common_name_en": "Bird's Nest Fern",
+      "key_features": {
+        "leaf_shape": "大型單葉，長披針形，長 50-120cm，寬 10-15cm",
+        "leaf_arrangement": "叢生，從中心向外輻射展開，形成鳥巢狀（關鍵特徵）",
+        "leaf_surface": "光滑，革質，全緣（無鋸齒）",
+        "midrib": "明顯的黑褐色中肋",
+        "sori": "葉背有線狀孢子囊群，沿側脈排列",
+        "growth": "附生在樹幹上或岩石上"
+      }
+    },
+    "dangerous_species": {
+      "id": "toxic_fern_general",
+      "scientific_name": "Various",
+      "common_name_zh": "有毒蕨類（泛指）",
+      "common_name_en": "Toxic Ferns",
+      "danger_level": "low",
+      "key_features": {
+        "leaf_shape": "多為羽狀複葉（與山蘇的單葉明顯不同）",
+        "leaf_arrangement": "通常不形成鳥巢狀",
+        "leaf_surface": "可能有毛茸或不同質感",
+        "growth": "多為地生型"
+      }
+    },
+    "lethality": "low",
+    "comparison_table": [
+      { "feature": "葉形", "safe": "單葉，長披針形", "danger": "多為羽狀複葉" },
+      { "feature": "排列方式", "safe": "鳥巢狀輻射展開", "danger": "無特定排列" },
+      { "feature": "生長方式", "safe": "附生（樹幹/岩石）", "danger": "多地生" },
+      { "feature": "中肋顏色", "safe": "黑褐色", "danger": "多為綠色" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "葉背孢子囊觀察",
+        "priority": 1,
+        "is_critical": false,
+        "instruction_zh": "翻開葉片背面，觀察是否有沿著側脈排列的線狀褐色條紋（孢子囊群）",
+        "safe_result": "有整齊的線狀孢子囊群沿側脈排列",
+        "danger_result": "孢子囊分佈不同或無孢子囊"
+      }
+    ]
+  },
+  {
+    "id": "wild_ginger_vs_toxic_ginger",
+    "safe_species": {
+      "id": "hedychium_coronarium",
+      "scientific_name": "Hedychium coronarium",
+      "common_name_zh": "野薑花",
+      "common_name_en": "White Ginger Lily",
+      "key_features": {
+        "flower": "白色蝴蝶形花朵，香氣濃郁（關鍵特徵）",
+        "leaf_shape": "長橢圓形披針狀，長 20-40cm，互生排列",
+        "rhizome": "根莖有薑味（關鍵特徵）",
+        "stem": "直立草本，高 100-200cm"
+      }
+    },
+    "dangerous_species": {
+      "id": "toxic_zingiberaceae",
+      "scientific_name": "Various Zingiberaceae",
+      "common_name_zh": "有毒薑科植物",
+      "common_name_en": "Toxic Ginger Family Plants",
+      "danger_level": "medium",
+      "key_features": {
+        "flower": "花色可能不同（非純白蝴蝶形）",
+        "rhizome": "根莖無薑味或有刺激性氣味",
+        "leaf_shape": "葉形可能相似但細節不同"
+      }
+    },
+    "lethality": "medium",
+    "comparison_table": [
+      { "feature": "花的形態", "safe": "白色蝴蝶形，強烈芳香", "danger": "花色或花形不同" },
+      { "feature": "根莖氣味", "safe": "有明顯薑味", "danger": "無薑味或刺激性氣味" },
+      { "feature": "花序位置", "safe": "頂生穗狀花序", "danger": "可能不同" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "根莖氣味測試",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "小心刮開少量根莖表皮，聞是否有明顯的薑味",
+        "safe_result": "有清新的薑味",
+        "danger_result": "無薑味、有刺激性氣味、或有化學藥味"
+      }
+    ]
+  },
+  {
+    "id": "termite_mushroom_vs_white_toxic",
+    "safe_species": {
+      "id": "termitomyces_sp",
+      "scientific_name": "Termitomyces sp.",
+      "common_name_zh": "雞肉絲菇",
+      "common_name_en": "Termite Mushroom",
+      "key_features": {
+        "cap": "傘蓋灰白色至褐色，中央有尖突（關鍵特徵）",
+        "gills": "白色至淡粉色",
+        "stipe": "菌柄下方延伸入土中，連接白蟻巢（關鍵特徵）",
+        "habitat": "只生長在白蟻巢上方",
+        "texture": "撕開後呈絲狀（像雞肉絲，故名）"
+      }
+    },
+    "dangerous_species": {
+      "id": "white_toxic_mushroom",
+      "scientific_name": "Amanita sp. / Leucoagaricus sp.",
+      "common_name_zh": "白色毒菇類",
+      "common_name_en": "White Toxic Mushrooms",
+      "danger_level": "critical",
+      "key_features": {
+        "cap": "白色，可能無中央尖突",
+        "gills": "白色",
+        "stipe": "菌柄基部可能有菌托（杯狀）或膨大",
+        "habitat": "非白蟻巢相關",
+        "ring": "可能有薄膜狀菌環"
+      }
+    },
+    "lethality": "critical",
+    "comparison_table": [
+      { "feature": "傘蓋中央", "safe": "有尖突", "danger": "無尖突或平滑" },
+      { "feature": "菌柄基部", "safe": "深入土中連接白蟻巢", "danger": "有菌托（杯狀）" },
+      { "feature": "生長基質", "safe": "白蟻巢上方（找蟻丘）", "danger": "林地、草地" },
+      { "feature": "菌肉質地", "safe": "撕開呈絲狀", "danger": "撕開呈塊狀" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "生長基質確認",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "觀察菇類生長的地面，是否有白蟻巢（土堆狀隆起）？小心挖開菌柄基部，是否深入土中？",
+        "safe_result": "菌柄深入土中，下方有白蟻巢結構",
+        "danger_result": "菌柄基部有杯狀菌托，或直接長在落葉/土壤上"
+      },
+      {
+        "test_name": "菌肉撕裂測試",
+        "priority": 2,
+        "is_critical": false,
+        "instruction_zh": "小心撕開一小塊菌肉，觀察質地",
+        "safe_result": "呈絲狀撕開（像撕雞肉絲）",
+        "danger_result": "呈塊狀或粉狀斷裂"
+      }
+    ]
+  },
+  {
+    "id": "green_snake_vs_bamboo_viper",
+    "safe_species": {
+      "id": "cyclophiops_major",
+      "scientific_name": "Cyclophiops major",
+      "common_name_zh": "青蛇",
+      "common_name_en": "Greater Green Snake",
+      "key_features": {
+        "body_color": "全身翠綠色，無白色側線",
+        "head_shape": "橢圓形，與頸部分界不明顯",
+        "pupil": "圓形瞳孔",
+        "tail": "尾部綠色，無紅色（關鍵區別）",
+        "body_size": "細長，全長 60-100cm",
+        "scales": "背鱗光滑",
+        "note": "無毒，台北山區常見"
+      }
+    },
+    "dangerous_species": {
+      "id": "trimeresurus_stejnegeri",
+      "scientific_name": "Trimeresurus stejnegeri",
+      "common_name_zh": "赤尾青竹絲",
+      "common_name_en": "Bamboo Viper",
+      "danger_level": "high",
+      "key_features": {
+        "body_color": "全身鮮綠色，體側有白色或淡黃色縱線",
+        "head_shape": "三角形，明顯比頸部寬",
+        "pupil": "縱裂瞳孔（貓眼狀）",
+        "tail": "尾巴末端磚紅色（關鍵特徵）",
+        "body_size": "60-90cm",
+        "pit_organ": "眼與鼻孔之間有頰窩",
+        "note": "出血性毒"
+      }
+    },
+    "lethality": "high",
+    "comparison_table": [
+      { "feature": "尾巴顏色", "safe": "綠色（同體色）", "danger": "磚紅色" },
+      { "feature": "頭形", "safe": "橢圓形", "danger": "三角形" },
+      { "feature": "瞳孔", "safe": "圓形", "danger": "縱裂（貓眼）" },
+      { "feature": "體側線", "safe": "無", "danger": "有白色或黃色縱線" },
+      { "feature": "頰窩", "safe": "無", "danger": "有（眼前方凹陷）" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "尾部顏色觀察",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "從安全距離觀察蛇尾末端顏色。",
+        "safe_result": "尾巴與身體同色（綠色）。",
+        "danger_result": "尾巴末端明顯磚紅色。"
+      },
+      {
+        "test_name": "頭形觀察",
+        "priority": 2,
+        "is_critical": true,
+        "instruction_zh": "從安全距離觀察頭部形狀。",
+        "safe_result": "頭部橢圓形，與頸部過渡平滑。",
+        "danger_result": "頭部明顯三角形，比頸部寬。"
+      }
+    ]
+  },
+  {
+    "id": "red_banded_vs_krait",
+    "safe_species": {
+      "id": "lycodon_rufozonatus",
+      "scientific_name": "Lycodon rufozonatus",
+      "common_name_zh": "紅斑蛇",
+      "common_name_en": "Red-banded Snake",
+      "key_features": {
+        "body_color": "紅褐色底，有不規則深色橫帶和紅色斑紋",
+        "head_shape": "略扁平，但與頸部分界不明顯",
+        "pupil": "圓形瞳孔",
+        "body_size": "全長 60-100cm",
+        "scales": "背鱗光滑",
+        "behavior": "受驚時會弓起身體模仿毒蛇姿態",
+        "note": "無毒，常見於住家附近"
+      }
+    },
+    "dangerous_species": {
+      "id": "bungarus_multicinctus",
+      "scientific_name": "Bungarus multicinctus",
+      "common_name_zh": "雨傘節",
+      "common_name_en": "Many-banded Krait",
+      "danger_level": "critical",
+      "key_features": {
+        "body_color": "黑白相間等寬環狀橫帶（關鍵特徵：黑白分明）",
+        "head_shape": "橢圓形",
+        "pupil": "圓形瞳孔",
+        "body_size": "全長 100-150cm",
+        "dorsal_scales": "背部中央一列鱗片擴大呈六角形（關鍵特徵）",
+        "note": "神經性毒，致死率最高"
+      }
+    },
+    "lethality": "critical",
+    "comparison_table": [
+      { "feature": "體色模式", "safe": "紅褐色底+不規則斑紋", "danger": "黑白等寬環帶（非常規則）" },
+      { "feature": "橫帶顏色", "safe": "深褐色+紅色", "danger": "純黑色+純白色" },
+      { "feature": "橫帶規則性", "safe": "不規則", "danger": "非常規則等寬" },
+      { "feature": "背中鱗", "safe": "一般大小", "danger": "中央列明顯擴大（六角形）" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "環帶規則性觀察",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "從安全距離觀察橫帶是否為規則的黑白等寬環帶。",
+        "safe_result": "斑紋不規則，有紅色。",
+        "danger_result": "黑白帶非常規則、等寬。"
+      }
+    ]
+  },
+  {
+    "id": "bidens_vs_parthenium",
+    "safe_species": {
+      "id": "bidens_pilosa_radiata",
+      "scientific_name": "Bidens pilosa var. radiata",
+      "common_name_zh": "大花咸豐草",
+      "common_name_en": "Spanish Needles (radiate variety)",
+      "key_features": {
+        "leaf_shape": "三出複葉或羽狀複葉，小葉卵形有鋸齒",
+        "flower": "頭狀花序，中心黃色，周圍5-8枚白色舌狀花瓣（花瓣明顯大且數量少）",
+        "stem": "方形莖有稜",
+        "fruit": "瘦果有倒鉤刺（會黏衣服）",
+        "smell": "無特殊刺激氣味",
+        "note": "可食用野草"
+      }
+    },
+    "dangerous_species": {
+      "id": "parthenium_hysterophorus",
+      "scientific_name": "Parthenium hysterophorus",
+      "common_name_zh": "銀膠菊",
+      "common_name_en": "Parthenium Weed",
+      "danger_level": "high",
+      "key_features": {
+        "leaf_shape": "羽狀深裂，裂片較細（關鍵區別：葉裂更深更細）",
+        "flower": "頭狀花序非常小（直徑僅3-5mm），白色花極小極密集（不像咸豐草有明顯花瓣）",
+        "stem": "圓形莖有短毛",
+        "smell": "搓揉有刺激性氣味",
+        "pollen": "花粉量極大，會飄散",
+        "note": "嚴重過敏源"
+      }
+    },
+    "lethality": "low",
+    "comparison_table": [
+      { "feature": "葉形", "safe": "三出複葉，小葉較大", "danger": "羽狀深裂，裂片細碎" },
+      { "feature": "花的大小", "safe": "花序直徑 1-2cm，花瓣明顯", "danger": "花序直徑 3-5mm，極小" },
+      { "feature": "白色花瓣", "safe": "5-8枚大花瓣", "danger": "5枚極小花瓣（肉眼幾乎看不到）" },
+      { "feature": "莖的形狀", "safe": "方形有稜", "danger": "圓形有毛" },
+      { "feature": "氣味", "safe": "無刺激味", "danger": "搓揉有刺激味" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "花朵大小比較",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "觀察白色花朵大小。",
+        "safe_result": "花序直徑約1-2cm，白色花瓣明顯5-8枚。",
+        "danger_result": "花序非常小僅3-5mm，白色幾乎看不到。"
+      },
+      {
+        "test_name": "氣味測試",
+        "priority": 2,
+        "is_critical": false,
+        "instruction_zh": "小心搓揉一片葉子聞氣味（勿觸碰眼睛）。",
+        "safe_result": "無特殊刺激味。",
+        "danger_result": "有刺激性氣味。"
+      }
+    ]
+  },
+  {
+    "id": "pokeweed_vs_amaranth",
+    "safe_species": {
+      "id": "amaranthus_viridis",
+      "scientific_name": "Amaranthus viridis",
+      "common_name_zh": "野莧菜",
+      "common_name_en": "Green Amaranth",
+      "key_features": {
+        "stem_color": "綠色或微帶紅色，高20-80cm",
+        "leaf_shape": "卵形至菱形，較小（3-8cm）",
+        "stem_size": "莖細（直徑 0.5-1cm）",
+        "flower": "穗狀花序，綠色小花",
+        "fruit": "種子黑色細小",
+        "note": "可食用野菜"
+      }
+    },
+    "dangerous_species": {
+      "id": "phytolacca_americana",
+      "scientific_name": "Phytolacca americana",
+      "common_name_zh": "美洲商陸",
+      "common_name_en": "American Pokeweed",
+      "danger_level": "high",
+      "key_features": {
+        "stem_color": "莖粗壯、常呈紅紫色（關鍵特徵）",
+        "leaf_shape": "大型橢圓形，明顯更大（10-30cm）",
+        "stem_size": "莖非常粗（直徑 2-5cm）",
+        "flower": "總狀花序（與莧菜穗狀不同），白色至粉色小花",
+        "fruit": "球形漿果成熟紫黑色排成穗狀（關鍵特徵：像紫色葡萄串）",
+        "note": "全株有毒"
+      }
+    },
+    "lethality": "high",
+    "comparison_table": [
+      { "feature": "植株大小", "safe": "矮小 20-80cm", "danger": "高大 100-300cm" },
+      { "feature": "莖的粗細", "safe": "細（0.5-1cm）", "danger": "粗壯（2-5cm）且紫紅色" },
+      { "feature": "葉片大小", "safe": "小（3-8cm）", "danger": "大（10-30cm）" },
+      { "feature": "果實", "safe": "無明顯果實", "danger": "紫黑色漿果串（像小葡萄）" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "莖部顏色和粗細",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "觀察莖部。",
+        "safe_result": "莖細、綠色。",
+        "danger_result": "莖粗壯、紫紅色。"
+      },
+      {
+        "test_name": "果實觀察",
+        "priority": 2,
+        "is_critical": true,
+        "instruction_zh": "是否有紫黑色漿果串。",
+        "safe_result": "無漿果。",
+        "danger_result": "有紫黑色漿果排成穗狀。"
+      }
+    ]
+  },
+  {
+    "id": "calla_vs_alocasia_vs_taro",
+    "safe_species": {
+      "id": "colocasia_esculenta_calla_pair",
+      "scientific_name": "Colocasia esculenta",
+      "common_name_zh": "芋頭",
+      "common_name_en": "Taro",
+      "key_features": {
+        "leaf_surface": "有絨毛質感，不光滑",
+        "water_test": "水珠成圓珠狀滾動",
+        "leaf_size": "較小（20-50cm）",
+        "flower": "不常開花",
+        "underground": "有圓形塊莖（可食用）",
+        "petiole": "接在葉片邊緣內側（盾狀著生）",
+        "context_note": "竹子湖等地海芋大量分布，易與芋頭混淆；姑婆芋請另參考芋頭與姑婆芋條目"
+      }
+    },
+    "dangerous_species": {
+      "id": "zantedeschia_aethiopica",
+      "scientific_name": "Zantedeschia aethiopica",
+      "common_name_zh": "海芋",
+      "common_name_en": "Calla Lily",
+      "danger_level": "medium",
+      "key_features": {
+        "leaf_surface": "光滑有光澤",
+        "flower": "白色佛焰苞（關鍵特徵：漏斗形純白花，中央黃色花序）",
+        "leaf_shape": "箭形或三角形（比芋頭更尖）",
+        "leaf_size": "中等（15-45cm）",
+        "underground": "根莖有毒",
+        "height": "植株較小（40-100cm）"
+      }
+    },
+    "lethality": "medium",
+    "comparison_table": [
+      { "feature": "花", "safe": "不常見", "danger": "白色佛焰苞（漏斗形）非常顯眼" },
+      { "feature": "葉形", "safe": "心形圓潤", "danger": "箭形較尖" },
+      { "feature": "葉面", "safe": "有絨毛", "danger": "光滑" },
+      { "feature": "植株", "safe": "葉片較大", "danger": "植株整體較小" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "花朵觀察",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "是否有白色漏斗形佛焰苞花。",
+        "safe_result": "無此花或不常開花。",
+        "danger_result": "有白色佛焰苞。"
+      },
+      {
+        "test_name": "水珠測試",
+        "priority": 2,
+        "is_critical": true,
+        "instruction_zh": "同芋頭與姑婆芋之水珠測試：在葉面滴一滴水，觀察水珠是否成圓珠滾動。",
+        "safe_result": "水珠成圓珠狀滾動，較可能為芋頭。",
+        "danger_result": "水珠易攤平、葉面光滑，較不像芋頭（需搭配其他特徵判斷海芋）。"
+      }
+    ]
+  },
+  {
+    "id": "lantana_vs_mulberry",
+    "safe_species": {
+      "id": "morus_australis",
+      "scientific_name": "Morus australis",
+      "common_name_zh": "小葉桑（桑椹）",
+      "common_name_en": "Australian Mulberry",
+      "key_features": {
+        "fruit_shape": "聚合果，圓柱形長1-2cm（像迷你玉米形狀）",
+        "fruit_color": "未熟紅色，成熟深紫黑色",
+        "leaf": "卵形，邊緣有鈍鋸齒，互生",
+        "plant_type": "灌木或小喬木",
+        "taste": "成熟果甜"
+      }
+    },
+    "dangerous_species": {
+      "id": "lantana_camara",
+      "scientific_name": "Lantana camara",
+      "common_name_zh": "馬纓丹（未熟果）",
+      "common_name_en": "Lantana",
+      "danger_level": "medium",
+      "key_features": {
+        "fruit_shape": "球形漿果，直徑5-7mm，排成球形聚合",
+        "fruit_color": "未熟綠色→藍黑色（關鍵特徵：未熟綠色有毒）",
+        "leaf": "卵形，對生（不是互生！），搓揉有臭味",
+        "plant_type": "灌木",
+        "flower": "花色多變（黃→橙→紅，同一花序多色）"
+      }
+    },
+    "lethality": "medium",
+    "comparison_table": [
+      { "feature": "果實形狀", "safe": "圓柱形聚合果", "danger": "球形小漿果" },
+      { "feature": "果實排列", "safe": "沿軸線排列", "danger": "球形聚集" },
+      { "feature": "葉的排列", "safe": "互生", "danger": "對生" },
+      { "feature": "花", "safe": "不顯眼", "danger": "多色頭狀花序（黃橙紅）" },
+      { "feature": "氣味", "safe": "無特殊味", "danger": "葉搓揉有臭味" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "果實形狀觀察",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "觀察果實形狀。",
+        "safe_result": "圓柱形（像迷你玉米）。",
+        "danger_result": "球形小顆粒聚集。"
+      },
+      {
+        "test_name": "葉片氣味",
+        "priority": 2,
+        "is_critical": false,
+        "instruction_zh": "搓揉葉片。",
+        "safe_result": "無特殊味。",
+        "danger_result": "有刺鼻臭味。"
+      }
+    ]
+  },
+  {
+    "id": "foxglove_vs_plantain",
+    "safe_species": {
+      "id": "plantago_major",
+      "scientific_name": "Plantago major",
+      "common_name_zh": "車前草",
+      "common_name_en": "Broadleaf Plantain",
+      "key_features": {
+        "leaf_arrangement": "基生蓮座狀（所有葉從基部貼地展開）",
+        "leaf_surface": "光滑，有明顯3-7條平行脈（關鍵特徵）",
+        "leaf_shape": "橢圓形，全緣",
+        "flower": "穗狀花序，直立細長花莖"
+      }
+    },
+    "dangerous_species": {
+      "id": "digitalis_purpurea",
+      "scientific_name": "Digitalis purpurea",
+      "common_name_zh": "毛地黃",
+      "common_name_en": "Foxglove",
+      "danger_level": "critical",
+      "key_features": {
+        "leaf_arrangement": "基生蓮座狀（一年生植株）或互生（二年生）",
+        "leaf_surface": "密被灰色絨毛（關鍵區別：葉面有絨毛）",
+        "leaf_shape": "長橢圓形，邊緣有鈍鋸齒",
+        "flower": "總狀花序，鐘形下垂花（紫紅色有斑點）"
+      }
+    },
+    "lethality": "critical",
+    "comparison_table": [
+      { "feature": "葉面質感", "safe": "光滑", "danger": "密被灰色絨毛（摸起來像絨布）" },
+      { "feature": "葉脈", "safe": "3-7條明顯平行脈", "danger": "網狀脈（不平行）" },
+      { "feature": "葉緣", "safe": "全緣", "danger": "有鈍鋸齒" },
+      { "feature": "花", "safe": "直立細穗", "danger": "鐘形下垂花（紫紅色）" }
+    ],
+    "interactive_tests": [
+      {
+        "test_name": "葉面觸感",
+        "priority": 1,
+        "is_critical": true,
+        "instruction_zh": "輕摸葉面。",
+        "safe_result": "光滑。",
+        "danger_result": "有柔軟絨毛覆蓋。"
+      },
+      {
+        "test_name": "葉脈觀察",
+        "priority": 2,
+        "is_critical": false,
+        "instruction_zh": "觀察葉脈。",
+        "safe_result": "3-7條明顯平行脈。",
+        "danger_result": "網狀脈。"
+      }
+    ]
+  }
+]

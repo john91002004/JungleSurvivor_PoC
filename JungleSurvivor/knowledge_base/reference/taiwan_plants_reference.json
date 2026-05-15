@@ -1,0 +1,3548 @@
+{
+  "_metadata": {
+    "description": "台灣常見植物參考清單 — 供未來知識庫擴充使用",
+    "total_species": 386,
+    "last_updated": "2026-05-08",
+    "categories": {
+      "in_kb": "已收錄於 v2 知識庫",
+      "dangerous": "有毒/危險",
+      "edible": "可食用",
+      "medicinal": "藥用",
+      "common_tree": "常見喬木",
+      "common_shrub": "常見灌木",
+      "common_herb": "常見草本",
+      "fern": "蕨類",
+      "aquatic_wetland": "水生/濕地",
+      "coastal": "海濱植物",
+      "mountain": "中高海拔",
+      "cultivated_escape": "栽培逸出",
+      "invasive": "入侵種"
+    }
+  },
+  "species": [
+    {
+      "scientific_name": "Alocasia odora",
+      "common_names": {
+        "zh-TW": "姑婆芋",
+        "en": "Giant Elephant Ear"
+      },
+      "family": "Araceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Cerbera manghas",
+      "common_names": {
+        "zh-TW": "海檬果",
+        "en": "Sea Mango"
+      },
+      "family": "Apocynaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Datura stramonium",
+      "common_names": {
+        "zh-TW": "曼陀羅",
+        "en": "Jimsonweed"
+      },
+      "family": "Solanaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Urtica thunbergiana",
+      "common_names": {
+        "zh-TW": "咬人貓",
+        "en": "Stinging Nettle (Taiwan)"
+      },
+      "family": "Urticaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Dendrocnide meyeniana",
+      "common_names": {
+        "zh-TW": "咬人狗",
+        "en": "Stinging Tree (Taiwan)"
+      },
+      "family": "Urticaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Chlorophyllum molybdites",
+      "common_names": {
+        "zh-TW": "綠褶菇",
+        "en": "Green-spored Parasol"
+      },
+      "family": "Agaricaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Amanita phalloides",
+      "common_names": {
+        "zh-TW": "鱗柄白毒鵝膏",
+        "en": "Death Cap"
+      },
+      "family": "Amanitaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Toxicodendron vernicifluum",
+      "common_names": {
+        "zh-TW": "漆樹",
+        "en": "Chinese Lacquer Tree"
+      },
+      "family": "Anacardiaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Nerium oleander",
+      "common_names": {
+        "zh-TW": "夾竹桃",
+        "en": "Oleander"
+      },
+      "family": "Apocynaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Cycas revoluta",
+      "common_names": {
+        "zh-TW": "蘇鐵",
+        "en": "Sago Palm"
+      },
+      "family": "Cycadaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Lantana camara",
+      "common_names": {
+        "zh-TW": "馬纓丹",
+        "en": "Lantana"
+      },
+      "family": "Verbenaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Parthenium hysterophorus",
+      "common_names": {
+        "zh-TW": "銀膠菊",
+        "en": "Parthenium Weed"
+      },
+      "family": "Asteraceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Brugmansia suaveolens",
+      "common_names": {
+        "zh-TW": "大花曼陀羅",
+        "en": "Angel's Trumpet"
+      },
+      "family": "Solanaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Phytolacca americana",
+      "common_names": {
+        "zh-TW": "美洲商陸",
+        "en": "American Pokeweed"
+      },
+      "family": "Phytolaccaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Zantedeschia aethiopica",
+      "common_names": {
+        "zh-TW": "海芋",
+        "en": "Calla Lily"
+      },
+      "family": "Araceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Abrus precatorius",
+      "common_names": {
+        "zh-TW": "雞母珠",
+        "en": "Rosary Pea"
+      },
+      "family": "Fabaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Ricinus communis",
+      "common_names": {
+        "zh-TW": "蓖麻",
+        "en": "Castor Bean"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Triadica sebifera",
+      "common_names": {
+        "zh-TW": "烏桕",
+        "en": "Chinese Tallow Tree"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Epipremnum aureum",
+      "common_names": {
+        "zh-TW": "黃金葛",
+        "en": "Golden Pothos"
+      },
+      "family": "Araceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Digitalis purpurea",
+      "common_names": {
+        "zh-TW": "毛地黃",
+        "en": "Common Foxglove"
+      },
+      "family": "Plantaginaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Melia azedarach",
+      "common_names": {
+        "zh-TW": "苦楝",
+        "en": "Chinaberry"
+      },
+      "family": "Meliaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Pteridium aquilinum",
+      "common_names": {
+        "zh-TW": "蕨",
+        "en": "Bracken Fern"
+      },
+      "family": "Dennstaedtiaceae",
+      "category_hint": "dangerous",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Colocasia esculenta",
+      "common_names": {
+        "zh-TW": "芋頭",
+        "en": "Taro"
+      },
+      "family": "Araceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Asplenium nidus",
+      "common_names": {
+        "zh-TW": "山蘇",
+        "en": "Bird's Nest Fern"
+      },
+      "family": "Aspleniaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Diplazium esculentum",
+      "common_names": {
+        "zh-TW": "過貓",
+        "en": "Vegetable Fern"
+      },
+      "family": "Athyriaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Hedychium coronarium",
+      "common_names": {
+        "zh-TW": "野薑花",
+        "en": "White Ginger Lily"
+      },
+      "family": "Zingiberaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Plantago major",
+      "common_names": {
+        "zh-TW": "車前草",
+        "en": "Broadleaf Plantain"
+      },
+      "family": "Plantaginaceae",
+      "category_hint": "medicinal",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Solanum nigrum",
+      "common_names": {
+        "zh-TW": "龍葵",
+        "en": "Black Nightshade"
+      },
+      "family": "Solanaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Crassocephalum crepidioides",
+      "common_names": {
+        "zh-TW": "昭和草",
+        "en": "Redflower Ragleaf"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Auricularia auricula-judae",
+      "common_names": {
+        "zh-TW": "木耳",
+        "en": "Wood Ear Mushroom"
+      },
+      "family": "Auriculariaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Nephrolepis cordifolia",
+      "common_names": {
+        "zh-TW": "腎蕨",
+        "en": "Tuberous Sword Fern"
+      },
+      "family": "Nephrolepidaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Oenanthe javanica",
+      "common_names": {
+        "zh-TW": "山芹菜",
+        "en": "Water Dropwort"
+      },
+      "family": "Apiaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Bidens pilosa var. radiata",
+      "common_names": {
+        "zh-TW": "大花咸豐草",
+        "en": "Spanish Needle"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Alpinia zerumbet",
+      "common_names": {
+        "zh-TW": "月桃",
+        "en": "Shell Ginger"
+      },
+      "family": "Zingiberaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Broussonetia papyrifera",
+      "common_names": {
+        "zh-TW": "構樹",
+        "en": "Paper Mulberry"
+      },
+      "family": "Moraceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Morus australis",
+      "common_names": {
+        "zh-TW": "小葉桑",
+        "en": "Chinese Mulberry"
+      },
+      "family": "Moraceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Amaranthus viridis",
+      "common_names": {
+        "zh-TW": "野莧菜",
+        "en": "Green Amaranth"
+      },
+      "family": "Amaranthaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Houttuynia cordata",
+      "common_names": {
+        "zh-TW": "魚腥草",
+        "en": "Fish Mint"
+      },
+      "family": "Saururaceae",
+      "category_hint": "medicinal",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Miscanthus floridulus",
+      "common_names": {
+        "zh-TW": "五節芒",
+        "en": "Giant Silver Grass"
+      },
+      "family": "Poaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Zanthoxylum ailanthoides",
+      "common_names": {
+        "zh-TW": "食茱萸",
+        "en": "Ailanthus Prickly Ash"
+      },
+      "family": "Rutaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Trema orientalis",
+      "common_names": {
+        "zh-TW": "山黃麻",
+        "en": "Indian Charcoal Tree"
+      },
+      "family": "Cannabaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Pterocypsela indica",
+      "common_names": {
+        "zh-TW": "鵝仔草",
+        "en": "Indian Lettuce"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Melastoma candidum",
+      "common_names": {
+        "zh-TW": "野牡丹",
+        "en": "Melastome"
+      },
+      "family": "Melastomataceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Emilia sonchifolia",
+      "common_names": {
+        "zh-TW": "紫背草",
+        "en": "Lilac Tasselflower"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Pseudognaphalium affine",
+      "common_names": {
+        "zh-TW": "鼠麴草",
+        "en": "Cudweed"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Centella asiatica",
+      "common_names": {
+        "zh-TW": "雷公根",
+        "en": "Asiatic Pennywort"
+      },
+      "family": "Apiaceae",
+      "category_hint": "medicinal",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Momordica charantia var. abbreviata",
+      "common_names": {
+        "zh-TW": "山苦瓜",
+        "en": "Wild Bitter Gourd"
+      },
+      "family": "Cucurbitaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Cyathea lepifera",
+      "common_names": {
+        "zh-TW": "筆筒樹",
+        "en": "Flying Spider-monkey Tree Fern"
+      },
+      "family": "Cyatheaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Macrolepiota procera",
+      "common_names": {
+        "zh-TW": "高大環柄菇",
+        "en": "Parasol Mushroom"
+      },
+      "family": "Agaricaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Termitomyces sp.",
+      "common_names": {
+        "zh-TW": "雞肉絲菇",
+        "en": "Termite Mushroom"
+      },
+      "family": "Lyophyllaceae",
+      "category_hint": "edible",
+      "in_kb": true
+    },
+    {
+      "scientific_name": "Ageratum houstonianum",
+      "common_names": {
+        "zh-TW": "紫花藿香薊",
+        "en": "Floss Flower"
+      },
+      "family": "Asteraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Ageratum conyzoides",
+      "common_names": {
+        "zh-TW": "藿香薊",
+        "en": "Billygoat Weed"
+      },
+      "family": "Asteraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Artemisia indica",
+      "common_names": {
+        "zh-TW": "艾草",
+        "en": "Mugwort"
+      },
+      "family": "Asteraceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Artemisia princeps",
+      "common_names": {
+        "zh-TW": "山艾",
+        "en": "Japanese Mugwort"
+      },
+      "family": "Asteraceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Mikania micrantha",
+      "common_names": {
+        "zh-TW": "小花蔓澤蘭",
+        "en": "Mile-a-minute Weed"
+      },
+      "family": "Asteraceae",
+      "category_hint": "invasive"
+    },
+    {
+      "scientific_name": "Wedelia trilobata",
+      "common_names": {
+        "zh-TW": "南美蟛蜞菊",
+        "en": "Creeping Daisy"
+      },
+      "family": "Asteraceae",
+      "category_hint": "invasive"
+    },
+    {
+      "scientific_name": "Youngia japonica",
+      "common_names": {
+        "zh-TW": "兔兒菜",
+        "en": "Oriental Hawksbeard"
+      },
+      "family": "Asteraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Eclipta prostrata",
+      "common_names": {
+        "zh-TW": "鱧腸",
+        "en": "False Daisy"
+      },
+      "family": "Asteraceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Taraxacum officinale",
+      "common_names": {
+        "zh-TW": "西洋蒲公英",
+        "en": "Dandelion"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Sonchus oleraceus",
+      "common_names": {
+        "zh-TW": "苦苣菜",
+        "en": "Common Sowthistle"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Lactuca indica",
+      "common_names": {
+        "zh-TW": "鵝仔菜",
+        "en": "Indian Lettuce"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Elephantopus mollis",
+      "common_names": {
+        "zh-TW": "地膽草",
+        "en": "Elephant's Foot"
+      },
+      "family": "Asteraceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Vernonia cinerea",
+      "common_names": {
+        "zh-TW": "一枝香",
+        "en": "Purple Fleabane"
+      },
+      "family": "Asteraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Erigeron canadensis",
+      "common_names": {
+        "zh-TW": "加拿大蓬",
+        "en": "Canadian Horseweed"
+      },
+      "family": "Asteraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Chromolaena odorata",
+      "common_names": {
+        "zh-TW": "香澤蘭",
+        "en": "Siam Weed"
+      },
+      "family": "Asteraceae",
+      "category_hint": "invasive"
+    },
+    {
+      "scientific_name": "Tridax procumbens",
+      "common_names": {
+        "zh-TW": "長柄菊",
+        "en": "Coatbuttons"
+      },
+      "family": "Asteraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Gynura bicolor",
+      "common_names": {
+        "zh-TW": "紅鳳菜",
+        "en": "Okinawan Spinach"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Crossostephium chinense",
+      "common_names": {
+        "zh-TW": "海芙蓉",
+        "en": "Chinese Wormwood"
+      },
+      "family": "Asteraceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Ficus microcarpa",
+      "common_names": {
+        "zh-TW": "榕樹",
+        "en": "Chinese Banyan"
+      },
+      "family": "Moraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Ficus benjamina",
+      "common_names": {
+        "zh-TW": "白榕",
+        "en": "Weeping Fig"
+      },
+      "family": "Moraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Ficus pumila",
+      "common_names": {
+        "zh-TW": "薜荔",
+        "en": "Creeping Fig"
+      },
+      "family": "Moraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Ficus erecta",
+      "common_names": {
+        "zh-TW": "牛乳榕",
+        "en": "Fig"
+      },
+      "family": "Moraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Artocarpus heterophyllus",
+      "common_names": {
+        "zh-TW": "波羅蜜",
+        "en": "Jackfruit"
+      },
+      "family": "Moraceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Macaranga tanarius",
+      "common_names": {
+        "zh-TW": "血桐",
+        "en": "Parasol Leaf Tree"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Mallotus japonicus",
+      "common_names": {
+        "zh-TW": "野桐",
+        "en": "Japanese Mallotus"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Mallotus paniculatus",
+      "common_names": {
+        "zh-TW": "白匏子",
+        "en": "Turn-in-the-wind"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Sapium discolor",
+      "common_names": {
+        "zh-TW": "白臼",
+        "en": "Mountain Tallow"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Bischofia javanica",
+      "common_names": {
+        "zh-TW": "茄冬",
+        "en": "Autumn Maple Tree"
+      },
+      "family": "Phyllanthaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Phyllanthus urinaria",
+      "common_names": {
+        "zh-TW": "葉下珠",
+        "en": "Chamber Bitter"
+      },
+      "family": "Phyllanthaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Cinnamomum camphora",
+      "common_names": {
+        "zh-TW": "樟樹",
+        "en": "Camphor Tree"
+      },
+      "family": "Lauraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Cinnamomum osmophloeum",
+      "common_names": {
+        "zh-TW": "土肉桂",
+        "en": "Indigenous Cinnamon"
+      },
+      "family": "Lauraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Machilus thunbergii",
+      "common_names": {
+        "zh-TW": "紅楠",
+        "en": "Thunberg Machilus"
+      },
+      "family": "Lauraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Machilus zuihoensis",
+      "common_names": {
+        "zh-TW": "香楠",
+        "en": "Incense Machilus"
+      },
+      "family": "Lauraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Litsea cubeba",
+      "common_names": {
+        "zh-TW": "山胡椒",
+        "en": "May Chang"
+      },
+      "family": "Lauraceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Alstonia scholaris",
+      "common_names": {
+        "zh-TW": "黑板樹",
+        "en": "Devil Tree"
+      },
+      "family": "Apocynaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Plumeria rubra",
+      "common_names": {
+        "zh-TW": "雞蛋花",
+        "en": "Frangipani"
+      },
+      "family": "Apocynaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Tabebuia rosea",
+      "common_names": {
+        "zh-TW": "洋紅風鈴木",
+        "en": "Pink Trumpet Tree"
+      },
+      "family": "Bignoniaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Spathodea campanulata",
+      "common_names": {
+        "zh-TW": "火焰木",
+        "en": "African Tulip Tree"
+      },
+      "family": "Bignoniaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Delonix regia",
+      "common_names": {
+        "zh-TW": "鳳凰木",
+        "en": "Royal Poinciana"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Acacia confusa",
+      "common_names": {
+        "zh-TW": "相思樹",
+        "en": "Taiwan Acacia"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Leucaena leucocephala",
+      "common_names": {
+        "zh-TW": "銀合歡",
+        "en": "White Leadtree"
+      },
+      "family": "Fabaceae",
+      "category_hint": "invasive"
+    },
+    {
+      "scientific_name": "Albizia julibrissin",
+      "common_names": {
+        "zh-TW": "合歡",
+        "en": "Silk Tree"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Bauhinia variegata",
+      "common_names": {
+        "zh-TW": "羊蹄甲",
+        "en": "Orchid Tree"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Cassia fistula",
+      "common_names": {
+        "zh-TW": "阿勃勒",
+        "en": "Golden Shower Tree"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Senna alata",
+      "common_names": {
+        "zh-TW": "翅果鐵刀木",
+        "en": "Candle Bush"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Erythrina variegata",
+      "common_names": {
+        "zh-TW": "刺桐",
+        "en": "Indian Coral Tree"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Pueraria montana",
+      "common_names": {
+        "zh-TW": "葛藤",
+        "en": "Kudzu"
+      },
+      "family": "Fabaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Crotalaria pallida",
+      "common_names": {
+        "zh-TW": "黃野百合",
+        "en": "Smooth Rattlebox"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Desmodium triflorum",
+      "common_names": {
+        "zh-TW": "蠅翼草",
+        "en": "Three-flower Beggarweed"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Mimosa pudica",
+      "common_names": {
+        "zh-TW": "含羞草",
+        "en": "Sensitive Plant"
+      },
+      "family": "Fabaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Liquidambar formosana",
+      "common_names": {
+        "zh-TW": "楓香",
+        "en": "Formosan Sweet Gum"
+      },
+      "family": "Altingiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Zelkova serrata",
+      "common_names": {
+        "zh-TW": "櫸木",
+        "en": "Japanese Zelkova"
+      },
+      "family": "Ulmaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Celtis sinensis",
+      "common_names": {
+        "zh-TW": "朴樹",
+        "en": "Chinese Hackberry"
+      },
+      "family": "Cannabaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Koelreuteria elegans",
+      "common_names": {
+        "zh-TW": "台灣欒樹",
+        "en": "Flame Gold Rain Tree"
+      },
+      "family": "Sapindaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Sapindus mukorosii",
+      "common_names": {
+        "zh-TW": "無患子",
+        "en": "Soapberry"
+      },
+      "family": "Sapindaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Acer serrulatum",
+      "common_names": {
+        "zh-TW": "青楓",
+        "en": "Taiwan Green Maple"
+      },
+      "family": "Sapindaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Lagerstroemia speciosa",
+      "common_names": {
+        "zh-TW": "大花紫薇",
+        "en": "Queen's Crape Myrtle"
+      },
+      "family": "Lythraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Lagerstroemia subcostata",
+      "common_names": {
+        "zh-TW": "九芎",
+        "en": "Subcostate Crape Myrtle"
+      },
+      "family": "Lythraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Terminalia catappa",
+      "common_names": {
+        "zh-TW": "欖仁樹",
+        "en": "Indian Almond"
+      },
+      "family": "Combretaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Bombax ceiba",
+      "common_names": {
+        "zh-TW": "木棉",
+        "en": "Red Silk-cotton Tree"
+      },
+      "family": "Malvaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Hibiscus tiliaceus",
+      "common_names": {
+        "zh-TW": "黃槿",
+        "en": "Sea Hibiscus"
+      },
+      "family": "Malvaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Hibiscus rosa-sinensis",
+      "common_names": {
+        "zh-TW": "朱槿",
+        "en": "Chinese Hibiscus"
+      },
+      "family": "Malvaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Urena lobata",
+      "common_names": {
+        "zh-TW": "野棉花",
+        "en": "Caesar Weed"
+      },
+      "family": "Malvaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Sida rhombifolia",
+      "common_names": {
+        "zh-TW": "金午時花",
+        "en": "Arrow-leaf Sida"
+      },
+      "family": "Malvaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Abutilon indicum",
+      "common_names": {
+        "zh-TW": "冬葵子",
+        "en": "Indian Mallow"
+      },
+      "family": "Malvaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Sterculia ceramica",
+      "common_names": {
+        "zh-TW": "蘭嶼蘋婆",
+        "en": "Orchid Island Sterculia"
+      },
+      "family": "Malvaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Pinus morrisonicola",
+      "common_names": {
+        "zh-TW": "台灣五葉松",
+        "en": "Taiwan White Pine"
+      },
+      "family": "Pinaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Pinus taiwanensis",
+      "common_names": {
+        "zh-TW": "台灣二葉松",
+        "en": "Taiwan Red Pine"
+      },
+      "family": "Pinaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Chamaecyparis formosensis",
+      "common_names": {
+        "zh-TW": "紅檜",
+        "en": "Formosan Cypress"
+      },
+      "family": "Cupressaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Chamaecyparis obtusa var. formosana",
+      "common_names": {
+        "zh-TW": "扁柏",
+        "en": "Taiwan Hinoki"
+      },
+      "family": "Cupressaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Cunninghamia lanceolata",
+      "common_names": {
+        "zh-TW": "杉木",
+        "en": "Chinese Fir"
+      },
+      "family": "Cupressaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Cryptomeria japonica",
+      "common_names": {
+        "zh-TW": "柳杉",
+        "en": "Japanese Cedar"
+      },
+      "family": "Cupressaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Taiwania cryptomerioides",
+      "common_names": {
+        "zh-TW": "台灣杉",
+        "en": "Taiwania"
+      },
+      "family": "Cupressaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Podocarpus macrophyllus",
+      "common_names": {
+        "zh-TW": "羅漢松",
+        "en": "Yew Pine"
+      },
+      "family": "Podocarpaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Casuarina equisetifolia",
+      "common_names": {
+        "zh-TW": "木麻黃",
+        "en": "Ironwood"
+      },
+      "family": "Casuarinaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Barringtonia racemosa",
+      "common_names": {
+        "zh-TW": "穗花棋盤腳",
+        "en": "Powder-puff Tree"
+      },
+      "family": "Lecythidaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Barringtonia asiatica",
+      "common_names": {
+        "zh-TW": "棋盤腳",
+        "en": "Sea Poison Tree"
+      },
+      "family": "Lecythidaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Oxalis corniculata",
+      "common_names": {
+        "zh-TW": "酢漿草",
+        "en": "Creeping Woodsorrel"
+      },
+      "family": "Oxalidaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Oxalis corymbosa",
+      "common_names": {
+        "zh-TW": "紫花酢漿草",
+        "en": "Pink Woodsorrel"
+      },
+      "family": "Oxalidaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Portulaca oleracea",
+      "common_names": {
+        "zh-TW": "馬齒莧",
+        "en": "Purslane"
+      },
+      "family": "Portulacaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Stellaria media",
+      "common_names": {
+        "zh-TW": "鵝兒腸",
+        "en": "Chickweed"
+      },
+      "family": "Caryophyllaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Drymaria diandra",
+      "common_names": {
+        "zh-TW": "荷蓮豆草",
+        "en": "Tropical Chickweed"
+      },
+      "family": "Caryophyllaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Commelina communis",
+      "common_names": {
+        "zh-TW": "鴨跖草",
+        "en": "Asiatic Dayflower"
+      },
+      "family": "Commelinaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Tradescantia zebrina",
+      "common_names": {
+        "zh-TW": "吊竹梅",
+        "en": "Wandering Jew"
+      },
+      "family": "Commelinaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Murdannia keisak",
+      "common_names": {
+        "zh-TW": "水竹葉",
+        "en": "Asian Spiderwort"
+      },
+      "family": "Commelinaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Polygonum chinense",
+      "common_names": {
+        "zh-TW": "火炭母草",
+        "en": "Chinese Knotweed"
+      },
+      "family": "Polygonaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Persicaria chinensis",
+      "common_names": {
+        "zh-TW": "毛蓼",
+        "en": "Chinese Smartweed"
+      },
+      "family": "Polygonaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Rumex crispus",
+      "common_names": {
+        "zh-TW": "皺葉酸模",
+        "en": "Curly Dock"
+      },
+      "family": "Polygonaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Rumex acetosa",
+      "common_names": {
+        "zh-TW": "酸模",
+        "en": "Sorrel"
+      },
+      "family": "Polygonaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Imperata cylindrica",
+      "common_names": {
+        "zh-TW": "白茅",
+        "en": "Cogon Grass"
+      },
+      "family": "Poaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Panicum maximum",
+      "common_names": {
+        "zh-TW": "大黍",
+        "en": "Guinea Grass"
+      },
+      "family": "Poaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Setaria italica",
+      "common_names": {
+        "zh-TW": "小米",
+        "en": "Foxtail Millet"
+      },
+      "family": "Poaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Eleusine indica",
+      "common_names": {
+        "zh-TW": "牛筋草",
+        "en": "Goosegrass"
+      },
+      "family": "Poaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Cynodon dactylon",
+      "common_names": {
+        "zh-TW": "百慕達草",
+        "en": "Bermuda Grass"
+      },
+      "family": "Poaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Phragmites australis",
+      "common_names": {
+        "zh-TW": "蘆葦",
+        "en": "Common Reed"
+      },
+      "family": "Poaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Arundo donax",
+      "common_names": {
+        "zh-TW": "蘆竹",
+        "en": "Giant Reed"
+      },
+      "family": "Poaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Saccharum spontaneum",
+      "common_names": {
+        "zh-TW": "甜根子草",
+        "en": "Wild Sugarcane"
+      },
+      "family": "Poaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Phyllostachys edulis",
+      "common_names": {
+        "zh-TW": "孟宗竹",
+        "en": "Moso Bamboo"
+      },
+      "family": "Poaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Bambusa oldhamii",
+      "common_names": {
+        "zh-TW": "綠竹",
+        "en": "Oldham's Bamboo"
+      },
+      "family": "Poaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Dendrocalamus latiflorus",
+      "common_names": {
+        "zh-TW": "麻竹",
+        "en": "Ma Bamboo"
+      },
+      "family": "Poaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Cyperus rotundus",
+      "common_names": {
+        "zh-TW": "香附子",
+        "en": "Purple Nutsedge"
+      },
+      "family": "Cyperaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Areca catechu",
+      "common_names": {
+        "zh-TW": "檳榔",
+        "en": "Betel Palm"
+      },
+      "family": "Arecaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Arenga pinnata",
+      "common_names": {
+        "zh-TW": "砂糖椰子",
+        "en": "Sugar Palm"
+      },
+      "family": "Arecaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Cocos nucifera",
+      "common_names": {
+        "zh-TW": "椰子",
+        "en": "Coconut Palm"
+      },
+      "family": "Arecaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Livistona chinensis",
+      "common_names": {
+        "zh-TW": "蒲葵",
+        "en": "Chinese Fan Palm"
+      },
+      "family": "Arecaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Roystonea regia",
+      "common_names": {
+        "zh-TW": "大王椰子",
+        "en": "Royal Palm"
+      },
+      "family": "Arecaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Musa basjoo",
+      "common_names": {
+        "zh-TW": "芭蕉",
+        "en": "Japanese Banana"
+      },
+      "family": "Musaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Zingiber officinale",
+      "common_names": {
+        "zh-TW": "薑",
+        "en": "Ginger"
+      },
+      "family": "Zingiberaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Curcuma longa",
+      "common_names": {
+        "zh-TW": "薑黃",
+        "en": "Turmeric"
+      },
+      "family": "Zingiberaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Alpinia speciosa",
+      "common_names": {
+        "zh-TW": "台灣月桃",
+        "en": "Taiwan Shell Ginger"
+      },
+      "family": "Zingiberaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Ipomoea cairica",
+      "common_names": {
+        "zh-TW": "槭葉牽牛",
+        "en": "Cairo Morning Glory"
+      },
+      "family": "Convolvulaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Ipomoea indica",
+      "common_names": {
+        "zh-TW": "銳葉牽牛",
+        "en": "Blue Morning Glory"
+      },
+      "family": "Convolvulaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Ipomoea aquatica",
+      "common_names": {
+        "zh-TW": "空心菜",
+        "en": "Water Spinach"
+      },
+      "family": "Convolvulaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Cuscuta australis",
+      "common_names": {
+        "zh-TW": "菟絲子",
+        "en": "Dodder"
+      },
+      "family": "Convolvulaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Stachytarpheta jamaicensis",
+      "common_names": {
+        "zh-TW": "牙買加長穗木",
+        "en": "Blue Porterweed"
+      },
+      "family": "Verbenaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Clerodendrum paniculatum",
+      "common_names": {
+        "zh-TW": "龍船花",
+        "en": "Pagoda Flower"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Ocimum basilicum",
+      "common_names": {
+        "zh-TW": "九層塔",
+        "en": "Sweet Basil"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Mentha canadensis",
+      "common_names": {
+        "zh-TW": "薄荷",
+        "en": "Wild Mint"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Perilla frutescens",
+      "common_names": {
+        "zh-TW": "紫蘇",
+        "en": "Perilla"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Salvia nipponica",
+      "common_names": {
+        "zh-TW": "黃花鼠尾草",
+        "en": "Japanese Sage"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Prunella vulgaris",
+      "common_names": {
+        "zh-TW": "夏枯草",
+        "en": "Self-heal"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Leonurus japonicus",
+      "common_names": {
+        "zh-TW": "益母草",
+        "en": "Motherwort"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Plectranthus amboinicus",
+      "common_names": {
+        "zh-TW": "到手香",
+        "en": "Indian Borage"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Psychotria rubra",
+      "common_names": {
+        "zh-TW": "九節木",
+        "en": "Wild Coffee"
+      },
+      "family": "Rubiaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Gardenia jasminoides",
+      "common_names": {
+        "zh-TW": "梔子花",
+        "en": "Gardenia"
+      },
+      "family": "Rubiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Ixora chinensis",
+      "common_names": {
+        "zh-TW": "仙丹花",
+        "en": "Chinese Ixora"
+      },
+      "family": "Rubiaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Paederia foetida",
+      "common_names": {
+        "zh-TW": "雞屎藤",
+        "en": "Stinkvine"
+      },
+      "family": "Rubiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Hedyotis diffusa",
+      "common_names": {
+        "zh-TW": "白花蛇舌草",
+        "en": "Spreading Hedyotis"
+      },
+      "family": "Rubiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Duranta erecta",
+      "common_names": {
+        "zh-TW": "金露花",
+        "en": "Golden Dewdrop"
+      },
+      "family": "Verbenaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Vitex negundo",
+      "common_names": {
+        "zh-TW": "黃荊",
+        "en": "Five-leaved Chaste Tree"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Callicarpa formosana",
+      "common_names": {
+        "zh-TW": "杜虹花",
+        "en": "Formosan Beautyberry"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Schefflera octophylla",
+      "common_names": {
+        "zh-TW": "鵝掌柴",
+        "en": "Ivy Tree"
+      },
+      "family": "Araliaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Fatsia polycarpa",
+      "common_names": {
+        "zh-TW": "台灣八角金盤",
+        "en": "Taiwan Fatsia"
+      },
+      "family": "Araliaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Hydrocotyle sibthorpioides",
+      "common_names": {
+        "zh-TW": "天胡荽",
+        "en": "Lawn Pennywort"
+      },
+      "family": "Araliaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Rhus succedanea",
+      "common_names": {
+        "zh-TW": "山漆",
+        "en": "Wax Tree"
+      },
+      "family": "Anacardiaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Mangifera indica",
+      "common_names": {
+        "zh-TW": "芒果",
+        "en": "Mango"
+      },
+      "family": "Anacardiaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Passiflora suberosa",
+      "common_names": {
+        "zh-TW": "三角葉西番蓮",
+        "en": "Cork Passion Vine"
+      },
+      "family": "Passifloraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Passiflora edulis",
+      "common_names": {
+        "zh-TW": "百香果",
+        "en": "Passion Fruit"
+      },
+      "family": "Passifloraceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Begonia formosana",
+      "common_names": {
+        "zh-TW": "水鴨腳秋海棠",
+        "en": "Formosa Begonia"
+      },
+      "family": "Begoniaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Impatiens walleriana",
+      "common_names": {
+        "zh-TW": "非洲鳳仙花",
+        "en": "Busy Lizzy"
+      },
+      "family": "Balsaminaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Diospyros discolor",
+      "common_names": {
+        "zh-TW": "毛柿",
+        "en": "Velvet Apple"
+      },
+      "family": "Ebenaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Diospyros kaki",
+      "common_names": {
+        "zh-TW": "柿子",
+        "en": "Japanese Persimmon"
+      },
+      "family": "Ebenaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Rhododendron formosanum",
+      "common_names": {
+        "zh-TW": "台灣杜鵑",
+        "en": "Formosan Rhododendron"
+      },
+      "family": "Ericaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Rhododendron oldhamii",
+      "common_names": {
+        "zh-TW": "金毛杜鵑",
+        "en": "Oldham's Rhododendron"
+      },
+      "family": "Ericaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Vaccinium bracteatum",
+      "common_names": {
+        "zh-TW": "米飯花",
+        "en": "Sea Bilberry"
+      },
+      "family": "Ericaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Camellia sinensis",
+      "common_names": {
+        "zh-TW": "茶",
+        "en": "Tea Plant"
+      },
+      "family": "Theaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Camellia japonica",
+      "common_names": {
+        "zh-TW": "山茶花",
+        "en": "Camellia"
+      },
+      "family": "Theaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Eurya japonica",
+      "common_names": {
+        "zh-TW": "柃木",
+        "en": "Japanese Eurya"
+      },
+      "family": "Pentaphylacaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Dioscorea japonica",
+      "common_names": {
+        "zh-TW": "日本薯蕷",
+        "en": "Japanese Yam"
+      },
+      "family": "Dioscoreaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Dioscorea bulbifera",
+      "common_names": {
+        "zh-TW": "黃獨",
+        "en": "Air Potato"
+      },
+      "family": "Dioscoreaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Smilax china",
+      "common_names": {
+        "zh-TW": "菝葜",
+        "en": "China Root"
+      },
+      "family": "Smilacaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Lilium formosanum",
+      "common_names": {
+        "zh-TW": "台灣百合",
+        "en": "Formosa Lily"
+      },
+      "family": "Liliaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Hemerocallis fulva",
+      "common_names": {
+        "zh-TW": "萱草",
+        "en": "Daylily"
+      },
+      "family": "Asphodelaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Crinum asiaticum",
+      "common_names": {
+        "zh-TW": "文殊蘭",
+        "en": "Poison Bulb"
+      },
+      "family": "Amaryllidaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Lycoris radiata",
+      "common_names": {
+        "zh-TW": "石蒜",
+        "en": "Red Spider Lily"
+      },
+      "family": "Amaryllidaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Agave americana",
+      "common_names": {
+        "zh-TW": "龍舌蘭",
+        "en": "Century Plant"
+      },
+      "family": "Asparagaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Alocasia macrorrhizos",
+      "common_names": {
+        "zh-TW": "蘭嶼姑婆芋",
+        "en": "Giant Taro"
+      },
+      "family": "Araceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Pandanus odoratissimus",
+      "common_names": {
+        "zh-TW": "林投",
+        "en": "Screw Pine"
+      },
+      "family": "Pandanaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Scaevola taccada",
+      "common_names": {
+        "zh-TW": "草海桐",
+        "en": "Beach Naupaka"
+      },
+      "family": "Goodeniaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Ipomoea pes-caprae",
+      "common_names": {
+        "zh-TW": "馬鞍藤",
+        "en": "Beach Morning Glory"
+      },
+      "family": "Convolvulaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Vitex rotundifolia",
+      "common_names": {
+        "zh-TW": "海埔姜",
+        "en": "Beach Vitex"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Messerschmidia argentea",
+      "common_names": {
+        "zh-TW": "白水木",
+        "en": "Velvet Leaf"
+      },
+      "family": "Boraginaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Thespesia populnea",
+      "common_names": {
+        "zh-TW": "繖楊",
+        "en": "Portia Tree"
+      },
+      "family": "Malvaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Hernandia nymphaeifolia",
+      "common_names": {
+        "zh-TW": "蓮葉桐",
+        "en": "Lantern Tree"
+      },
+      "family": "Hernandiaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Rhizophora stylosa",
+      "common_names": {
+        "zh-TW": "水筆仔",
+        "en": "Stilt Mangrove"
+      },
+      "family": "Rhizophoraceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Avicennia marina",
+      "common_names": {
+        "zh-TW": "海茄苳",
+        "en": "Grey Mangrove"
+      },
+      "family": "Acanthaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Kandelia obovata",
+      "common_names": {
+        "zh-TW": "水筆仔",
+        "en": "Kandelia"
+      },
+      "family": "Rhizophoraceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Lumnitzera racemosa",
+      "common_names": {
+        "zh-TW": "欖李",
+        "en": "Black Mangrove"
+      },
+      "family": "Combretaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Typha orientalis",
+      "common_names": {
+        "zh-TW": "香蒲",
+        "en": "Cattail"
+      },
+      "family": "Typhaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Ludwigia octovalvis",
+      "common_names": {
+        "zh-TW": "水丁香",
+        "en": "Mexican Primrose-willow"
+      },
+      "family": "Onagraceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Monochoria vaginalis",
+      "common_names": {
+        "zh-TW": "鴨舌草",
+        "en": "Oval-leafed Pondweed"
+      },
+      "family": "Pontederiaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Eichhornia crassipes",
+      "common_names": {
+        "zh-TW": "布袋蓮",
+        "en": "Water Hyacinth"
+      },
+      "family": "Pontederiaceae",
+      "category_hint": "invasive"
+    },
+    {
+      "scientific_name": "Pistia stratiotes",
+      "common_names": {
+        "zh-TW": "大萍",
+        "en": "Water Lettuce"
+      },
+      "family": "Araceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Nelumbo nucifera",
+      "common_names": {
+        "zh-TW": "荷花",
+        "en": "Sacred Lotus"
+      },
+      "family": "Nelumbonaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Nymphaea nouchali",
+      "common_names": {
+        "zh-TW": "睡蓮",
+        "en": "Blue Water Lily"
+      },
+      "family": "Nymphaeaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Marsilea minuta",
+      "common_names": {
+        "zh-TW": "田字草",
+        "en": "Small Water Clover"
+      },
+      "family": "Marsileaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Salvinia natans",
+      "common_names": {
+        "zh-TW": "槐葉蘋",
+        "en": "Floating Fern"
+      },
+      "family": "Salviniaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Acorus gramineus",
+      "common_names": {
+        "zh-TW": "石菖蒲",
+        "en": "Japanese Sweet Flag"
+      },
+      "family": "Acoraceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Adiantum capillus-veneris",
+      "common_names": {
+        "zh-TW": "鐵線蕨",
+        "en": "Maidenhair Fern"
+      },
+      "family": "Pteridaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Pteris vittata",
+      "common_names": {
+        "zh-TW": "蜈蚣草",
+        "en": "Chinese Brake"
+      },
+      "family": "Pteridaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Pteris multifida",
+      "common_names": {
+        "zh-TW": "鳳尾蕨",
+        "en": "Spider Brake"
+      },
+      "family": "Pteridaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Selaginella doederleinii",
+      "common_names": {
+        "zh-TW": "石上柏",
+        "en": "Spikemoss"
+      },
+      "family": "Selaginellaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Selaginella tamariscina",
+      "common_names": {
+        "zh-TW": "卷柏",
+        "en": "Resurrection Plant"
+      },
+      "family": "Selaginellaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Lygodium japonicum",
+      "common_names": {
+        "zh-TW": "海金沙",
+        "en": "Japanese Climbing Fern"
+      },
+      "family": "Lygodiaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Dicranopteris linearis",
+      "common_names": {
+        "zh-TW": "芒萁",
+        "en": "Forked Fern"
+      },
+      "family": "Gleicheniaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Blechnum orientale",
+      "common_names": {
+        "zh-TW": "烏毛蕨",
+        "en": "Oriental Water Fern"
+      },
+      "family": "Blechnaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Drynaria fortunei",
+      "common_names": {
+        "zh-TW": "骨碎補",
+        "en": "Fortune's Drynaria"
+      },
+      "family": "Polypodiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Pyrrosia lingua",
+      "common_names": {
+        "zh-TW": "石韋",
+        "en": "Tongue Fern"
+      },
+      "family": "Polypodiaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Microlepia strigosa",
+      "common_names": {
+        "zh-TW": "粗毛鱗蓋蕨",
+        "en": "Lace Fern"
+      },
+      "family": "Dennstaedtiaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Sphenomeris chusana",
+      "common_names": {
+        "zh-TW": "烏蕨",
+        "en": "Wedge Fern"
+      },
+      "family": "Lindsaeaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Angiopteris lygodiifolia",
+      "common_names": {
+        "zh-TW": "觀音座蓮",
+        "en": "Giant Fern"
+      },
+      "family": "Marattiaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Osmunda japonica",
+      "common_names": {
+        "zh-TW": "紫萁",
+        "en": "Japanese Royal Fern"
+      },
+      "family": "Osmundaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Cyathea spinulosa",
+      "common_names": {
+        "zh-TW": "台灣桫欏",
+        "en": "Taiwan Tree Fern"
+      },
+      "family": "Cyatheaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Solanum lycopersicum",
+      "common_names": {
+        "zh-TW": "番茄",
+        "en": "Tomato"
+      },
+      "family": "Solanaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Capsicum annuum",
+      "common_names": {
+        "zh-TW": "辣椒",
+        "en": "Chili Pepper"
+      },
+      "family": "Solanaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Solanum torvum",
+      "common_names": {
+        "zh-TW": "水茄",
+        "en": "Turkey Berry"
+      },
+      "family": "Solanaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Physalis angulata",
+      "common_names": {
+        "zh-TW": "燈籠草",
+        "en": "Cutleaf Groundcherry"
+      },
+      "family": "Solanaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Strobilanthes cusia",
+      "common_names": {
+        "zh-TW": "馬藍",
+        "en": "Assam Indigo"
+      },
+      "family": "Acanthaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Justicia procumbens",
+      "common_names": {
+        "zh-TW": "爵床",
+        "en": "Water Willow"
+      },
+      "family": "Acanthaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Ruellia brittoniana",
+      "common_names": {
+        "zh-TW": "翠蘆莉",
+        "en": "Mexican Petunia"
+      },
+      "family": "Acanthaceae",
+      "category_hint": "invasive"
+    },
+    {
+      "scientific_name": "Boehmeria nivea",
+      "common_names": {
+        "zh-TW": "苧麻",
+        "en": "Ramie"
+      },
+      "family": "Urticaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Pilea microphylla",
+      "common_names": {
+        "zh-TW": "小葉冷水麻",
+        "en": "Artillery Plant"
+      },
+      "family": "Urticaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Elatostema lineolatum",
+      "common_names": {
+        "zh-TW": "樓梯草",
+        "en": "Elatostema"
+      },
+      "family": "Urticaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Morinda citrifolia",
+      "common_names": {
+        "zh-TW": "檄樹",
+        "en": "Noni"
+      },
+      "family": "Rubiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Toona sinensis",
+      "common_names": {
+        "zh-TW": "香椿",
+        "en": "Chinese Mahogany"
+      },
+      "family": "Meliaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Ailanthus altissima",
+      "common_names": {
+        "zh-TW": "臭椿",
+        "en": "Tree of Heaven"
+      },
+      "family": "Simaroubaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Sapium sebiferum",
+      "common_names": {
+        "zh-TW": "烏桕",
+        "en": "Chinese Tallow"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Aleurites moluccanus",
+      "common_names": {
+        "zh-TW": "石栗",
+        "en": "Candlenut"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Jatropha curcas",
+      "common_names": {
+        "zh-TW": "麻瘋樹",
+        "en": "Physic Nut"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Excoecaria agallocha",
+      "common_names": {
+        "zh-TW": "土沉香",
+        "en": "Blinding Tree"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Euphorbia hirta",
+      "common_names": {
+        "zh-TW": "大飛揚草",
+        "en": "Asthma Plant"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Euphorbia pulcherrima",
+      "common_names": {
+        "zh-TW": "聖誕紅",
+        "en": "Poinsettia"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Murraya paniculata",
+      "common_names": {
+        "zh-TW": "月橘",
+        "en": "Orange Jessamine"
+      },
+      "family": "Rutaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Citrus depressa",
+      "common_names": {
+        "zh-TW": "扁實檸檬",
+        "en": "Flat Lemon"
+      },
+      "family": "Rutaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Toddalia asiatica",
+      "common_names": {
+        "zh-TW": "飛龍掌血",
+        "en": "Orange Climber"
+      },
+      "family": "Rutaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Psidium guajava",
+      "common_names": {
+        "zh-TW": "番石榴",
+        "en": "Guava"
+      },
+      "family": "Myrtaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Syzygium samarangense",
+      "common_names": {
+        "zh-TW": "蓮霧",
+        "en": "Wax Apple"
+      },
+      "family": "Myrtaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Melaleuca leucadendra",
+      "common_names": {
+        "zh-TW": "白千層",
+        "en": "Paperbark Tree"
+      },
+      "family": "Myrtaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Moringa oleifera",
+      "common_names": {
+        "zh-TW": "辣木",
+        "en": "Moringa"
+      },
+      "family": "Moringaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Calotropis gigantea",
+      "common_names": {
+        "zh-TW": "牛角瓜",
+        "en": "Giant Milkweed"
+      },
+      "family": "Apocynaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Asclepias curassavica",
+      "common_names": {
+        "zh-TW": "尖尾鳳",
+        "en": "Blood Flower"
+      },
+      "family": "Apocynaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Catharanthus roseus",
+      "common_names": {
+        "zh-TW": "日日春",
+        "en": "Madagascar Periwinkle"
+      },
+      "family": "Apocynaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Ardisia squamulosa",
+      "common_names": {
+        "zh-TW": "春不老",
+        "en": "Ardisia"
+      },
+      "family": "Primulaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Myrsine seguinii",
+      "common_names": {
+        "zh-TW": "大明橘",
+        "en": "Myrsine"
+      },
+      "family": "Primulaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Bougainvillea spectabilis",
+      "common_names": {
+        "zh-TW": "九重葛",
+        "en": "Bougainvillea"
+      },
+      "family": "Nyctaginaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Mirabilis jalapa",
+      "common_names": {
+        "zh-TW": "紫茉莉",
+        "en": "Four O'Clock"
+      },
+      "family": "Nyctaginaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Celosia argentea",
+      "common_names": {
+        "zh-TW": "青葙",
+        "en": "Plumed Cockscomb"
+      },
+      "family": "Amaranthaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Achyranthes aspera",
+      "common_names": {
+        "zh-TW": "牛膝",
+        "en": "Devil's Horsewhip"
+      },
+      "family": "Amaranthaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Chenopodium album",
+      "common_names": {
+        "zh-TW": "藜",
+        "en": "Lamb's Quarters"
+      },
+      "family": "Amaranthaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Aeschynanthus acuminatus",
+      "common_names": {
+        "zh-TW": "芒毛苣苔",
+        "en": "Lipstick Plant"
+      },
+      "family": "Gesneriaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Torenia concolor",
+      "common_names": {
+        "zh-TW": "倒地蜈蚣",
+        "en": "Torenia"
+      },
+      "family": "Linderniaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Lindernia crustacea",
+      "common_names": {
+        "zh-TW": "母草",
+        "en": "Crustlike Lindernia"
+      },
+      "family": "Linderniaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Ophioglossum petiolatum",
+      "common_names": {
+        "zh-TW": "一枝香（瓶爾小草）",
+        "en": "Stalked Adder's Tongue"
+      },
+      "family": "Ophioglossaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Equisetum ramosissimum",
+      "common_names": {
+        "zh-TW": "木賊",
+        "en": "Branched Horsetail"
+      },
+      "family": "Equisetaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Lycopodium cernuum",
+      "common_names": {
+        "zh-TW": "過山龍",
+        "en": "Staghorn Clubmoss"
+      },
+      "family": "Lycopodiaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Piper kadsura",
+      "common_names": {
+        "zh-TW": "風藤",
+        "en": "Japanese Pepper Vine"
+      },
+      "family": "Piperaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Piper betle",
+      "common_names": {
+        "zh-TW": "荖葉",
+        "en": "Betel Leaf"
+      },
+      "family": "Piperaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Peperomia pellucida",
+      "common_names": {
+        "zh-TW": "草胡椒",
+        "en": "Shiny Bush"
+      },
+      "family": "Piperaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Glochidion rubrum",
+      "common_names": {
+        "zh-TW": "細葉饅頭果",
+        "en": "Glochidion"
+      },
+      "family": "Phyllanthaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Bridelia balansae",
+      "common_names": {
+        "zh-TW": "刺杜密",
+        "en": "Bridelia"
+      },
+      "family": "Phyllanthaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Solanum indicum",
+      "common_names": {
+        "zh-TW": "印度茄",
+        "en": "Indian Nightshade"
+      },
+      "family": "Solanaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Nicotiana tabacum",
+      "common_names": {
+        "zh-TW": "菸草",
+        "en": "Tobacco"
+      },
+      "family": "Solanaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Sambucus chinensis",
+      "common_names": {
+        "zh-TW": "冇骨消",
+        "en": "Chinese Elder"
+      },
+      "family": "Adoxaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Viburnum odoratissimum",
+      "common_names": {
+        "zh-TW": "珊瑚樹",
+        "en": "Sweet Viburnum"
+      },
+      "family": "Adoxaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Lonicera japonica",
+      "common_names": {
+        "zh-TW": "忍冬",
+        "en": "Japanese Honeysuckle"
+      },
+      "family": "Caprifoliaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Garcinia subelliptica",
+      "common_names": {
+        "zh-TW": "福木",
+        "en": "Common Garcinia"
+      },
+      "family": "Clusiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Calophyllum inophyllum",
+      "common_names": {
+        "zh-TW": "瓊崖海棠",
+        "en": "Beauty Leaf"
+      },
+      "family": "Calophyllaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Cyclobalanopsis glauca",
+      "common_names": {
+        "zh-TW": "青剛櫟",
+        "en": "Ring-cupped Oak"
+      },
+      "family": "Fagaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Castanopsis carlesii",
+      "common_names": {
+        "zh-TW": "長尾栲",
+        "en": "Carles Chinquapin"
+      },
+      "family": "Fagaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Lithocarpus glaber",
+      "common_names": {
+        "zh-TW": "石櫟",
+        "en": "Japanese Stone Oak"
+      },
+      "family": "Fagaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Quercus variabilis",
+      "common_names": {
+        "zh-TW": "栓皮櫟",
+        "en": "Chinese Cork Oak"
+      },
+      "family": "Fagaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Prunus campanulata",
+      "common_names": {
+        "zh-TW": "山櫻花",
+        "en": "Taiwan Cherry"
+      },
+      "family": "Rosaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Rubus formosensis",
+      "common_names": {
+        "zh-TW": "台灣懸鉤子",
+        "en": "Formosan Raspberry"
+      },
+      "family": "Rosaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Rubus buergeri",
+      "common_names": {
+        "zh-TW": "寒莓",
+        "en": "Winter Raspberry"
+      },
+      "family": "Rosaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Duchesnea indica",
+      "common_names": {
+        "zh-TW": "蛇莓",
+        "en": "Indian Strawberry"
+      },
+      "family": "Rosaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Eriobotrya japonica",
+      "common_names": {
+        "zh-TW": "枇杷",
+        "en": "Loquat"
+      },
+      "family": "Rosaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Photinia serratifolia",
+      "common_names": {
+        "zh-TW": "石楠",
+        "en": "Taiwanese Photinia"
+      },
+      "family": "Rosaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Pouzolzia elegans",
+      "common_names": {
+        "zh-TW": "水雞油",
+        "en": "Pouzolzia"
+      },
+      "family": "Urticaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Debregeasia orientalis",
+      "common_names": {
+        "zh-TW": "水麻",
+        "en": "Debregeasia"
+      },
+      "family": "Urticaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Tetrapanax papyrifer",
+      "common_names": {
+        "zh-TW": "通脫木",
+        "en": "Rice Paper Plant"
+      },
+      "family": "Araliaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Hedera rhombea",
+      "common_names": {
+        "zh-TW": "常春藤",
+        "en": "Japanese Ivy"
+      },
+      "family": "Araliaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Campsis grandiflora",
+      "common_names": {
+        "zh-TW": "凌霄花",
+        "en": "Chinese Trumpet Vine"
+      },
+      "family": "Bignoniaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Jacaranda mimosifolia",
+      "common_names": {
+        "zh-TW": "藍花楹",
+        "en": "Blue Jacaranda"
+      },
+      "family": "Bignoniaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Ludwigia adscendens",
+      "common_names": {
+        "zh-TW": "水龍",
+        "en": "Floating Water Primrose"
+      },
+      "family": "Onagraceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Oenothera laciniata",
+      "common_names": {
+        "zh-TW": "裂葉月見草",
+        "en": "Cutleaf Evening Primrose"
+      },
+      "family": "Onagraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Polygonum multiflorum",
+      "common_names": {
+        "zh-TW": "何首烏",
+        "en": "Chinese Knotweed"
+      },
+      "family": "Polygonaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Elaeocarpus sylvestris",
+      "common_names": {
+        "zh-TW": "杜英",
+        "en": "Blue Marble Tree"
+      },
+      "family": "Elaeocarpaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Brucea javanica",
+      "common_names": {
+        "zh-TW": "鴉膽子",
+        "en": "Java Brucea"
+      },
+      "family": "Simaroubaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Ampelopsis brevipedunculata",
+      "common_names": {
+        "zh-TW": "山葡萄",
+        "en": "Porcelain Berry"
+      },
+      "family": "Vitaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Cayratia japonica",
+      "common_names": {
+        "zh-TW": "虎葛",
+        "en": "Japanese Cayratia"
+      },
+      "family": "Vitaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Tetrastigma formosanum",
+      "common_names": {
+        "zh-TW": "三葉崖爬藤",
+        "en": "Formosan Tetrastigma"
+      },
+      "family": "Vitaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Pittosporum pentandrum",
+      "common_names": {
+        "zh-TW": "海桐",
+        "en": "Taiwan Cheesewood"
+      },
+      "family": "Pittosporaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Turpinia formosana",
+      "common_names": {
+        "zh-TW": "山香圓",
+        "en": "Formosan Turpinia"
+      },
+      "family": "Staphyleaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Coleus scutellarioides",
+      "common_names": {
+        "zh-TW": "彩葉草",
+        "en": "Coleus"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Clinopodium gracile",
+      "common_names": {
+        "zh-TW": "光風輪",
+        "en": "Slender Calamint"
+      },
+      "family": "Lamiaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Daphniphyllum glaucescens",
+      "common_names": {
+        "zh-TW": "虎皮楠",
+        "en": "Daphniphyllum"
+      },
+      "family": "Daphniphyllaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Ilex rotunda",
+      "common_names": {
+        "zh-TW": "鐵冬青",
+        "en": "Round-leaf Holly"
+      },
+      "family": "Aquifoliaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Symplocos chinensis",
+      "common_names": {
+        "zh-TW": "灰木",
+        "en": "Chinese Sweetleaf"
+      },
+      "family": "Symplocaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Styrax formosanus",
+      "common_names": {
+        "zh-TW": "烏皮九芎",
+        "en": "Formosan Snowbell"
+      },
+      "family": "Styracaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Mussaenda parviflora",
+      "common_names": {
+        "zh-TW": "玉葉金花",
+        "en": "Buddha's Lamp"
+      },
+      "family": "Rubiaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Helicteres angustifolia",
+      "common_names": {
+        "zh-TW": "山芝麻",
+        "en": "Narrow-leaf Screw Tree"
+      },
+      "family": "Malvaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Liriodendron chinense",
+      "common_names": {
+        "zh-TW": "鵝掌楸",
+        "en": "Chinese Tulip Tree"
+      },
+      "family": "Magnoliaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Michelia alba",
+      "common_names": {
+        "zh-TW": "白玉蘭",
+        "en": "White Champaca"
+      },
+      "family": "Magnoliaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Magnolia compressa",
+      "common_names": {
+        "zh-TW": "烏心石",
+        "en": "Formosan Michelia"
+      },
+      "family": "Magnoliaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Litsea glutinosa",
+      "common_names": {
+        "zh-TW": "黃肉樹",
+        "en": "Indian Laurel"
+      },
+      "family": "Lauraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Lindera communis",
+      "common_names": {
+        "zh-TW": "香葉樹",
+        "en": "Common Spicebush"
+      },
+      "family": "Lauraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Cleome rutidosperma",
+      "common_names": {
+        "zh-TW": "平伏莖白花菜",
+        "en": "Fringed Spider Flower"
+      },
+      "family": "Cleomaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Ranunculus cantoniensis",
+      "common_names": {
+        "zh-TW": "禺毛茛",
+        "en": "Canton Buttercup"
+      },
+      "family": "Ranunculaceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Clematis gouriana",
+      "common_names": {
+        "zh-TW": "串鼻龍",
+        "en": "Clematis"
+      },
+      "family": "Ranunculaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Breynia officinalis",
+      "common_names": {
+        "zh-TW": "紅仔珠",
+        "en": "Chi-shih"
+      },
+      "family": "Phyllanthaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Antidesma pentandrum",
+      "common_names": {
+        "zh-TW": "枯里珍",
+        "en": "Chinese Antidesma"
+      },
+      "family": "Phyllanthaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Schoenoplectiella mucronata",
+      "common_names": {
+        "zh-TW": "水毛花",
+        "en": "Bog Bulrush"
+      },
+      "family": "Cyperaceae",
+      "category_hint": "aquatic_wetland"
+    },
+    {
+      "scientific_name": "Fimbristylis dichotoma",
+      "common_names": {
+        "zh-TW": "竹子飄拂草",
+        "en": "Forked Fimbry"
+      },
+      "family": "Cyperaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Elaeagnus oldhamii",
+      "common_names": {
+        "zh-TW": "俄氏胡頹子",
+        "en": "Oldham's Elaeagnus"
+      },
+      "family": "Elaeagnaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Elaeagnus glabra",
+      "common_names": {
+        "zh-TW": "藤胡頹子",
+        "en": "Autumn Olive"
+      },
+      "family": "Elaeagnaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Myrica rubra",
+      "common_names": {
+        "zh-TW": "楊梅",
+        "en": "Chinese Bayberry"
+      },
+      "family": "Myricaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Arisaema consanguineum",
+      "common_names": {
+        "zh-TW": "天南星",
+        "en": "Jack-in-the-pulpit"
+      },
+      "family": "Araceae",
+      "category_hint": "dangerous"
+    },
+    {
+      "scientific_name": "Pinellia ternata",
+      "common_names": {
+        "zh-TW": "半夏",
+        "en": "Green Dragons"
+      },
+      "family": "Araceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Pothos chinensis",
+      "common_names": {
+        "zh-TW": "柚葉藤",
+        "en": "Chinese Pothos"
+      },
+      "family": "Araceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Dendrobium moniliforme",
+      "common_names": {
+        "zh-TW": "石斛",
+        "en": "Necklace Dendrobium"
+      },
+      "family": "Orchidaceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Habenaria dentata",
+      "common_names": {
+        "zh-TW": "白鶴蘭",
+        "en": "Toothed Rein Orchid"
+      },
+      "family": "Orchidaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Spiranthes sinensis",
+      "common_names": {
+        "zh-TW": "綬草",
+        "en": "Chinese Spiranthes"
+      },
+      "family": "Orchidaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Calanthe discolor",
+      "common_names": {
+        "zh-TW": "根節蘭",
+        "en": "Hardy Calanthe"
+      },
+      "family": "Orchidaceae",
+      "category_hint": "mountain"
+    },
+    {
+      "scientific_name": "Zinnia elegans",
+      "common_names": {
+        "zh-TW": "百日草",
+        "en": "Zinnia"
+      },
+      "family": "Asteraceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Cosmos bipinnatus",
+      "common_names": {
+        "zh-TW": "波斯菊",
+        "en": "Cosmos"
+      },
+      "family": "Asteraceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Tagetes erecta",
+      "common_names": {
+        "zh-TW": "萬壽菊",
+        "en": "African Marigold"
+      },
+      "family": "Asteraceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Phaseolus lunatus",
+      "common_names": {
+        "zh-TW": "皇帝豆",
+        "en": "Lima Bean"
+      },
+      "family": "Fabaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Vigna radiata",
+      "common_names": {
+        "zh-TW": "綠豆",
+        "en": "Mung Bean"
+      },
+      "family": "Fabaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Glycine max",
+      "common_names": {
+        "zh-TW": "大豆",
+        "en": "Soybean"
+      },
+      "family": "Fabaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Pluchea indica",
+      "common_names": {
+        "zh-TW": "鯽魚膽",
+        "en": "Indian Camphorweed"
+      },
+      "family": "Asteraceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Gnaphalium pensylvanicum",
+      "common_names": {
+        "zh-TW": "匙葉鼠麴草",
+        "en": "Pennsylvania Cudweed"
+      },
+      "family": "Asteraceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Elaeocarpus japonicus",
+      "common_names": {
+        "zh-TW": "薯豆",
+        "en": "Japanese Elaeocarpus"
+      },
+      "family": "Elaeocarpaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Saurauia oldhamii",
+      "common_names": {
+        "zh-TW": "水冬瓜",
+        "en": "Oldham Saurauia"
+      },
+      "family": "Actinidiaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Maesa perlaria",
+      "common_names": {
+        "zh-TW": "鯽魚膽",
+        "en": "Maesa"
+      },
+      "family": "Primulaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Ardisia crenata",
+      "common_names": {
+        "zh-TW": "朱砂根",
+        "en": "Coral Berry"
+      },
+      "family": "Primulaceae",
+      "category_hint": "common_shrub"
+    },
+    {
+      "scientific_name": "Lygodium microphyllum",
+      "common_names": {
+        "zh-TW": "小葉海金沙",
+        "en": "Old World Climbing Fern"
+      },
+      "family": "Lygodiaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Cyathea podophylla",
+      "common_names": {
+        "zh-TW": "鬼桫欏",
+        "en": "Ghost Tree Fern"
+      },
+      "family": "Cyatheaceae",
+      "category_hint": "fern"
+    },
+    {
+      "scientific_name": "Cinnamomum kanehirae",
+      "common_names": {
+        "zh-TW": "牛樟",
+        "en": "Stout Camphor Tree"
+      },
+      "family": "Lauraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Neolitsea sericea",
+      "common_names": {
+        "zh-TW": "舅仔樹",
+        "en": "Silky Neolitsea"
+      },
+      "family": "Lauraceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Osmanthus fragrans",
+      "common_names": {
+        "zh-TW": "桂花",
+        "en": "Sweet Osmanthus"
+      },
+      "family": "Oleaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Jasminum sambac",
+      "common_names": {
+        "zh-TW": "茉莉花",
+        "en": "Arabian Jasmine"
+      },
+      "family": "Oleaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Miscanthus sinensis",
+      "common_names": {
+        "zh-TW": "芒",
+        "en": "Chinese Silver Grass"
+      },
+      "family": "Poaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Setaria viridis",
+      "common_names": {
+        "zh-TW": "狗尾草",
+        "en": "Green Foxtail"
+      },
+      "family": "Poaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Pennisetum purpureum",
+      "common_names": {
+        "zh-TW": "象草",
+        "en": "Napier Grass"
+      },
+      "family": "Poaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Abutilon pictum",
+      "common_names": {
+        "zh-TW": "彩色冬葵",
+        "en": "Painted Abutilon"
+      },
+      "family": "Malvaceae",
+      "category_hint": "cultivated_escape"
+    },
+    {
+      "scientific_name": "Sapindus saponaria",
+      "common_names": {
+        "zh-TW": "無患子",
+        "en": "Wingleaf Soapberry"
+      },
+      "family": "Sapindaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Litchi chinensis",
+      "common_names": {
+        "zh-TW": "荔枝",
+        "en": "Lychee"
+      },
+      "family": "Sapindaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Dimocarpus longan",
+      "common_names": {
+        "zh-TW": "龍眼",
+        "en": "Longan"
+      },
+      "family": "Sapindaceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Ulmus parvifolia",
+      "common_names": {
+        "zh-TW": "紅雞油",
+        "en": "Chinese Elm"
+      },
+      "family": "Ulmaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Palaquium formosanum",
+      "common_names": {
+        "zh-TW": "大葉山欖",
+        "en": "Formosan Nato Tree"
+      },
+      "family": "Sapotaceae",
+      "category_hint": "coastal"
+    },
+    {
+      "scientific_name": "Fraxinus griffithii",
+      "common_names": {
+        "zh-TW": "光蠟樹",
+        "en": "Griffith's Ash"
+      },
+      "family": "Oleaceae",
+      "category_hint": "common_tree"
+    },
+    {
+      "scientific_name": "Mallotus repandus",
+      "common_names": {
+        "zh-TW": "扛香藤",
+        "en": "Repand Mallotus"
+      },
+      "family": "Euphorbiaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Alpinia formosana",
+      "common_names": {
+        "zh-TW": "台灣山薑",
+        "en": "Formosan Ginger"
+      },
+      "family": "Zingiberaceae",
+      "category_hint": "common_herb"
+    },
+    {
+      "scientific_name": "Ixeris chinensis",
+      "common_names": {
+        "zh-TW": "兔兒菜",
+        "en": "Chinese Ixeris"
+      },
+      "family": "Asteraceae",
+      "category_hint": "edible"
+    },
+    {
+      "scientific_name": "Cirsium japonicum",
+      "common_names": {
+        "zh-TW": "薊",
+        "en": "Japanese Thistle"
+      },
+      "family": "Asteraceae",
+      "category_hint": "medicinal"
+    },
+    {
+      "scientific_name": "Senecio scandens",
+      "common_names": {
+        "zh-TW": "蔓黃菀",
+        "en": "Climbing Groundsel"
+      },
+      "family": "Asteraceae",
+      "category_hint": "common_herb"
+    }
+  ]
+}

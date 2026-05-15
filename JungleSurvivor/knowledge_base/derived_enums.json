@@ -1,0 +1,369 @@
+{
+  "overall": {
+    "growth_form": [
+      "aquatic",
+      "fern",
+      "fungus",
+      "grass",
+      "herb",
+      "palm_like",
+      "shrub",
+      "tree",
+      "vine",
+      "not_visible",
+      "uncertain"
+    ],
+    "height_estimate": [
+      "1-2m",
+      "2-5m",
+      "30-100cm",
+      "<30cm",
+      ">5m",
+      "not_visible",
+      "uncertain"
+    ],
+    "latex": [
+      "none",
+      "yes_clear",
+      "yes_white",
+      "not_visible",
+      "uncertain",
+      "not_checkable"
+    ],
+    "smell": [
+      "aromatic",
+      "fishy",
+      "none",
+      "pungent",
+      "not_visible",
+      "uncertain",
+      "not_checkable"
+    ],
+    "habitat": [
+      "coastal",
+      "epiphytic",
+      "forest_floor",
+      "open_field",
+      "roadside",
+      "streamside",
+      "urban",
+      "wetland",
+      "not_visible",
+      "uncertain"
+    ],
+    "water_droplet_test": [
+      "beading",
+      "flat",
+      "not_visible",
+      "uncertain",
+      "not_checkable"
+    ]
+  },
+  "leaf": {
+    "leaf_type": [
+      "bipinnate_compound",
+      "pinnate_compound",
+      "simple",
+      "trifoliate",
+      "not_visible",
+      "uncertain"
+    ],
+    "shape": [
+      "arrow",
+      "elliptic",
+      "fan",
+      "heart",
+      "lanceolate",
+      "linear",
+      "oval",
+      "rhombic",
+      "round",
+      "not_visible",
+      "uncertain"
+    ],
+    "edge": [
+      "crenate",
+      "deeply_lobed",
+      "entire",
+      "lobed",
+      "serrated",
+      "not_visible",
+      "uncertain"
+    ],
+    "tip": [
+      "acuminate",
+      "acute",
+      "rounded",
+      "not_visible",
+      "uncertain"
+    ],
+    "base": [
+      "cordate",
+      "cuneate",
+      "rounded",
+      "not_visible",
+      "uncertain"
+    ],
+    "colors": [
+      "brown",
+      "dark_green",
+      "green",
+      "purple",
+      "red_underside",
+      "variegated",
+      "not_visible",
+      "uncertain"
+    ],
+    "color_pattern": [
+      "bicolor",
+      "solid",
+      "spotted",
+      "not_visible",
+      "uncertain"
+    ],
+    "surface_top": [
+      "glossy",
+      "hairy",
+      "matte",
+      "rough",
+      "scaly",
+      "velvety",
+      "waxy",
+      "not_visible",
+      "uncertain"
+    ],
+    "surface_bottom": [
+      "glossy",
+      "hairy",
+      "matte",
+      "not_visible",
+      "uncertain"
+    ],
+    "arrangement": [
+      "alternate",
+      "basal_rosette",
+      "bird_nest_radial",
+      "clustered",
+      "opposite",
+      "whorled",
+      "not_visible",
+      "uncertain"
+    ],
+    "size": [
+      "large_15-50cm",
+      "medium_5-15cm",
+      "small_2-5cm",
+      "tiny_<2cm",
+      "very_large_>50cm",
+      "not_visible",
+      "uncertain"
+    ],
+    "venation": [
+      "palmate",
+      "parallel",
+      "pinnate",
+      "reticulate",
+      "single_midrib",
+      "not_visible",
+      "uncertain"
+    ],
+    "texture": [
+      "fleshy",
+      "leathery",
+      "papery",
+      "not_visible",
+      "uncertain"
+    ],
+    "petiole_attach": [
+      "normal",
+      "peltate_shield",
+      "sessile",
+      "not_visible",
+      "uncertain"
+    ]
+  },
+  "stem": {
+    "type": [
+      "climbing",
+      "creeping",
+      "erect",
+      "rhizome",
+      "twining",
+      "not_visible",
+      "uncertain"
+    ],
+    "cross_section": [
+      "round",
+      "square",
+      "not_visible",
+      "uncertain"
+    ],
+    "surface": [
+      "bark_rough",
+      "bark_smooth",
+      "hairy",
+      "scaly",
+      "smooth",
+      "thorny",
+      "not_visible",
+      "uncertain"
+    ],
+    "colors": [
+      "brown",
+      "gray",
+      "green",
+      "purple",
+      "red",
+      "not_visible",
+      "uncertain"
+    ],
+    "interior": [
+      "hollow",
+      "pithy",
+      "solid",
+      "not_visible",
+      "uncertain",
+      "not_checkable"
+    ],
+    "has_thorns": [
+      "no",
+      "yes",
+      "not_visible",
+      "uncertain"
+    ]
+  },
+  "flower": {
+    "colors": [
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "not_visible",
+      "uncertain"
+    ],
+    "color_pattern": [
+      "center_different",
+      "solid",
+      "not_visible",
+      "uncertain"
+    ],
+    "petal_count": [
+      "0",
+      "4",
+      "5",
+      "many",
+      "not_visible",
+      "uncertain"
+    ],
+    "symmetry": [
+      "bilateral",
+      "radial",
+      "not_visible",
+      "uncertain"
+    ],
+    "size": [
+      "large_30-60mm",
+      "medium_15-30mm",
+      "small_5-15mm",
+      "tiny_<5mm",
+      "very_large_>60mm",
+      "not_visible",
+      "uncertain"
+    ],
+    "arrangement": [
+      "cyme",
+      "head_composite",
+      "panicle",
+      "raceme",
+      "solitary",
+      "spathe_spadix",
+      "spike",
+      "umbel",
+      "not_visible",
+      "uncertain"
+    ],
+    "position": [
+      "axillary",
+      "terminal",
+      "not_visible",
+      "uncertain"
+    ],
+    "orientation": [
+      "drooping",
+      "upright",
+      "not_visible",
+      "uncertain"
+    ],
+    "special_shape": [
+      "bell_tubular",
+      "butterfly_shape",
+      "lip_labellum",
+      "none",
+      "spathe",
+      "trumpet",
+      "not_visible",
+      "uncertain"
+    ],
+    "fragrant": [
+      "no",
+      "yes",
+      "not_visible",
+      "uncertain",
+      "not_checkable"
+    ]
+  },
+  "fruit": {
+    "type": [
+      "achene",
+      "aggregate",
+      "berry",
+      "capsule",
+      "drupe",
+      "pod_legume",
+      "spore",
+      "not_visible",
+      "uncertain"
+    ],
+    "colors": [
+      "brown",
+      "green",
+      "orange",
+      "purple",
+      "red",
+      "white_waxy",
+      "yellow",
+      "not_visible",
+      "uncertain"
+    ],
+    "size": [
+      "large_>30mm",
+      "medium_15-30mm",
+      "small_5-15mm",
+      "tiny_<5mm",
+      "not_visible",
+      "uncertain"
+    ],
+    "surface": [
+      "smooth",
+      "spiny",
+      "not_visible",
+      "uncertain"
+    ]
+  },
+  "root": {
+    "type": [
+      "aerial_root",
+      "fibrous",
+      "rhizome",
+      "storage_tuber",
+      "taproot",
+      "not_visible",
+      "uncertain",
+      "not_checkable"
+    ]
+  }
+}

@@ -1,0 +1,579 @@
+[
+  {
+    "id": "trimeresurus_stejnegeri",
+    "scientific_name": "Trimeresurus stejnegeri",
+    "common_names": { "zh-TW": "赤尾青竹絲", "en": "Stejneger's Green Bamboo Viper" },
+    "category": "venomous_snake",
+    "danger_level": "high",
+    "venom_type": "出血性毒",
+    "morphology": {
+      "body_color": "全身鮮綠色，體側有白色或淡黃色縱線",
+      "tail": "尾巴末端為磚紅色（關鍵特徵）",
+      "head_shape": "三角形，明顯比頸部寬（蝮蛇科特徵）",
+      "pupil": "縱裂瞳孔（貓眼狀）",
+      "pit_organ": "眼與鼻孔之間有明顯的頰窩（紅外線感應器）",
+      "body_size": "中小型，全長 60-90cm，體型細長",
+      "scales": "背鱗有稜脊"
+    },
+    "habitat": "低中海拔森林、竹林、灌木叢，常纏繞在樹枝上，海拔 0-2000m",
+    "behavior": "夜行性，攻擊性中等。常靜止不動偽裝在枝葉間。受驚時會快速咬擊。",
+    "bite_symptoms": [
+      "傷口劇烈疼痛",
+      "局部迅速腫脹",
+      "出血不止（凝血功能障礙）",
+      "傷口周圍瘀青",
+      "嚴重者可能組織壞死"
+    ],
+    "first_aid": {
+      "do": [
+        "保持冷靜，減少活動",
+        "記住蛇的外觀特徵（拍照更佳）",
+        "移除傷肢上的戒指、手錶等束縛物",
+        "保持傷肢低於心臟位置",
+        "儘速送醫，需施打抗蛇毒血清"
+      ],
+      "do_not": [
+        "勿切開傷口",
+        "勿用嘴吸毒",
+        "勿綁止血帶（加壓繃帶例外）",
+        "勿冰敷",
+        "勿飲酒",
+        "勿嘗試捕蛇"
+      ],
+      "antivenom": "出血性蛇毒血清（台灣各大醫院急診備有）"
+    },
+    "activity_pattern": "夜行性為主，陰天或雨後白天也會活動",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶", "熱帶"]
+    },
+    "encounter_frequency": "台灣最常見的毒蛇，咬傷案例數最多"
+  },
+  {
+    "id": "protobothrops_mucrosquamatus",
+    "scientific_name": "Protobothrops mucrosquamatus",
+    "common_names": { "zh-TW": "龜殼花", "en": "Taiwan Habu" },
+    "category": "venomous_snake",
+    "danger_level": "high",
+    "venom_type": "出血性毒",
+    "morphology": {
+      "body_color": "灰褐色底，背部有深褐色大型龜甲狀斑紋（關鍵特徵）",
+      "head_shape": "三角形，寬大，與頸部分界明顯",
+      "pupil": "縱裂瞳孔",
+      "pit_organ": "眼前方有頰窩",
+      "body_size": "中大型，全長 80-130cm，體型粗壯",
+      "scales": "背鱗有強稜脊，體表粗糙感"
+    },
+    "habitat": "低海拔森林、農田附近、住家周圍、石堆、柴堆，海拔 0-1500m",
+    "behavior": "夜行性，攻擊性較高。受驚時會快速反擊。常出現在人類活動區域附近。",
+    "bite_symptoms": [
+      "傷口劇烈腫痛",
+      "迅速腫脹擴散",
+      "出血不止",
+      "組織壞死（嚴重者）",
+      "可能需要截肢（極嚴重者）"
+    ],
+    "first_aid": {
+      "do": [
+        "保持冷靜，減少活動",
+        "記住蛇的外觀特徵",
+        "移除傷肢束縛物",
+        "保持傷肢低於心臟位置",
+        "儘速送醫"
+      ],
+      "do_not": [
+        "勿切開傷口",
+        "勿用嘴吸毒",
+        "勿綁止血帶",
+        "勿冰敷",
+        "勿嘗試捕蛇"
+      ],
+      "antivenom": "出血性蛇毒血清"
+    },
+    "activity_pattern": "夜行性，黃昏至夜間最活躍",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "台灣第二常見的毒蛇咬傷來源"
+  },
+  {
+    "id": "bungarus_multicinctus",
+    "scientific_name": "Bungarus multicinctus",
+    "common_names": { "zh-TW": "雨傘節（銀環蛇）", "en": "Many-banded Krait" },
+    "category": "venomous_snake",
+    "danger_level": "critical",
+    "venom_type": "神經性毒",
+    "morphology": {
+      "body_color": "全身黑白相間的環狀橫帶（關鍵特徵），黑白帶等寬或黑帶略寬",
+      "head_shape": "橢圓形，與頸部區分不明顯（非三角形）",
+      "pupil": "圓形瞳孔",
+      "body_size": "中型，全長 100-150cm",
+      "dorsal_scales": "背部中央一列鱗片明顯擴大呈六角形（關鍵特徵）",
+      "tail": "尾部短，末端鈍圓"
+    },
+    "habitat": "低海拔農田、水邊、住家附近、排水溝，海拔 0-500m",
+    "behavior": "夜行性，動作緩慢，白天溫馴。但毒性極強！夜間會主動覓食。",
+    "bite_symptoms": [
+      "⚠️ 咬傷初期幾乎不痛（極度危險！容易被忽視）",
+      "數小時後出現眼瞼下垂",
+      "吞嚥困難",
+      "全身肌肉無力",
+      "呼吸困難",
+      "呼吸衰竭（可致死）"
+    ],
+    "first_aid": {
+      "do": [
+        "⚠️ 即使不痛也必須立即就醫！這是最危險的部分",
+        "保持冷靜",
+        "記住蛇的外觀（黑白相間）",
+        "可使用彈性繃帶加壓包紮（壓力固定法），減緩毒液擴散",
+        "儘速送醫，需施打神經性蛇毒血清",
+        "注意呼吸狀況，準備人工呼吸"
+      ],
+      "do_not": [
+        "勿忽視！即使傷口不痛也要就醫",
+        "勿切開傷口",
+        "勿用嘴吸毒",
+        "勿綁止血帶"
+      ],
+      "antivenom": "神經性蛇毒血清（時間是關鍵，越早施打越好）"
+    },
+    "activity_pattern": "嚴格夜行性",
+    "distribution": {
+      "altitude_range": [0, 500],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "不常見，但致死率最高的台灣毒蛇"
+  },
+  {
+    "id": "naja_atra",
+    "scientific_name": "Naja atra",
+    "common_names": { "zh-TW": "眼鏡蛇（飯匙倩）", "en": "Chinese Cobra" },
+    "category": "venomous_snake",
+    "danger_level": "critical",
+    "venom_type": "混合毒（神經毒 + 細胞毒）",
+    "morphology": {
+      "body_color": "全身黑色或深褐色，腹面淡色",
+      "hood": "受威脅時頸部張開呈扁平狀（關鍵特徵），可見白色眼鏡狀斑紋",
+      "head_shape": "橢圓形，受威脅時頸部明顯擴展",
+      "pupil": "圓形瞳孔",
+      "body_size": "中大型，全長 120-150cm",
+      "scales": "背鱗光滑"
+    },
+    "habitat": "低海拔農田、溪邊、竹林、住家附近，海拔 0-800m",
+    "behavior": "日行性為主。受驚時會抬起前身、張開頸部、發出嘶嘶聲警告。可噴毒（射程達 2m）。",
+    "bite_symptoms": [
+      "傷口疼痛",
+      "局部腫脹",
+      "組織壞死",
+      "眼瞼下垂（神經毒症狀）",
+      "呼吸困難",
+      "被噴毒液入眼：劇烈疼痛、視力受損"
+    ],
+    "first_aid": {
+      "do": [
+        "立即遠離（此蛇攻擊範圍大）",
+        "儘速送醫",
+        "如毒液噴入眼睛：立即用大量清水沖洗至少 15 分鐘",
+        "記住蛇的外觀特徵"
+      ],
+      "do_not": [
+        "勿嘗試與其對峙",
+        "勿切開傷口",
+        "勿用嘴吸毒"
+      ],
+      "antivenom": "神經性 + 出血性混合蛇毒血清"
+    },
+    "activity_pattern": "日行性為主，偶爾夜間活動",
+    "distribution": {
+      "altitude_range": [0, 800],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "中等，但攻擊性強，咬傷後果嚴重"
+  },
+  {
+    "id": "deinagkistrodon_acutus",
+    "scientific_name": "Deinagkistrodon acutus",
+    "common_names": { "zh-TW": "百步蛇（尖吻蝮）", "en": "Hundred-pace Pit Viper" },
+    "category": "venomous_snake",
+    "danger_level": "critical",
+    "venom_type": "出血性毒 + 細胞毒",
+    "morphology": {
+      "body_color": "灰褐色底，背部有大型深色三角形斑紋，排列成鏈狀",
+      "head_shape": "大三角形，吻端明顯上翹（關鍵特徵）",
+      "pupil": "縱裂瞳孔",
+      "pit_organ": "眼前方有明顯頰窩",
+      "body_size": "大型，全長 120-150cm，體型極粗壯",
+      "tail": "尾端有角質化尖刺"
+    },
+    "habitat": "中低海拔原始森林、山區，岩石堆、落葉堆中，海拔 300-1500m",
+    "behavior": "動作遲緩，但攻擊速度極快。保護色極佳，常隱藏在落葉中不易發現。台灣原住民族的文化圖騰。",
+    "bite_symptoms": [
+      "傷口劇烈疼痛",
+      "迅速大面積腫脹",
+      "大量出血",
+      "嚴重組織壞死",
+      "全身性凝血功能障礙",
+      "可致死或截肢"
+    ],
+    "first_aid": {
+      "do": [
+        "保持冷靜，立即遠離",
+        "減少活動，勿奔跑",
+        "記住蛇的特徵（三角形頭、上翹吻端）",
+        "儘速送醫，此為急重症",
+        "可用彈性繃帶加壓包紮"
+      ],
+      "do_not": [
+        "勿切開傷口",
+        "勿用嘴吸毒",
+        "勿綁止血帶",
+        "勿嘗試捕蛇（此蛇為保育類）"
+      ],
+      "antivenom": "出血性蛇毒血清（大劑量）"
+    },
+    "activity_pattern": "夜行性為主，白天在落葉中靜臥",
+    "distribution": {
+      "altitude_range": [300, 1500],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "少見（保育類），但咬傷後果極嚴重"
+  },
+  {
+    "id": "vespa_velutina",
+    "scientific_name": "Vespa velutina",
+    "common_names": { "zh-TW": "黃腰虎頭蜂", "en": "Asian Hornet" },
+    "category": "venomous_insect",
+    "danger_level": "high",
+    "venom_type": "蜂毒（蛋白質類毒素）",
+    "morphology": {
+      "body_color": "胸部黑色，腹部前半黑色、後半黃橙色（關鍵特徵：腹部有黃色環帶），整體黑黃相間",
+      "body_size": "工蜂約 2-2.5cm",
+      "head_shape": "黑色，觸角深褐色",
+      "wings": "深褐色",
+      "nest": "球形紙質巢，常在樹上、住家屋簷；外觀呈牛皮紙色多層紙殼"
+    },
+    "habitat": "低中海拔森林、公園、住家屋簷築巢",
+    "behavior": "群體攻擊，會追逐入侵者數十公尺。攻擊性中等，但在巢邊或振動干擾時易激怒。",
+    "sting_symptoms": [
+      "劇烈疼痛、立即紅腫",
+      "多處螫傷可致全身過敏反應",
+      "嚴重者過敏性休克、呼吸困難",
+      "極大量螫傷可危及生命"
+    ],
+    "first_aid": {
+      "do": [
+        "迅速遠離現場，以衣物護住頭頸",
+        "以硬邊緣刮除螫針（勿以鑷子擠壓毒囊）",
+        "冰敷減輕腫痛",
+        "觀察是否出現全身蕁麻疹、胸悶、呼吸困難／暈厥",
+        "多處螫傷、呼吸困難或意識改變：立即就醫或呼叫救護"
+      ],
+      "do_not": [
+        "勿徒手擠壓螫針或毒囊",
+        "勿在蜂群未離去時停留敲打巢穴",
+        "過敏體質者勿輕忽單一螫傷症狀"
+      ]
+    },
+    "activity_pattern": "日間活躍，溫暖季節最頻繁",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "台北山區最常遇到的虎頭蜂種類之一"
+  },
+  {
+    "id": "vespa_basalis",
+    "scientific_name": "Vespa basalis",
+    "common_names": { "zh-TW": "黑腹虎頭蜂", "en": "Black-bellied Hornet" },
+    "category": "venomous_insect",
+    "danger_level": "critical",
+    "venom_type": "蜂毒（蛋白質類毒素，毒量與攻擊性極高）",
+    "morphology": {
+      "body_color": "全身近乎黑色，腹部末端兩節為黃橙色（關鍵特徵：幾乎全黑的大型虎頭蜂，僅末端明顯橙黃）",
+      "body_size": "工蜂約 2.5-3cm，蜂後可達約 4cm（台灣體型最大虎頭蜂之一）",
+      "head_shape": "寬大黑色頭部，大顎發達",
+      "wings": "深褐色近黑，飛行聲沉厚",
+      "nest": "巢常築於樹洞、地穴或隱蔽處，不易事先察覺"
+    },
+    "habitat": "中低海拔森林；樹洞、地下或隱蔽處築巢",
+    "behavior": "攻擊性極強，可追逐入侵者數百公尺；群體攻擊時極度危險。被螫超過十處以上致死風險顯著上升。",
+    "sting_symptoms": [
+      "瞬間劇痛與快速腫脹",
+      "大量螫傷：溶血、急性腎損傷、過敏性休克",
+      "呼吸困難、血壓下降",
+      "高劑量毒液可致多重器官衰竭"
+    ],
+    "first_aid": {
+      "do": [
+        "立即以最快速度離開該區域並遮掩頭部",
+        "刮除可見螫針，大量螫傷視為急診",
+        "冰敷並監測意識、呼吸、血壓",
+        "任何全身症狀或十處以上螫傷：立刻送醫"
+      ],
+      "do_not": [
+        "勿返回巢區或嘗試搗毀蜂巢",
+        "勿以酒精或劇烈運動加速毒液循環",
+        "勿延誤就醫評估（此物種致死率為台灣虎頭蜂中最高之一）"
+      ]
+    },
+    "activity_pattern": "白天為主，守巢反應強烈",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "山區步道鄰近林缘時有遭遇紀錄；巢位隱蔽使誤闖風險高"
+  },
+  {
+    "id": "vespa_mandarinia",
+    "scientific_name": "Vespa mandarinia",
+    "common_names": { "zh-TW": "中華大虎頭蜂", "en": "Asian Giant Hornet" },
+    "category": "venomous_insect",
+    "danger_level": "critical",
+    "venom_type": "蜂毒（蛋白質類毒素，單次注毒量極大）",
+    "morphology": {
+      "body_color": "頭部橙黃色，胸部黑色，腹部黑黃相間寬橫帶（對比強烈、體型巨大易辨）",
+      "body_size": "工蜂約 3.5-4cm，蜂後可達約 5cm（世界最大型蜂類之一）",
+      "head_shape": "寬大黃橙色頭部，複眼明顯",
+      "wings": "強韌、寬大，深褐色",
+      "nest": "多於土中、林緣地下築巢，入口常為單一洞孔"
+    },
+    "habitat": "中海拔森林、林缘；土中築巢為主",
+    "behavior": "攻擊性強，群體防衛時可持久追擊；單蜂即可造成嚴重局部反應，毒液總量大。在臺北近郊山區相對少見但不可輕忽。",
+    "sting_symptoms": [
+      "極度疼痛與大範圍腫脹",
+      "多處螫傷：休克與器官受損風險",
+      "過敏反應與神經血管性水腫"
+    ],
+    "first_aid": {
+      "do": [
+        "迅速撤離並防護頭頸",
+        "刮除螫針，冰敷並直奔急診（特別是多處螫傷）",
+        "記錄螫傷時間與部位數量供醫師評估"
+      ],
+      "do_not": [
+        "勿拍打或徒手抓蜂（易引發更多攻擊）",
+        "勿輕忽單一深部螫傷的疼痛與腫脹進展"
+      ]
+    },
+    "activity_pattern": "日間活動，秋季族群量大時防衛性提高",
+    "distribution": {
+      "altitude_range": [300, 2000],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "世界最大虎頭蜂，臺北山區較少見但若遇見風險極高"
+  },
+  {
+    "id": "scolopendra_subspinipes_mutilans",
+    "scientific_name": "Scolopendra subspinipes mutilans",
+    "common_names": { "zh-TW": "蜈蚣", "en": "Chinese Red-headed Centipede" },
+    "category": "venomous_arthropod",
+    "danger_level": "medium",
+    "venom_type": "蜈蚣毒（蛋白質類）",
+    "morphology": {
+      "body_color": "紅褐色至暗褐色體節，腹面常呈黃色；整體光澤偏暗",
+      "body_size": "體長約 8-20cm（大型個體醒目）",
+      "head_appendages": "頭部下方一對粗壯毒顎（關鍵特徵），顎端深色",
+      "legs": "21 對步足，側緣排布緊密，移動迅速",
+      "segmentation": "體節扁寬，背面中央縱線可能較淺"
+    },
+    "habitat": "低海拔潮濕環境、石塊下、落葉堆、步道旁縫隙與住家周邊陰濕處",
+    "behavior": "夜行性，受驚時快速逃避或以毒顎反咬；翻石、整理雜物時易被誤傷。",
+    "bite_symptoms": [
+      "咬處劇烈刺痛與灼熱感",
+      "局部紅腫、可能瘀青",
+      "發燒感、鄰近淋巴結腫痛",
+      "少數個體過敏或大片腫脹需就醫"
+    ],
+    "first_aid": {
+      "do": [
+        "清水或生理食鹽水沖洗傷口",
+        "冰敷止痛消腫",
+        "可服用醫師指示之止痛藥",
+        "紅腫迅速擴散、發燒或全身過敏：就醫"
+      ],
+      "do_not": [
+        "勿以口吸吮傷口",
+        "勿切開或火燒傷口",
+        "勿延誤出現全身症狀時的評估"
+      ]
+    },
+    "activity_pattern": "夜間與晨昏為主，日間匿於縫隙",
+    "distribution": {
+      "altitude_range": [0, 1500],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "臺灣常見大型蜈蚣，郊山與公園旁潮濕處常有記錄"
+  },
+  {
+    "id": "solenopsis_invicta",
+    "scientific_name": "Solenopsis invicta",
+    "common_names": { "zh-TW": "紅火蟻", "en": "Red Imported Fire Ant" },
+    "category": "venomous_insect",
+    "danger_level": "high",
+    "venom_type": "蟻毒（含溶血與過敏原性蛋白）",
+    "morphology": {
+      "body_color": "工蟻呈紅褐色至深褐色，腹端色常較深",
+      "body_size": "工蟻體長約 2-6mm，肉眼仍清晰可見",
+      "nest_mound": "地表隆起蟻丘高約 10-30cm 之鬆土堆（關鍵野外辨識特徵），下雨後更明顯",
+      "caste": "具多型態工蟻，大顎可夾住皮膚後以針刺螫",
+      "antenna": "膝狀觸角，頭胸腹三段明顯"
+    },
+    "habitat": "臺北都會公園草地、開闊地、步道邊坡與農田鄰近荒地",
+    "behavior": "群體防衛性強，可同時大量螫咬；誤踏蟻丘或振動巢體時蜂擁而上。",
+    "sting_symptoms": [
+      "灼熱刺痛與劇癢",
+      "24 小時內形成清澈水泡，可能化膿成膿包",
+      "嚴重過敏：全身蕁麻疹、咽喉腫、低血壓、過敏性休克",
+      "兒童或過敏體質者遭多處螫咬時風險更高"
+    ],
+    "first_aid": {
+      "do": [
+        "撥離身上蟻隻、遠離蟻丘",
+        "冷敷減痛止癢",
+        "清潔皮膚，觀察過敏與呼吸道症狀",
+        "出現胸悶、唇腫、暈厥：立即就醫"
+      ],
+      "do_not": [
+        "勿擠破初期水泡以免次發感染",
+        "勿以指甲搔抓破皮大面積傷口",
+        "勿輕忽首次大面積螫傷"
+      ]
+    },
+    "activity_pattern": "全日皆可活躍，溫暖季節最盛",
+    "distribution": {
+      "altitude_range": [0, 800],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "入侵種，臺北公園與草坪已有多起分布與螫傷通報"
+  },
+  {
+    "id": "leptotrombidium_deliense",
+    "scientific_name": "Leptotrombidium deliense",
+    "common_names": { "zh-TW": "恙蟲（恙蟎幼蟲）", "en": "Chigger Mite (scrub typhus vector)" },
+    "category": "disease_vector",
+    "danger_level": "high",
+    "venom_type": "不適用（病原為恙蟲病立克次體，經幼蟲唾液傳播）",
+    "morphology": {
+      "body_color": "幼蟲橙紅色，吸血前後顏色可略變深",
+      "body_size": "幼蟲體長僅約 0.2-0.3mm（肉眼幾乎不可辨，多靠焦痂與病史推斷）",
+      "feeding_site": "偏好皮膚柔軟溫暖處：腋下、腰際、鼠蹊、陰囊、髮際近耳後等",
+      "seasonality": "溫暖潮濕季節活動升高，草叢暴露風險最大",
+      "key_sign": "叮咬處可能留下黑色焦痂（eschar，圓形潰瘍樣，具高度診斷價值）"
+    },
+    "habitat": "草叢、灌木叢、雜草地、郊山步道兩側長草區",
+    "behavior": "幼蟲爬至宿主皮膚後以口器固著吸血數小時至數日，多半不自覺完成叮咬離體。",
+    "bite_symptoms": [
+      "叮咬後可能無感或微癢",
+      "焦痂形成（黑色圓形潰瘍，關鍵特徵）",
+      "潛伏約 7-10 日後：突然高燒、劇烈頭痛、結膜充血",
+      "淋巴結腫大、腹痛或皮疹；未治療可致多重器官衰竭，歷史資料顯示死亡率可極高"
+    ],
+    "first_aid": {
+      "do": [
+        "戶外活動後盡快沖澡並更換衣物，熱水清洗或高溫烘乾",
+        "若出現焦痂並合併發燒：視為急症，立即就醫並主動告知登山／草叢暴露史",
+        "需抗生素治療（醫師處方，勿自行停藥）；及早治療可大幅降低死亡率",
+        "同行者亦應提高警覺（群聚暴露風險）"
+      ],
+      "do_not": [
+        "勿因無痛癢而忽視焦痂＋發燒的組合",
+        "勿自行長期服用退燒藥掩蓋病情而延誤診斷",
+        "勿以民俗療法處理焦痂造成次發感染"
+      ],
+      "medical_urgency": "恙蟲病可進展迅速；未適當治療死亡率可達約六成（文獻與公共衛教常引述之嚴重度），有疑似症狀須數小時至當日內完成醫療評估。"
+    },
+    "activity_pattern": "季節性高峰多在雨後草長、氣溫回升時段",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "臺灣郊山與竹林草坡常見暴露風險，臺北近郊步道亦有病例報告"
+  },
+  {
+    "id": "ixodes_granulatus",
+    "scientific_name": "Ixodes granulatus",
+    "common_names": { "zh-TW": "硬蜱", "en": "Granular Tick" },
+    "category": "disease_vector",
+    "danger_level": "medium",
+    "venom_type": "不適用（可能傳播伯氏疏螺旋體等病原，與萊姆病等相關；實際風險依地域與個案）",
+    "morphology": {
+      "body_color": "未吸血時深褐色至黑色，體背可見顆粒狀刻點（種小名 granulatus 反映之特徵）",
+      "body_size": "未吸血若蟲／成蜱約 2-3mm；飽血後雌蜱膨大呈灰至青灰色，可達約 1cm",
+      "capitulum": "頭部口器顯著向前伸出，螯肢埋入皮膚後不易拔出",
+      "legs": "幼蜱三對、若蟲與成蜱四對，足末具附著爪",
+      "engorgement": "吸血數日至一週以上皆可能，越大表示吸血越久"
+    },
+    "habitat": "闊葉林、草叢與灌木邊緣，步道兩側及獸徑旁",
+    "behavior": "在草尖或灌木葉端「坐等」經過的宿主，接觸後爬行至皺褶、頭皮、膝後、腰際等處叮咬。",
+    "bite_symptoms": [
+      "叮咬處可能紅癢或無明顯感覺",
+      "萊姆病相關：感染後數日／週可出現遊走性紅斑（環狀擴張紅斑，具參考價值但非每人皆有）",
+      "發燒、關節痛、神經學症狀屬後期可能表現，需醫師判讀",
+      "蜱停留時間越久，部分病原傳播風險可能上升"
+    ],
+    "first_aid": {
+      "do": [
+        "以尖頭鑷子緊貼皮膚夾住蜱之口器基近皮膚處",
+        "穩定垂直向上拔出，避免左右搖晃擠壓蟲體",
+        "以酒精或碘液消毒傷口，保存蜱蟲於容器供必要時鑑定",
+        "拔除後數週觀察紅斑與流感樣症狀，若有遊走性紅斑或發燒：就醫並告知蜱咬史"
+      ],
+      "do_not": [
+        "勿塗指甲油／點火／粗魯扯斷造成口器殘留",
+        "勿徒手擠壓飽血蜱的腹部（可能增加病原擠入風險）",
+        "勿忽視持續擴大的環狀紅斑"
+      ],
+      "medical_urgency": "多數蜱咬僅需正確移除與觀察；出現全身症狀或典型皮膚紅斑應盡速由醫師評估抗生素與追蹤。"
+    },
+    "activity_pattern": "溫季活動為主，雨後草長時人蜱接觸增加",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "臺灣郊山與森林步道有紀錄，登山褲管紮緊與驅避劑可降低附著"
+  },
+  {
+    "id": "haemadipsa_zeylanica",
+    "scientific_name": "Haemadipsa zeylanica",
+    "common_names": { "zh-TW": "水蛭", "en": "Tiger Leech" },
+    "category": "parasite",
+    "danger_level": "low",
+    "venom_type": "抗凝血與抗血小板分泌物（非典型「毒液」，致持續滲血）",
+    "morphology": {
+      "body_color": "背面暗褐至黑色，體側可見黃色縱帶或斑塊（個體變異存在）",
+      "body_size": "充分伸展時體長約 2-5cm，吸血後可明顯膨大成圓筒狀",
+      "anterior_posterior": "前後各有一吸盤，前吸盤具三顎片可切開皮膚",
+      "texture": "體表常具明顯環紋，爬行時可作尺蠖式伸展",
+      "habitat_clue": "雨後步道、溪溝旁石板與濕苔蘚上常見爬行痕跡"
+    },
+    "habitat": "潮濕闊葉林、溪澗旁、雨後林道與苔蘚石面",
+    "behavior": "感知溫血動物振動與化學線索後主動爬行附著；吸附後分泌抗凝血物質持續吸血至饱满脫落。",
+    "bite_symptoms": [
+      "吸附當下可能無痛或輕痒",
+      "脫附後傷口易持續渗血 30 分鐘至數小時",
+      "局部輕微紅腫或過敏性丘疹少見但可能",
+      "二次感染多與不潔處理有關"
+    ],
+    "first_aid": {
+      "do": [
+        "在附着點撒鹽或以安全方式滴少量酒精促使鬆口",
+        "亦可使用經短暫加熱的金屬匙背靠近其體側（防燙傷）促其鬆吸，切勿硬扯",
+        "脫落后加壓包扎至血止，再以清水或消毒液清潔",
+        "若血流超過預期或敷料反覆濕透：就醫處理"
+      ],
+      "do_not": [
+        "勿徒手暴力拉扯造成口器殘留或撕裂傷",
+        "勿以明火直接燒灼皮膚",
+        "勿忽略糖尿病或凝血異常者之持續出血"
+      ]
+    },
+    "activity_pattern": "濕季與降雨後最活躍，晨間草露未乾時亦常見",
+    "distribution": {
+      "altitude_range": [0, 2000],
+      "climate_zones": ["亞熱帶"]
+    },
+    "encounter_frequency": "臺北近郊溪流郊山步道雨後極常見，為低海拔郊山健行「常客」"
+  }
+]

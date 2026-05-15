@@ -1,0 +1,281 @@
+{
+  "overall": {
+    "growth_form": {
+      "herb": 1,
+      "tree": 3,
+      "fern": 3,
+      "shrub": 3,
+      "fungus": 3,
+      "palm_like": 6,
+      "vine": 4,
+      "aquatic": 6,
+      "grass": 6
+    },
+    "height_estimate": {
+      "1-2m": 2,
+      ">5m": 3,
+      "30-100cm": 1,
+      "2-5m": 3,
+      "<30cm": 3
+    },
+    "latex": {
+      "yes_white": 2,
+      "yes_clear": 6,
+      "none": 1
+    },
+    "smell": {
+      "none": 1,
+      "aromatic": 2,
+      "fishy": 6,
+      "pungent": 5
+    },
+    "habitat": {
+      "forest_floor": 2,
+      "coastal": 6,
+      "wetland": 6,
+      "epiphytic": 5,
+      "roadside": 2,
+      "streamside": 3,
+      "open_field": 3,
+      "urban": 3
+    },
+    "water_droplet_test": {
+      "flat": 1,
+      "beading": 6
+    }
+  },
+  "leaf": {
+    "leaf_type": {
+      "simple": 1,
+      "pinnate_compound": 3,
+      "bipinnate_compound": 3,
+      "trifoliate": 6
+    },
+    "shape": {
+      "heart": 3,
+      "lanceolate": 2,
+      "oval": 1,
+      "linear": 5,
+      "arrow": 6,
+      "elliptic": 4,
+      "round": 4,
+      "rhombic": 6,
+      "fan": 6
+    },
+    "edge": {
+      "entire": 1,
+      "serrated": 2,
+      "lobed": 3,
+      "deeply_lobed": 6,
+      "crenate": 5
+    },
+    "tip": {
+      "acute": 3,
+      "acuminate": 1,
+      "rounded": 3
+    },
+    "base": {
+      "cordate": 3,
+      "cuneate": 1,
+      "rounded": 3
+    },
+    "colors": {
+      "dark_green": 2,
+      "green": 1,
+      "red_underside": 5,
+      "purple": 4,
+      "variegated": 6,
+      "brown": 4
+    },
+    "color_pattern": {
+      "solid": 1,
+      "bicolor": 3,
+      "spotted": 6
+    },
+    "surface_top": {
+      "glossy": 2,
+      "velvety": 6,
+      "matte": 1,
+      "rough": 4,
+      "hairy": 3,
+      "scaly": 4,
+      "waxy": 6
+    },
+    "surface_bottom": {
+      "matte": 1,
+      "hairy": 4,
+      "glossy": 6
+    },
+    "arrangement": {
+      "clustered": 2,
+      "alternate": 1,
+      "bird_nest_radial": 6,
+      "basal_rosette": 5,
+      "opposite": 4,
+      "whorled": 6
+    },
+    "size": {
+      "very_large_>50cm": 3,
+      "large_15-50cm": 2,
+      "medium_5-15cm": 1,
+      "tiny_<2cm": 6,
+      "small_2-5cm": 4
+    },
+    "venation": {
+      "pinnate": 1,
+      "single_midrib": 5,
+      "parallel": 4,
+      "palmate": 3,
+      "reticulate": 3
+    },
+    "texture": {
+      "leathery": 2,
+      "papery": 1,
+      "fleshy": 3
+    },
+    "petiole_attach": {
+      "normal": 1,
+      "peltate_shield": 6,
+      "sessile": 6
+    }
+  },
+  "stem": {
+    "type": {
+      "erect": 1,
+      "rhizome": 5,
+      "twining": 6,
+      "climbing": 6,
+      "creeping": 4
+    },
+    "cross_section": {
+      "round": 1,
+      "square": 4
+    },
+    "surface": {
+      "smooth": 1,
+      "bark_smooth": 6,
+      "scaly": 3,
+      "thorny": 5,
+      "hairy": 4,
+      "bark_rough": 5
+    },
+    "colors": {
+      "green": 1,
+      "purple": 3,
+      "brown": 2,
+      "gray": 4,
+      "red": 5
+    },
+    "interior": {
+      "pithy": 3,
+      "solid": 1,
+      "hollow": 3
+    },
+    "has_thorns": {
+      "no": 1,
+      "yes": 4
+    }
+  },
+  "flower": {
+    "colors": {
+      "yellow": 2,
+      "green": 2,
+      "white": 2,
+      "pink": 3,
+      "brown": 6,
+      "purple": 3,
+      "red": 3,
+      "orange": 5
+    },
+    "color_pattern": {
+      "solid": 1,
+      "center_different": 6
+    },
+    "petal_count": {
+      "0": 4,
+      "5": 1,
+      "4": 5,
+      "many": 4
+    },
+    "symmetry": {
+      "radial": 1,
+      "bilateral": 6
+    },
+    "size": {
+      "large_30-60mm": 5,
+      "medium_15-30mm": 1,
+      "tiny_<5mm": 4,
+      "small_5-15mm": 5,
+      "very_large_>60mm": 5
+    },
+    "arrangement": {
+      "spathe_spadix": 4,
+      "cyme": 4,
+      "spike": 3,
+      "solitary": 3,
+      "panicle": 4,
+      "umbel": 4,
+      "head_composite": 3,
+      "raceme": 4
+    },
+    "position": {
+      "terminal": 1,
+      "axillary": 6
+    },
+    "orientation": {
+      "upright": 1,
+      "drooping": 6
+    },
+    "special_shape": {
+      "spathe": 4,
+      "none": 1,
+      "trumpet": 4,
+      "butterfly_shape": 5,
+      "bell_tubular": 5,
+      "lip_labellum": 6
+    },
+    "fragrant": {
+      "no": 1,
+      "yes": 3
+    }
+  },
+  "fruit": {
+    "type": {
+      "berry": 3,
+      "drupe": 3,
+      "spore": 2,
+      "capsule": 1,
+      "achene": 3,
+      "pod_legume": 6,
+      "aggregate": 5
+    },
+    "colors": {
+      "red": 3,
+      "green": 1,
+      "brown": 2,
+      "yellow": 4,
+      "orange": 4,
+      "purple": 3,
+      "white_waxy": 5
+    },
+    "size": {
+      "small_5-15mm": 1,
+      "large_>30mm": 4,
+      "tiny_<5mm": 2,
+      "medium_15-30mm": 6
+    },
+    "surface": {
+      "smooth": 1,
+      "spiny": 5
+    }
+  },
+  "root": {
+    "type": {
+      "rhizome": 3,
+      "taproot": 5,
+      "storage_tuber": 4,
+      "fibrous": 1,
+      "aerial_root": 6
+    }
+  }
+}

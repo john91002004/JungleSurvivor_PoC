@@ -1,0 +1,7 @@
+transformers>=4.45.0
+torch>=2.1.0
+torchvision
+accelerate
+gradio>=4.0.0
+Pillow>=10.0.0
+requests
