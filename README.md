@@ -58,7 +58,7 @@ The breakthrough insight: **separate perception from reasoning**.
 
 | Metric                       | v1                            | v2                                 |
 | ---------------------------- | ----------------------------- | ---------------------------------- |
-| LLM inference time per photo | ~5 min                        | ~30 sec                            |
+| LLM inference time per photo | ~5 min                        | ~60 sec                            |
 | LLM calls per identification | 1 (massive)                   | 1 per photo (lightweight)          |
 | Matching & ranking           | LLM (slow, non-deterministic) | Algorithm (instant, deterministic) |
 | Reproducibility              | Low                           | 100% for same features             |
@@ -158,7 +158,7 @@ Take **3 or more** frontal photos of different plant features:
 
 Upload photos one by one. After each upload, click "AI Extract Features". The system will:
 
-- Call Gemma 4 to extract structured features (~30 seconds per photo)
+- Call Gemma 4 to extract structured features (~60 seconds per photo)
 - Automatically merge features from multiple photos
 - Display results in interactive dropdown menus
 
@@ -201,7 +201,7 @@ Scroll down to the **Jungle Survival Guide** with 6 tabs:
 3. **Human-in-the-loop** — Users can correct AI mistakes before identification, dramatically improving accuracy.
 4. **Safety-first design** — Confusion pair warnings with field tests; multi-level warning system; never says "definitely safe" — always recommends verification.
 5. **Comprehensive survival guide** — Goes beyond identification: teaches users how to process, cook, and use medicinal plants.
-6. **Efficient on-device inference** — LLM only does feature extraction (~~30 sec), not full reasoning (~~5 min). Feasible on mobile GPUs.
+6. **Efficient on-device inference** — LLM only does feature extraction (~~60 sec), not full reasoning (~~5 min). Feasible on mobile GPUs.
 7. **Extensible architecture** — Adding new species only requires adding entries to the knowledge base JSON. No model retraining needed.
 
 ### ⚠️ Limitations & Honest Disclaimers
